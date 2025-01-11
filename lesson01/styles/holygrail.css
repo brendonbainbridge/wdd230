@@ -10,6 +10,12 @@ body {
     grid-column: 1 / 4;
   }
   
+  nav {
+    background: wheat;
+    padding: 2rem;
+    grid-column: 1 / 4;
+  }
+
   .left-sidebar {
     background: lightblue;
     grid-column: 1 / 2;
