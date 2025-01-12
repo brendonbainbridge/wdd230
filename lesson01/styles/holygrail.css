@@ -7,7 +7,7 @@ body {
   header {
     background: lightpink;
     padding: 2rem;
-    grid-column: 1 / 4;
+    grid-column: 1 / 5;
   }  
 
   main {
