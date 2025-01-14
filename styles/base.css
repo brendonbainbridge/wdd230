@@ -1,26 +1,22 @@
-.card {
+.mainheader {
     display: grid;
-    place-items: center;     /* Centers the content both horizontally and vertically */
-    height: 100vh;           /* Makes the section take the full viewport height */
+    grid-template-columns: auto 1fr; /* Adjusts the layout: auto for image, remaining space for header */
+    align-items: center;             /* Aligns items vertically in the center */
+    justify-content: center;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;  /* Adjust this as per your layout */
-    gap: 10px;                       /* Optional: space between grid items */
-    background-color: lightgray;     /* This sets the background color of the entire grid */
-    padding: 20px;                   /* Optional: padding around the grid */
+.brendonspic {
+    width: 50px;   /* Set the desired width for the image */
+    height: auto;  /* Maintains aspect ratio */
+    margin-right: 10px; /* Adjusts the space between the image and the header */
+}
+
+.myname {
+    font-size: 24px;  /* Adjusts the size of the header text */
+    margin: 0;        /* Removes default margins */
 }
 
 
+nav {}
 
-
-
-nav {
-        display: flex;
-        justify-content: center;  /* Horizontally centers the content */
-        align-items: center;      /* Vertically centers the content */
-        height: 100vh;            /* Makes the body take the full viewport height */
-        margin: 0;                /* Removes default margins */
-    }
-    
+main {}
