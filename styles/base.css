@@ -1,22 +1,115 @@
-.mainheader {
+.theheader {
     display: grid;
-    grid-template-columns: auto 1fr; /* Adjusts the layout: auto for image, remaining space for header */
-    align-items: center;             /* Aligns items vertically in the center */
+    grid-template-columns: auto 1fr;
+    /* Adjusts the layout: auto for image, remaining space for header */
+    align-items: center;
+    /* Aligns items vertically in the center */
     justify-content: center;
+
 }
 
 .brendonspic {
-    width: 50px;   /* Set the desired width for the image */
-    height: auto;  /* Maintains aspect ratio */
-    margin-right: 10px; /* Adjusts the space between the image and the header */
+    width: 50px;
+    /* Set the desired width for the image */
+    height: auto;
+    /* Maintains aspect ratio */
+    margin-right: 10px;
+    /* Adjusts the space between the image and the header */
 }
 
 .myname {
-    font-size: 24px;  /* Adjusts the size of the header text */
-    margin: 0;        /* Removes default margins */
+    font-size: 24px;
+    /* Adjusts the size of the header text */
+    margin: 0;
+    /* Removes default margins */
+    color: white;
 }
 
 
-nav {}
 
-main {}
+.nav {
+    grid-area: nav;
+    background-color: #444;
+    /* Sets nav background color */
+    color: white;
+    /* Sets nav text color to white */
+    padding: 20px;
+    /* Adds padding to the nav */
+    text-align: center;
+    /* Centers the text horizontally */
+}
+
+.navlist {
+    list-style: none;
+    /* Removes bullet points */
+    padding: 0;
+    /* Removes default padding */
+    margin: 0;
+    /* Removes default margin */
+    color: white;
+    /* Sets the text color to white */
+    margin: 0;
+    /* Removes default margins */
+    font-size: 20px;
+    /* Adjusts the size of the heading text */
+}
+
+
+
+.main {
+    grid-area: main;
+    background-color: gray;
+    /* Sets main background color */
+    color: white;
+    /* Sets main text color to white */
+    padding: 20px;
+    /* Adds padding to the main */
+    text-align: center;
+    /* Centers the text horizontally */
+}
+
+.boxcolor {
+    background-color: gray;
+    /* Replace this with your chosen color (e.g., sky blue) */
+    padding: 15px;
+    /* Adds padding around the content inside the box */
+    text-align: center;
+    /* Centers the text within the box */
+    max-width: 600px;
+}
+
+.textcolor {
+    color: white;
+    /* Sets the text color to white */
+    margin: 0;
+    /* Removes default margins */
+    font-size: 20px;
+    /* Adjusts the size of the heading text */
+}
+
+
+
+body {
+    display: grid;
+    place-items: center;
+    /* Centers the container horizontally and vertically */
+    height: 100vh;
+    /* Full viewport height for centering */
+    margin: 0;
+    /* Removes default margins */
+    background-color: black;
+}
+
+
+
+.footer {
+    grid-area: footer;
+    background-color: #666;
+    /* Sets footer background color */
+    color: white;
+    /* Sets footer text color to white */
+    padding: 20px;
+    /* Adds padding to the footer */
+    text-align: center;
+    /* Centers the text horizontally */
+}
