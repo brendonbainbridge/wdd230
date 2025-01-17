@@ -28,7 +28,7 @@
 
 
 nav {
-    background-color: gray;
+    background-color: dimgray;
     /* Replace this with your chosen color */
     padding: 10px;
     /* Adds padding around the content inside the box */
@@ -67,7 +67,7 @@ nav {
 
 maina {
     grid-area: main;
-    background-color: gray;
+    background-color: blue;
     /* Sets main background color */
     color: white;
     /* Sets main text color to white */
@@ -89,7 +89,7 @@ maina {
 }
 
 .boxcolor {
-    background-color: gray;
+    background-color: dimgray;
     /* Replace this with your chosen color */
     padding: 15px;
     /* Adds padding around the content inside the box */
