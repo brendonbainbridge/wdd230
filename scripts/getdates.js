@@ -5,4 +5,4 @@ document.getElementById('copyright-year').textContent += ` ${currentYear}`;
 // Get the last modified date
 const lastModified = new Date(document.lastModified);
 const options = { year: 'numeric', month: 'long', day: 'numeric' };
-document.getElementById('last-modified').textContent += ` ${lastModified.toLocaleDateString(undefined, options)}`;
+document.getElementById('lastModified').textContent += ` ${lastModified.toLocaleDateString(undefined, options)}`;

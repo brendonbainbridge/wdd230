@@ -5,7 +5,6 @@
     align-items: center;
     /* Aligns items vertically in the center */
     justify-content: center;
-
 }
 
 .brendonspic {
@@ -25,8 +24,6 @@
     color: white;
 }
 
-
-
 nav {
     background-color: dimgray;
     /* Replace this with your chosen color */
@@ -37,8 +34,7 @@ nav {
     max-width: max-content;
     max-height: max-content;
     grid-column: auto;
-    display: block;
-    
+    display: block;    
 }
 
 .navlist {
@@ -59,20 +55,18 @@ nav {
 
 .navlinks {
         color: white;            /* Sets the text color to white */
-        zpadding: 1px auto;      /* Adds padding inside the box */
+        padding: 0px auto;      /* Adds padding inside the box */
         text-decoration: none;   /* Removes the underline */
         text-align: center;      /* Centers the text within the box */
         }
 
-.wdd{
-    display: block;
-    margin-bottom: 0%; /* Adjust the value as needed */ 
-    padding-bottom: 0%; /* Optional padding */ 
-    border-bottom: 0px solid #ccc; /* Optional border */
+.navlinks:hover{
+    background-color: black;
 }
 
 .listlinks {
     color: white;
+    font-weight: bold;
 }
 
 .boxcolor {
@@ -83,6 +77,7 @@ nav {
     text-align: center;
     /* Centers the text within the box */
     max-width: 600px;
+    margin-top: 20px;
 }
 
 .textcolor {

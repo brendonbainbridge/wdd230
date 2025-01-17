@@ -41,8 +41,8 @@
       </ul>
     </div>
   </nav>
-  <main class="mainpage">
-      <h2 class="wdd">WDD 230: Web Frontend Development</h2>
+  <main>
+      <h2 class="textcolor">WDD 230: Web Frontend Development</h2>
     <section class="card">
       <div class="boxcolor">
         <h3 class="textcolor">Learning Activities</h3>
@@ -65,17 +65,26 @@
         <div class="boxcolor">
           <h3 class="textcolor">Information</h3>
         </div>
-        <p class="weather">Time/weather</p>
-        <p class="visits">Number of page visits</p>
+        <p class="weather"><b>Weather</b></p>
+        <p class="visits"><b>Number of page visits</b></p>
       </section>
   </main>
   <footer>
     <div>
-      <p>&copy;<i id="copyright-year"></i> Brendon Bainbridge. USA. All rights reserved.</p>
-      <p><i id="last-modified"></i></p>
+      <p>&copy; <i id='copyright-year'></i> Brendon Bainbridge. USA. All rights reserved.</p>
+      <p id='lastModified'></i></p>
     </div>
   </footer>
   <link rel="stylesheet" href="scripts/getdates.js">
 </body>
 
 </html>
+
+// Get the current year
+const currentYear = new Date().getFullYear();
+document.getElementById('copyright-year').textContent += ` ${currentYear}`;
+
+// Get the last modified date
+const lastModified = new Date(document.lastModified);
+const options = { year: 'numeric', month: 'long', day: 'numeric' };
+document.getElementById('lastModified').textContent += ` ${lastModified.toLocaleDateString(undefined, options)}`;
