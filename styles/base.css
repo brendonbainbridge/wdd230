@@ -64,19 +64,6 @@ nav {
         text-align: center;      /* Centers the text within the box */
         }
 
-
-maina {
-    grid-area: main;
-    background-color: blue;
-    /* Sets main background color */
-    color: white;
-    /* Sets main text color to white */
-    padding: 20px;
-    /* Adds padding to the main */
-    text-align: center;
-    /* Centers the text horizontally */
-}
-
 .wdd{
     display: block;
     margin-bottom: 0%; /* Adjust the value as needed */ 
@@ -142,12 +129,12 @@ body {
     text-align: center;
 }
 
-.footer {
+footer {
     grid-area: footer;
-    /* Sets footer background color */
-    /* Sets footer text color to white */
     padding: 20px auto;
     /* Adds padding to the footer */
     text-align: center;
     /* Centers the text horizontally */
+    color: white;
+    background-color: dimgray;
 }
