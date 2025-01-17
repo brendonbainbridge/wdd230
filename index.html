@@ -72,19 +72,10 @@
   <footer>
     <div>
       <p>&copy; <i id='copyright-year'></i> Brendon Bainbridge. USA. All rights reserved.</p>
-      <p id='lastModified'></i></p>
+      <p id='lastModified'>last-modified: <i id="lastModified"></i></p>
     </div>
   </footer>
   <link rel="stylesheet" href="scripts/getdates.js">
 </body>
 
 </html>
-
-// Get the current year
-const currentYear = new Date().getFullYear();
-document.getElementById('copyright-year').textContent += ` ${currentYear}`;
-
-// Get the last modified date
-const lastModified = new Date(document.lastModified);
-const options = { year: 'numeric', month: 'long', day: 'numeric' };
-document.getElementById('lastModified').textContent += ` ${lastModified.toLocaleDateString(undefined, options)}`;
