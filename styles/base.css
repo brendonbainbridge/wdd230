@@ -27,15 +27,17 @@
 
 
 
-.nav {
+nav {
     background-color: gray;
     /* Replace this with your chosen color */
-    padding: 15px;
+    padding: 10px;
     /* Adds padding around the content inside the box */
     text-align: center;
     /* Centers the text within the box */
-    max-width: 600px;
+    max-width: max-content;
+    max-height: max-content;
     grid-column: auto;
+    display: block;
     
 }
 
@@ -56,16 +58,14 @@
 }
 
 .navlinks {
-        
-        background-color: gray ;  /* Sets the background color of the box */
         color: white;            /* Sets the text color to white */
-        padding: 5px 20px;      /* Adds padding inside the box */
+        zpadding: 1px auto;      /* Adds padding inside the box */
         text-decoration: none;   /* Removes the underline */
         text-align: center;      /* Centers the text within the box */
         }
 
 
-.main {
+maina {
     grid-area: main;
     background-color: gray;
     /* Sets main background color */
@@ -75,6 +75,17 @@
     /* Adds padding to the main */
     text-align: center;
     /* Centers the text horizontally */
+}
+
+.wdd{
+    display: block;
+    margin-bottom: 0%; /* Adjust the value as needed */ 
+    padding-bottom: 0%; /* Optional padding */ 
+    border-bottom: 0px solid #ccc; /* Optional border */
+}
+
+.listlinks {
+    color: white;
 }
 
 .boxcolor {
@@ -117,16 +128,25 @@ body {
     grid-template-columns: 1fr; /* Full width for each column */
     gap: 10px; /* Optional: space between grid items */
     width: 100%; /* Container width */
+    font-family: "Space Grotesk", serif;
 
 }
 
+.weather{
+    color: white;
+    text-align: center;
+}
 
+.visits{
+    color: white;
+    text-align: center;
+}
 
 .footer {
     grid-area: footer;
     /* Sets footer background color */
     /* Sets footer text color to white */
-    padding: 20px;
+    padding: 20px auto;
     /* Adds padding to the footer */
     text-align: center;
     /* Centers the text horizontally */
