@@ -55,7 +55,7 @@ nav {
 .navlinks {
     color: white;
     /* Sets the text color to white */
-    padding: 0px auto;
+    padding: 0px ;
     /* Adds padding inside the box */
     text-decoration: none;
     /* Removes the underline */
@@ -153,7 +153,7 @@ body {
 
 footer {
     grid-area: footer;
-    padding: 20px auto;
+    padding: 10px;
     /* Adds padding to the footer */
     text-align: center;
     /* Centers the text horizontally */
