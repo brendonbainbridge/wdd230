@@ -1,0 +1,76 @@
+body {
+    font-family: "Newsreader", serif;
+    background-color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.card h2 {
+    color: black;
+}
+
+.card p {
+    color: dimgray;
+}
+
+@media screen and (min-width: 500px) {
+    body {
+        display: grid;
+    }
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .card {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin: 20px;
+        padding: 20px;
+        flex: 1 1 calc(50% - 40px);
+        box-sizing: border-box;
+    }
+    .card img {
+        max-width: 100%;
+        border-radius: 8px;
+    }
+    .card h2 {
+        color: #333;
+    }
+    .card p {
+        color: #555;
+    }
+    .card.full-width {
+        flex: 1 1 100%;
+    }
+}
+
+
