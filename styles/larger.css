@@ -13,7 +13,7 @@
         padding: 0 10px;
     }
 
-    main {
+    .yay {
         display: grid;
         grid-template-columns: 1fr 1fr;
         /* Two columns of equal size */
