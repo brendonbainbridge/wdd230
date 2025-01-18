@@ -1,24 +1,24 @@
 /* Media query for screens 500px and above */
 @media (min-width: 500px) {
 
-.navlist {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+    .navlist {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
 
-.navlinks {
-    padding: 0 10px;
-}
+    .navlinks {
+        padding: 0 10px;
+    }
 
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* Two columns of equal size */
-    gap: 1rem;
-    /* Equal gap between columns */
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* Two columns of equal size */
+        gap: 1rem;
+        /* Equal gap between columns */
 
     }
 }

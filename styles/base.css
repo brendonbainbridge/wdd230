@@ -33,8 +33,8 @@ nav {
     /* Centers the text within the box */
     max-height: max-content;
     grid-column: auto;
-    display: block;  
-    max-width: 600px;  
+    display: block;
+    max-width: 600px;
 }
 
 .navlist {
@@ -53,14 +53,18 @@ nav {
 }
 
 .navlinks {
-        color: white;            /* Sets the text color to white */
-        padding: 0px auto;      /* Adds padding inside the box */
-        text-decoration: none;   /* Removes the underline */
-        text-align: center;      /* Centers the text within the box */
-        flex: 1 1 100%;
-        }
+    color: white;
+    /* Sets the text color to white */
+    padding: 0px auto;
+    /* Adds padding inside the box */
+    text-decoration: none;
+    /* Removes the underline */
+    text-align: center;
+    /* Centers the text within the box */
+    flex: 1 1 100%;
+}
 
-.navlinks:hover{
+.navlinks:hover {
     background-color: black;
     border: 1px solid white;
     color: white;
@@ -73,17 +77,21 @@ nav {
 }
 
 a {
-    color: white; /* Change to your desired color */ 
-    text-decoration: none; /* Remove underlining */
+    color: white;
+    /* Change to your desired color */
+    text-decoration: none;
+    /* Remove underlining */
     font-weight: normal;
-    
 
-     
+
+
 
 }
 
 a:hover {
-    color: dimgray; /* Change to your desired hover color */}
+    color: dimgray;
+    /* Change to your desired hover color */
+}
 
 .boxcolor {
     background-color: dimgray;
@@ -123,19 +131,22 @@ body {
         'nav'
         'main'
         'footer';
-    grid-template-columns: 1fr; /* Full width for each column */
-    gap: 10px; /* Optional: space between grid items */
-    width: 100%; /* Container width */
+    grid-template-columns: 1fr;
+    /* Full width for each column */
+    gap: 10px;
+    /* Optional: space between grid items */
+    width: 100%;
+    /* Container width */
     font-family: "Space Grotesk", serif;
 
 }
 
-.weather{
+.weather {
     color: white;
     text-align: center;
 }
 
-.visits{
+.visits {
     color: white;
     text-align: center;
 }

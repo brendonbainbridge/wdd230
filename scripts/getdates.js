@@ -6,8 +6,3 @@ document.getElementById('copyright-year').textContent += ` ${currentYear}`;
 const lastModified = new Date(document.lastModified);
 const options = { year: 'numeric', month: 'long', day: 'numeric' };
 document.getElementById('lastModified').textContent += ` ${lastModified.toLocaleDateString(undefined, options)}`;
-
-
-const d = new Date();
-let year = d.getFullYear();
-document.getElementById("year").innerHTML = year;

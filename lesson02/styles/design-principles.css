@@ -44,32 +44,32 @@ a:hover {
 footer {
     color: white;
     text-align: center;
-    /* font-family: "Newsreader", serif; */
-    /* font-style: normal; */
-   /* text-decoration: none; */
 }
 
 script {
-   font-style: normal;
-   text-decoration: none;
-   font-family: "Newsreader", serif;
+    font-style: normal;
+    text-decoration: none;
+    font-family: "Newsreader", serif;
 }
 
 @media screen and (min-width: 500px) {
     body {
         display: grid;
     }
+
     .box {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .row {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
     }
+
     .card {
         background: white;
         border-radius: 8px;
@@ -79,14 +79,14 @@ script {
         flex: 1 1 calc(50% - 40px);
         box-sizing: border-box;
     }
+
     .card img {
         max-width: 100%;
         border-radius: 8px;
-    
+
     }
+
     .card.full-width {
         flex: 1 1 100%;
     }
 }
-
-
