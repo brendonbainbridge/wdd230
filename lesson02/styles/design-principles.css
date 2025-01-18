@@ -14,8 +14,6 @@ header {
 
 .card {
     background: white;
-    /* border-radius: 8px; */
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
     max-width: 500px;
     margin: 20px;
     padding: 20px;
@@ -40,12 +38,21 @@ a:hover {
 }
 
 .card p {
-    color: dimgray;
+    color: black;
 }
 
 footer {
     color: white;
     text-align: center;
+    /* font-family: "Newsreader", serif; */
+    /* font-style: normal; */
+   /* text-decoration: none; */
+}
+
+script {
+   font-style: normal;
+   text-decoration: none;
+   font-family: "Newsreader", serif;
 }
 
 @media screen and (min-width: 500px) {
@@ -75,12 +82,7 @@ footer {
     .card img {
         max-width: 100%;
         border-radius: 8px;
-    }
-    .card h2 {
-        color: #333;
-    }
-    .card p {
-        color: #555;
+    
     }
     .card.full-width {
         flex: 1 1 100%;
