@@ -1,17 +1,28 @@
 /* Media query for screens 500px and above */
 @media (min-width: 500px) {
-  .navlist {
-    display: flex;
-    padding-inline: 100px;
-    align-items: center;
-    justify-content: space-around;
-  }
-  
-  .navlinks {
-    flex: 1 1 100%;
-  }
+    .navlist {
+        display: flex;
+        /* padding-inline: 100px; */
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .navlinks {
+        flex: 1 1 100%;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* Two columns of equal size */
+        gap: 1rem;
+        /* Equal gap between columns */
+    }
+
+    footer {
+        display: flex;
+        max-width: 760px;
+        margin: 0 auto;
+    }
+
 }
-
-
-
-
