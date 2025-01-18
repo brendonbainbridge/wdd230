@@ -1,0 +1,17 @@
+/* Media query for screens 500px and above */
+@media (min-width: 500px) {
+  .navlist {
+    display: flex;
+    padding-inline: 100px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .navlinks {
+    flex: 1 1 100%;
+  }
+}
+
+
+
+
