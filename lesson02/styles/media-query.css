@@ -1,1 +1,36 @@
-font-family: 'Roboto', sans-serif;
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Style for header, main, and footer */
+header {
+    max-width: 640px;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid #ccc; /* Faint border color */
+    background-color: #e0f7fa; /* Blueish background color */
+}
+
+main {
+    max-width: 640px;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid #ccc; /* Faint border color */
+    background-color: #e0f7fa; /* Blueish background color */
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 1rem;
+}
+
+section {
+    padding: 1rem; 
+    background-color: #fff; /* White background */
+}
+
+footer {
+    max-width: 640px;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid #ccc; /* Faint border color */
+    background-color: #e0f7fa; /* Blueish background color */
+}
