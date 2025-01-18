@@ -67,12 +67,21 @@ nav {
 .listlinks {
     color: white;
     font-weight: bold;
+    font-size: 16px;
 }
 
-.linky {
+a {
     color: white; /* Change to your desired color */ 
     text-decoration: none; /* Remove underlining */
+    font-weight: normal;
+    
+
+     
+
 }
+
+a:hover {
+    color: dimgray; /* Change to your desired hover color */}
 
 .boxcolor {
     background-color: dimgray;
