@@ -69,6 +69,11 @@ nav {
     font-weight: bold;
 }
 
+.linky {
+    color: white; /* Change to your desired color */ 
+    text-decoration: none; /* Remove underlining */
+}
+
 .boxcolor {
     background-color: dimgray;
     /* Replace this with your chosen color */
