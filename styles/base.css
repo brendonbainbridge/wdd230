@@ -31,10 +31,10 @@ nav {
     /* Adds padding around the content inside the box */
     text-align: center;
     /* Centers the text within the box */
-    max-height: max-content;
+    /* max-height: max-content; */
     grid-column: auto;
     display: block;
-    max-width: 600px;
+    /* max-width: 600px; */
 }
 
 .navlist {
@@ -100,7 +100,7 @@ a:hover {
     /* Adds padding around the content inside the box */
     text-align: center;
     /* Centers the text within the box */
-    max-width: 600px;
+    /* max-width: 600px; */
     margin-top: 20px;
 }
 

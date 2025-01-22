@@ -14,11 +14,26 @@
     }
 
     .yay {
-        display: grid;
+        
+        grid-column: 1;
         grid-template-columns: 1fr 1fr;
         /* Two columns of equal size */
         gap: 1rem;
         /* Equal gap between columns */
 
     }
+
+    .yay2 {
+        
+        grid-column: 2;
+        grid-template-columns: 1fr 1fr;
+        /* Two columns of equal size */
+        gap: 1rem;
+        /* Equal gap between columns */
+
+    }
+
+   .grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;
+   }
 }
