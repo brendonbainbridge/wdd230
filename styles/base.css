@@ -68,6 +68,18 @@ nav {
     color: white;
 }
 
+/* Add this to your base.css file */
+.navlinks::before {
+    content: '✨'; /* Unicode character for a right arrow */
+    padding-right: 10px; /* Space between the arrow and the link text */
+    
+}
+
+/* Change arrow color on hover */
+.navlinks:hover::before {
+    color: white; /* Changes arrow color on hover */
+}
+
 .listlinks {
     color: white;
     font-weight: bold;
@@ -80,10 +92,6 @@ a {
     text-decoration: none;
     /* Remove underlining */
     font-weight: normal;
-
-
-
-
 }
 
 a:hover {
@@ -146,6 +154,23 @@ body {
 .visits {
     color: white;
     text-align: center;
+}
+
+/* Add this to your styles */
+.map-container {
+    display: flex;
+    justify-content: center;   /* Centers the map horizontally */
+    align-items: center;    /* Centers the map vertically */
+    width: 100%; /* Full width on smaller screens */
+    max-width: 800px; /* Max width of map container */
+    margin: 20px auto; /* Center the map with some margin */
+    height: 450px; /* Adjust height as desired */
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%; /* Adjust height as needed */
+    border: 0; /* Remove default border */
 }
 
 footer {
