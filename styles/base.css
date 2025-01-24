@@ -70,14 +70,17 @@ nav {
 
 /* Add this to your base.css file */
 .navlinks::before {
-    content: '✨'; /* Unicode character for a right arrow */
-    padding-right: 10px; /* Space between the arrow and the link text */
-    
+    content: '✨';
+    /* Unicode character for a right arrow */
+    padding-right: 10px;
+    /* Space between the arrow and the link text */
+
 }
 
 /* Change arrow color on hover */
 .navlinks:hover::before {
-    color: white; /* Changes arrow color on hover */
+    color: white;
+    /* Changes arrow color on hover */
 }
 
 .listlinks {
@@ -159,18 +162,26 @@ body {
 /* Add this to your styles */
 .map-container {
     display: flex;
-    justify-content: center;   /* Centers the map horizontally */
-    align-items: center;    /* Centers the map vertically */
-    width: 100%; /* Full width on smaller screens */
-    max-width: 800px; /* Max width of map container */
-    margin: 20px auto; /* Center the map with some margin */
-    height: 450px; /* Adjust height as desired */
+    justify-content: center;
+    /* Centers the map horizontally */
+    align-items: center;
+    /* Centers the map vertically */
+    width: 100%;
+    /* Full width on smaller screens */
+    max-width: 800px;
+    /* Max width of map container */
+    margin: 20px auto;
+    /* Center the map with some margin */
+    height: 450px;
+    /* Adjust height as desired */
 }
 
 .map-container iframe {
     width: 100%;
-    height: 100%; /* Adjust height as needed */
-    border: 0; /* Remove default border */
+    height: 100%;
+    /* Adjust height as needed */
+    border: 0;
+    /* Remove default border */
 }
 
 footer {
@@ -232,6 +243,7 @@ footer {
         text-align: center;
         /* Centers the text */
     }
+
     /* Center the text on smaller screens (mobile view) */
     main {
         /* Parent element of the text */
@@ -239,12 +251,15 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center; /* Center align text within the container */
+        text-align: center;
+        /* Center align text within the container */
     }
 
     .textcolor {
-        font-size: 24px;  /* Adjust font size if needed */
-        margin-bottom: 20px; /* Add space below the heading */
+        font-size: 24px;
+        /* Adjust font size if needed */
+        margin-bottom: 20px;
+        /* Add space below the heading */
     }
 }
 
