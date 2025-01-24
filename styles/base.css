@@ -53,7 +53,7 @@ nav {
 .navlinks {
     color: white;
     /* Sets the text color to white */
-    padding: 0px ;
+    padding: 0px;
     /* Adds padding inside the box */
     text-decoration: none;
     /* Removes the underline */
@@ -156,4 +156,75 @@ footer {
     /* Centers the text horizontally */
     color: white;
     background-color: dimgray;
+}
+
+/* Default: hide the hamburger menu */
+.hamburger-menu {
+    display: none;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Show the hamburger menu on small screens */
+@media (max-width: 500px) {
+    .hamburger-menu {
+        display: block;
+    }
+
+    .navlist a {
+        padding: 10px 0;
+        /* Adds more space between links */
+
+    }
+
+    .navlist {
+        display: none;
+        /* hide menu by default */
+    }
+
+    .navlist.show {
+        display: block;
+    }
+
+    .navlist {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navlist a {
+        padding: 10px 0;
+    }
+
+    /* Adjust the link spacing */
+    .navlinks {
+        display: block;
+        /* Ensure each link is on a new line */
+        padding: 10px 0;
+        /* Adjust as needed for vertical spacing */
+        text-align: center;
+        /* Centers the text */
+    }
+    /* Center the text on smaller screens (mobile view) */
+    main {
+        /* Parent element of the text */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center; /* Center align text within the container */
+    }
+
+    .textcolor {
+        font-size: 24px;  /* Adjust font size if needed */
+        margin-bottom: 20px; /* Add space below the heading */
+    }
+}
+
+/* Extra class specific for the hamburger menu */
+.navlist.show a {
+    padding: 10px 0;
+    /* Extra padding when the menu is expanded */
 }
