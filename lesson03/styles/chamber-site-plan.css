@@ -1,0 +1,61 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: #228B22;
+    width: 100%;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    background-color: #f9f9f9;
+    padding: 2em;
+    margin: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  main h2 {
+    color: #228B22;
+  }
+  
+  .links a {
+    display: block;
+    color: #228B22;
+    margin: 0.5em 0;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #87CEEB;
+    width: 100%;
+    padding: 1em 0;
+    margin-top: auto;
+    text-align: center;
+  }
+  
