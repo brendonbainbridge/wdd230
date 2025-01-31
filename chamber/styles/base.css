@@ -1,4 +1,3 @@
-
 /* Basic Styles */
 body {
     font-family: "Newsreader", serif;
@@ -17,7 +16,7 @@ header {
     background-color: #E0E1DD;
     width: 100%;
     padding: 1em 0;
-    text-align:center;
+    text-align: center;
     max-width: 825px;
     margin: 1em;
     border-radius: 8px;
@@ -28,7 +27,7 @@ nav a {
     color: #0D1B2A;
     margin: 0 1em;
     text-decoration: solid;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 nav a:hover {
@@ -66,16 +65,32 @@ a:hover {
     border-radius: 8px;
 }
 
-.container {
-
+/* General box styling */
+.box {
+    background-color: #E0E1DD;
+    /* Change this to your preferred color */
+    padding: 1em;
+    /* Add padding inside the box */
+    margin: 1em 0;
+    /* Space between each box */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow for depth */
 }
+
+.container {}
 
 .hero-container {
     display: flex;
-    align-items: center; /* Align items vertically */
-    justify-content: space-between; /* Add space between the items */
-    padding: 1em; /* Adjust padding as needed */
-    background-color: #0D1B2A; /* Change this to your preferred color */
+    align-items: center;
+    /* Align items vertically */
+    justify-content: space-between;
+    /* Add space between the items */
+    padding: 1em;
+    /* Adjust padding as needed */
+    background-color: #0D1B2A;
+    /* Change this to your preferred color */
     color: #E0E1DD;
     padding: 1em;
     margin: 1em 0;
@@ -84,63 +99,80 @@ a:hover {
 }
 
 .hero_image {
-    flex: 1; /* Take up equal space */
-    margin-right: 1em; /* Space between image and text */
+    flex: 1;
+    /* Take up equal space */
+    margin-right: 1em;
+    /* Space between image and text */
 }
 
 .about_rexburg_text {
-    flex: 1; /* Take up equal space */
+    flex: 1;
+    /* Take up equal space */
     align-items: left;
 }
 
 .hero_image img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px; /* Rounded corners for the image */
+    border-radius: 8px;
+    /* Rounded corners for the image */
 }
 
 
 .facts_and_history {
     display: flex;
-    flex-direction: column; /* Arrange items in a column */
-    align-items: flex-start; /* Align items to the start */
-    background-color: #0D1B2A; /* Change this to your preferred color */
+    flex-direction: column;
+    /* Arrange items in a column */
+    align-items: flex-start;
+    /* Align items to the start */
+    background-color: #0D1B2A;
+    /* Change this to your preferred color */
     color: #E0E1DD;
     padding: 1em;
     margin: 1em 0;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* Center the text within the section */
+}
+
+.facts_and_history h2 {
+    width: 100%;
+    /* Ensure the heading takes up the full width */
+    margin-bottom: 1em;
+    /* Space between the heading and the list */
+    text-align: center;
+    /* Center-align the heading text */
 }
 
 .facts_and_history ul {
     display: flex;
-    flex-wrap: wrap; /* Allow the list items to wrap */
-    width: 100%; /* Ensure the list takes up the full width */
+    flex-wrap: wrap;
+    /* Allow the list items to wrap */
+    width: 100%;
+    /* Ensure the list takes up the full width */
     padding: 0;
     margin: 0;
-    list-style-type: none; /* Remove default list styling */
+    list-style-type: none;
+    /* Remove default list styling */
 }
 
 .facts_and_history li {
-    width: 50%; /* Each list item takes up 50% of the container width */
-    box-sizing: border-box; /* Include padding and border in the width calculation */
-    padding: 0.5em; /* Add padding for spacing */
+    width: 50%;
+    /* Each list item takes up 50% of the container width */
+    box-sizing: border-box;
+    /* Include padding and border in the width calculation */
+    padding: 0.5em;
+    /* Add padding for spacing */
 }
 
 
-.rexburg_images {
-    text-align: center; /* Center the heading */
-    background-color: #0D1B2A; /* Main box background color */
-    color: #E0E1DD;
-    padding: 1em;
-    margin: 1em 0;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 
 .rexburg_images {
-    text-align: center; /* Center the heading */
-    background-color: #0D1B2A; /* Main box background color */
+    text-align: center;
+    /* Center the heading */
+    background-color: #0D1B2A;
+    /* Main box background color */
     color: #0D1B2A;
     padding: 1em;
     margin: 1em 0;
@@ -150,32 +182,43 @@ a:hover {
 
 .image-container {
     display: flex;
-    justify-content: space-between; /* Space between the image boxes */
-    flex-wrap: nowrap; /* Prevent wrapping */
+    justify-content: space-between;
+    /* Space between the image boxes */
 }
 
 .image-box {
-    flex: 1; /* Allow the boxes to take up equal space */
-    max-width: 32%; /* Limit the max width to create space between boxes */
-    margin: 0.5em; /* Space around each box */
-    background-color: #E0E1DD; /* Background color for each box */
-    border-radius: 8px; /* Rounded corners for the boxes */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    padding: 0.5em; /* Padding inside the box */
+    flex: 1;
+    /* Allow the boxes to take up equal space */
+    max-width: 32%;
+    /* Limit the max width to create space between boxes */
+    margin: 0.5em;
+    /* Space around each box */
+    background-color: #E0E1DD;
+    /* Background color for each box */
+    border-radius: 8px;
+    /* Rounded corners for the boxes */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    padding: 0.5em;
+    /* Padding inside the box */
 }
 
 .image-box img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px; /* Rounded corners for the images */
+    border-radius: 8px;
+    /* Rounded corners for the images */
 }
 
 
 .rexburg_questions {
     display: flex;
-    flex-direction: column; /* Arrange items in a column */
-    align-items: flex-start; /* Align items to the start */
-    background-color: #0D1B2A; /* Change this to your preferred color */
+    flex-direction: column;
+    /* Arrange items in a column */
+    align-items: flex-start;
+    /* Align items to the start */
+    background-color: #0D1B2A;
+    /* Change this to your preferred color */
     color: #E0E1DD;
     padding: 1em;
     margin: 1em 0;
@@ -184,36 +227,95 @@ a:hover {
 }
 
 .rexburg_questions h2 {
-    width: 100%; /* Ensure the heading takes up the full width */
-    margin-bottom: 1em; /* Space between the heading and the list */
+    width: 100%;
+    /* Ensure the heading takes up the full width */
+    margin-bottom: 1em;
+    /* Space between the heading and the list */
 }
 
 .rexburg_questions ul {
     display: flex;
-    flex-wrap: wrap; /* Allow the list items to wrap */
-    width: 100%; /* Ensure the list takes up the full width */
+    flex-wrap: wrap;
+    /* Allow the list items to wrap */
+    width: 100%;
+    /* Ensure the list takes up the full width */
     padding: 0;
     margin: 0;
-    list-style-type: none; /* Remove default list styling */
+    list-style-type: none;
+    /* Remove default list styling */
 }
 
 .rexburg_questions li {
-    width: 50%; /* Each list item takes up 50% of the container width */
-    box-sizing: border-box; /* Include padding and border in the width calculation */
-    padding: 0.5em; /* Add padding for spacing */
+    width: 50%;
+    /* Each list item takes up 50% of the container width */
+    box-sizing: border-box;
+    /* Include padding and border in the width calculation */
+    padding: 0.5em;
+    /* Add padding for spacing */
 }
 
 .rexburg_questions h3 {
-    margin: 0 0 0.5em 0; /* Space between question and answer */
+    margin: 0 0 0.5em 0;
+    /* Space between question and answer */
 }
 
 .rexburg_questions p {
-    margin: 0 0 1em 0; /* Space between answers */
+    margin: 0 0 1em 0;
+    /* Space between answers */
 }
 
 
 .list_of_organizations {
-    background-color: #0D1B2A; /* Change this to your preferred color */
+    background-color: #0D1B2A;
+    /* Main box background color */
+    color: #E0E1DD;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* Center the heading */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center align the content horizontally */
+}
+
+.list_of_organizations h2 {
+    width: 100%;
+    /* Ensure the heading takes up the full width */
+    margin-bottom: 1em;
+    /* Space between the heading and the list */
+}
+
+.list_of_organizations ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow the list items to wrap */
+    justify-content: center;
+    /* Center the list items */
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    /* Remove default list styling */
+}
+
+.list_of_organizations li {
+    width: 25%;
+    /* Each list item takes up less than half the container width */
+    box-sizing: border-box;
+    /* Include padding and border in the width calculation */
+    margin: 0.5em;
+    /* Space between list items */
+    text-align: left;
+    /* Align text to the left */
+}
+
+
+
+.versions-section {
+    background-color: #0D1B2A;
+    /* Change this to your preferred color */
     color: #E0E1DD;
     padding: 1em;
     margin: 1em 0;
@@ -222,22 +324,52 @@ a:hover {
 }
 
 .versions-section {
-    background-color: #0D1B2A; /* Change this to your preferred color */
+    background-color: #0D1B2A;
+    /* Main box background color */
     color: #E0E1DD;
     padding: 1em;
     margin: 1em 0;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* Center the heading */
 }
 
-.join_us {
-    background-color: #0D1B2A; /* Change this to your preferred color */
-    color: #E0E1DD;
-    padding: 1em;
-    margin: 1em 0;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.versions-section h2 {
+    width: 100%;
+    /* Ensure the heading takes up the full width */
+    margin-bottom: 1em;
+    /* Space between the heading and the boxes */
 }
+
+.versions-section {
+    display: flex;
+    justify-content: space-between;
+    /* Space between the boxes */
+    flex-wrap: wrap;
+    /* Allow the boxes to wrap if needed */
+}
+
+.version-box {
+    flex: 1;
+    /* Allow the boxes to take up equal space */
+    max-width: 32%;
+    /* Limit the max width to create space between boxes */
+    margin: 0.5em;
+    /* Space around each box */
+    background-color: #E0E1DD;
+    /* Background color for each box */
+    color: #0D1B2A;
+    border-radius: 8px;
+    /* Rounded corners for the boxes */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    padding: 1em;
+    /* Padding inside the box */
+}
+
+
+.join_us {}
 
 
 
@@ -266,13 +398,4 @@ footer {
     margin-top: auto;
     text-align: center;
     margin: 1em;
-}
-
-/* General box styling */
-.box {
-    background-color: #E0E1DD; /* Change this to your preferred color */
-    padding: 1em; /* Add padding inside the box */
-    margin: 1em 0; /* Space between each box */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
 }
