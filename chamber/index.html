@@ -7,6 +7,8 @@
     <title>Rexburg Chamber of Commerce</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
     <meta name="author" content="Brendon Bainbridge" />
     <meta name="description" content="Brendon Bainbridge's WDD 230 - Web Frontend Development Project.
     This is a website dedicated to helping the locals as well as the local businesses of the city of Rexburg, 
@@ -17,8 +19,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
         rel="stylesheet">
-        <link rel="icon" href="/chamber/images/favicon.ico">
+    <link rel="icon" href="/chamber/images/favicon.ico">
 </head>
+
 <body>
     <header>
         <nav>
@@ -30,7 +33,8 @@
 
     <main class="container">
         <div class="hero_image">
-            <img src="byui.jpg" alt="Picture of Rexburg next to BYUI and the Temple for the Church of Jesus Christ of Latter-day Saints">
+            <img src="byui.jpg"
+                alt="Picture of Rexburg next to BYUI and the Temple for the Church of Jesus Christ of Latter-day Saints">
         </div>
         <div class="about_rexburg_text">
             <h2>Rexburg City, Idaho</h2>
@@ -59,6 +63,51 @@
             <img src="#" alt="Image of Rexburg 2">
             <img src="#" alt="Image of Rexburg 3">
         </div>
+        <div class="rexburg_questions">
+            <h2>Questions you may have:</h2>
+            <ul>
+                <li>
+                    <h3>Question 1</h3>
+                    <p>Answer</p>
+                </li>
+                <li>
+                    <h3>Question 2</h3>
+                    <p>Answer</p>
+                </li>
+                <li>
+                    <h3>Question 3</h3>
+                    <p>Answer</p>
+                </li>
+                <li>
+                    <h3>Question 4</h3>
+                    <p>Answer</p>
+                </li>
+                <li>
+                    <h3>Question 5</h3>
+                    <p>Answer</p>
+                </li>
+                <li>
+                    <h3>Question 6</h3>
+                    <p>Answer</p>
+                </li>
+                <li>
+                    <h3>Question 7</h3>
+                    <p>Answer</p>
+                </li>
+                <li>
+                    <h3>Question 8</h3>
+                    <p>Answer</p>
+                </li>
+                <li>
+                    <h3>Question 9</h3>
+                    <p>Answer</p>
+                </li>
+                <li>
+                    <h3>Question 10</h3>
+                    <p>Answer</p>
+                </li>
+            </ul>
+        </div>
         <div class="list_of_organizations">
             <h2>Local Buisnesses that are a part of the Chamber Board</h2>
             <ul>
@@ -86,15 +135,21 @@
             </div>
         </div>
         <div>
-            <button>Join Us!</button>
+            <button>Join Us</button>
         </div>
     </main>
     <footer>
         <nav>
-            <a href="#">Footer Link 1</a>
+            <a href="#">Home</a>
             <a href="#">Footer Link 2</a>
             <a href="#">Footer Link 3</a>
         </nav>
+        <div>
+            <p>&copy; <i id='copyright-year'></i> Brendon Bainbridge. USA. All rights reserved.</p>
+            <p>Project for WDD 230. last-modified: <i id="lastModified"></i></p>
+        </div>
     </footer>
+    <script src="scripts/getdates.js"></script>
 </body>
+
 </html>
