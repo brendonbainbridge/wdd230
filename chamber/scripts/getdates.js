@@ -21,3 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
         console.error("Hamburger menu or navigation list not found in the DOM.");
     }
 });
+
+
+

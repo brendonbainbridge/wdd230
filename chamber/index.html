@@ -14,6 +14,13 @@
     This is a website dedicated to helping the locals as well as the local businesses of the city of Rexburg, 
     while still helping those coming and going learn more about what is available to them while they are here.
     Thanks for checking out my website! :D" />
+
+    <meta property="og:title" content="Brendon's Wed Dev class website">
+    <meta property="og:type" content="Introduction, About, and resource's page" />
+    <meta property="og:image"
+      content="https://brightspotcdn.byui.edu/dims4/default/009d013/2147483647/strip/true/crop/3281x2187+0+0/resize/1600x1066!/format/webp/quality/90/?url=https%3A%2F%2Fbyu-idaho-brightspot-production-us-east-2.s3.us-east-2.amazonaws.com%2F64%2Fc1%2Fcce7f41140588b38c2e60ac494b3%2Fmanwaring-center-with-students.jpg">
+    <meta property="og:url" content="https://brendonbainbridge.github.io/wdd230/chamber/index.html">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -27,13 +34,14 @@
         <nav>
             <button class="hamburger-menu" id="hamburger-menu">
                 &#9776;
-              </button>
-            <a href="#">Home</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+            </button>
+            <ul class="navlist" id="navlist">
+                <li><a href="#" class="navlinks">Home</a></li>
+                <li><a href="#" class="navlinks">Link 2</a></li>
+                <li><a href="#" class="navlinks">Link 3</a></li>
+            </ul>
         </nav>
     </header>
-
     <main class="container">
         <div>
             <h1>Rexburg chamber of Commerce</h1>
@@ -82,7 +90,7 @@
         <div class="rexburg_events">
             <h2>Events in Rexburg</h2>
             <ul>
-                <li><b>Event 1</b></li>
+                <li><b>Event 1 (also 'spotlights' advertisements)</b></li>
                 <li><b>Event 2</b></li>
                 <li><b>Event 3</b></li>
                 <li><b>Event 4</b></li>
@@ -186,7 +194,7 @@
         <div>
             <p>&copy; <i id='copyright-year'></i> Brendon Bainbridge. USA. All rights reserved.</p>
             <p>Project for WDD 230. last-modified: <i id="lastModified"></i></p>
-            <p>Weather: Snowing, always snowing.</p>
+            <p>Weather: Snowing, always snowing. (waether card will go here)</p>
         </div>
     </footer>
     <script src="scripts/getdates.js"></script>

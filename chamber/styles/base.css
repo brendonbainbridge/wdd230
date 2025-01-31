@@ -23,6 +23,10 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+ul {
+    list-style-type: none;
+  }  
+
 nav a {
     color: #0D1B2A;
     margin: 0 1em;
@@ -55,7 +59,6 @@ a {
     color: #E0E1DD;
     font-weight: bold;
 }
-
 
 a:hover {
     text-decoration: none;
@@ -423,8 +426,6 @@ p {
     text-decoration: none;
 }
 
-
-
 .foot_box {
     background-color: #E0E1DD;
     width: 100%;
@@ -462,20 +463,6 @@ footer {
     margin: 1em;
 }
 
-/* Default Styles (Mobile First) */
-body {
-    font-family: "Newsreader", serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    background-color: #0D1B2A;
-}
-
 .hero-container,
 .facts_and_history,
 .rexburg_images,
@@ -487,37 +474,90 @@ body {
     align-items: center;
 }
 
-/* Media Queries for Larger Screens */
-@media (min-width: 768px) {
-    .hero-container,
-    .image-container,
-    .versions-container {
-        flex-direction: row;
-        justify-content: space-between;
+
+.hamburger-menu {
+    display: none; /* Hide by default */
+}
+
+@media (max-width: 500px) {
+    nav {
+        display: flex;
+        justify-content: center; /* Center the content horizontally */
+        align-items: center; /* Center the content vertically */
+        height: 60px; /* Adjust height as needed */
     }
 
-    .about_rexburg_text {
-        text-align: left;
+    nav ul {
+        display: none; /* Hide nav links on small screens */
+        flex-direction: column;
+        align-items: flex-start;
     }
 
-    .facts_and_history ul,
-    .rexburg_events ul,
-    .rexburg_questions ul {
-        flex-direction: row;
-        flex-wrap: wrap;
+    nav ul.show {
+        display: flex; /* Show nav links when hamburger is clicked */
     }
 
-    .facts_and_history li,
-    .rexburg_events li,
-    .rexburg_questions li {
-        width: 50%;
+    .hamburger-menu {
+        display: block; /* Show hamburger menu on small screens */
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background-color: #0D1B2A; /* Background color */
+        color: #E0E1DD; /* Text color */
+        border: none; /* Remove border */
+        padding: 15px 32px; /* Add padding */
+        text-align: center; /* Center the text */
+        text-decoration: none; /* Remove underline from text */
+        display: inline-block; /* Display as inline-block */
+        font-size: 16px; /* Font size */
+        margin: 4px 2px; /* Add margin */
+        cursor: pointer; /* Change cursor on hover */
+        border-radius: 8px;
+    }
+   
+    .navlist a {
+        padding: 1px 0;
+        /* Adds more space between links */
+    }
+
+    .navlist {
+        display: none;
+        /* Hide menu by default */
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+/* Adjust the link spacing */
+.navlinks {
+    display: block;
+    /* Ensure each link is on a new line */
+    padding: 3px 0;
+    /* Adjust as needed for vertical spacing */
+    text-align: center;
+    /* Centers the text */
+}
+
+    .navlist.show {
+        display: block;
     }
 }
 
-/* Media Queries for Desktop Screens */
-@media (min-width: 1024px) {
-    .image-box,
-    .version-box {
-        max-width: 32%;
-    }
-}
+
+
+
+
+.custom-button {
+    background-color: #4CAF50; /* Background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 15px 32px; /* Add padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline from text */
+    display: inline-block; /* Display as inline-block */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Add margin */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  /* Optional: Add some hover effects */
+ 

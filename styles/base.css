@@ -210,12 +210,6 @@ footer {
         display: block;
     }
 
-    .navlist a {
-        padding: 10px 0;
-        /* Adds more space between links */
-
-    }
-
     .navlist {
         display: none;
         /* hide menu by default */
