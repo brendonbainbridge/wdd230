@@ -48,12 +48,12 @@ main {
 }
 
 main h2 {
-    color: black;
+    color: #E0E1DD;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #E0E1DD;
     font-weight: bold;
 }
 
@@ -65,6 +65,146 @@ a:hover {
     padding: 0.5em 1em;
     border-radius: 8px;
 }
+
+.container {
+
+}
+
+.hero-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Add space between the items */
+    padding: 1em; /* Adjust padding as needed */
+    background-color: #0D1B2A; /* Change this to your preferred color */
+    color: #E0E1DD;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero_image {
+    flex: 1; /* Take up equal space */
+    margin-right: 1em; /* Space between image and text */
+}
+
+.about_rexburg_text {
+    flex: 1; /* Take up equal space */
+    align-items: left;
+}
+
+.hero_image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Rounded corners for the image */
+}
+
+
+.facts_and_history {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    align-items: flex-start; /* Align items to the start */
+    background-color: #0D1B2A; /* Change this to your preferred color */
+    color: #E0E1DD;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.facts_and_history ul {
+    display: flex;
+    flex-wrap: wrap; /* Allow the list items to wrap */
+    width: 100%; /* Ensure the list takes up the full width */
+    padding: 0;
+    margin: 0;
+    list-style-type: none; /* Remove default list styling */
+}
+
+.facts_and_history li {
+    width: 50%; /* Each list item takes up 50% of the container width */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    padding: 0.5em; /* Add padding for spacing */
+}
+
+
+.rexburg_images {
+    background-color: #0D1B2A; /* Change this to your preferred color */
+    color: #E0E1DD;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.rexburg_questions {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    align-items: flex-start; /* Align items to the start */
+    background-color: #0D1B2A; /* Change this to your preferred color */
+    color: #E0E1DD;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.rexburg_questions h2 {
+    width: 100%; /* Ensure the heading takes up the full width */
+    margin-bottom: 1em; /* Space between the heading and the list */
+}
+
+.rexburg_questions ul {
+    display: flex;
+    flex-wrap: wrap; /* Allow the list items to wrap */
+    width: 100%; /* Ensure the list takes up the full width */
+    padding: 0;
+    margin: 0;
+    list-style-type: none; /* Remove default list styling */
+}
+
+.rexburg_questions li {
+    width: 50%; /* Each list item takes up 50% of the container width */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    padding: 0.5em; /* Add padding for spacing */
+}
+
+.rexburg_questions h3 {
+    margin: 0 0 0.5em 0; /* Space between question and answer */
+}
+
+.rexburg_questions p {
+    margin: 0 0 1em 0; /* Space between answers */
+}
+
+
+.list_of_organizations {
+    background-color: #0D1B2A; /* Change this to your preferred color */
+    color: #E0E1DD;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.versions-section {
+    background-color: #0D1B2A; /* Change this to your preferred color */
+    color: #E0E1DD;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.join_us {
+    background-color: #0D1B2A; /* Change this to your preferred color */
+    color: #E0E1DD;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 
 
 p {
@@ -97,39 +237,13 @@ footer {
 
 
 
-.container {
 
+
+/* General box styling */
+.box {
+    background-color: #E0E1DD; /* Change this to your preferred color */
+    padding: 1em; /* Add padding inside the box */
+    margin: 1em 0; /* Space between each box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
 }
-
-.hero_image {
-
-}
-
-.about_rexburg_text {
-
-}
-
-.facts_and_history {
-
-}
-
-.rexburg_images {
-
-}
-
-.rexburg_questions {
-
-}
-
-.list_of_organizations {
-
-}
-
-.versions-section {
-
-}
-
-.join_us {
-
-}
-
