@@ -19,12 +19,15 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
         rel="stylesheet">
-    <link rel="icon" href="/chamber/images/favicon.ico">
+    <link rel="icon" href="images/favicon.ico">
 </head>
 
 <body>
     <header>
         <nav>
+            <button class="hamburger-menu" id="hamburger-menu">
+                &#9776;
+              </button>
             <a href="#">Home</a>
             <a href="#">Link 2</a>
             <a href="#">Link 3</a>
@@ -32,6 +35,9 @@
     </header>
 
     <main class="container">
+        <div>
+            <h1>Rexburg chamber of Commerce</h1>
+        </div>
         <div class="hero-container">
             <div class="hero_image">
                 <img src="byui.jpg"
@@ -45,18 +51,18 @@
         <div class="facts_and_history">
             <h2>Facts about Rexburg and its history</h2>
             <ul>
-                <li>Fact 1</li>
-                <li>Fact 2</li>
-                <li>Fact 3</li>
-                <li>Fact 4</li>
-                <li>Fact 5</li>
-                <li>Fact 6</li>
-                <li>Fact 7</li>
-                <li>Fact 8</li>
-                <li>Fact 9</li>
-                <li>Fact 10</li>
-                <li>Fact 11</li>
-                <li>Fact 12</li>
+                <li><b>Fact 1</b></li>
+                <li><b>Fact 2</b></li>
+                <li><b>Fact 3</b></li>
+                <li><b>Fact 4</b></li>
+                <li><b>Fact 5</b></li>
+                <li><b>Fact 6</b></li>
+                <li><b>Fact 7</b></li>
+                <li><b>Fact 8</b></li>
+                <li><b>Fact 9</b></li>
+                <li><b>Fact 10</b></li>
+                <li><b>Fact 11</b></li>
+                <li><b>Fact 12</b></li>
             </ul>
         </div>
         <div class="rexburg_images">
@@ -72,6 +78,24 @@
                     <img src="image3.jpg" alt="Image of Rexburg 3">
                 </div>
             </div>
+        </div>
+        <div class="rexburg_events">
+            <h2>Events in Rexburg</h2>
+            <ul>
+                <li><b>Event 1</b></li>
+                <li><b>Event 2</b></li>
+                <li><b>Event 3</b></li>
+                <li><b>Event 4</b></li>
+                <li><b>Event 5</b></li>
+                <li><b>Event 6</b></li>
+                <li><b>Event 7</b></li>
+                <li><b>Event 8</b></li>
+                <li><b>Event 9</b></li>
+                <li><b>Event 10</b></li>
+                <li><b>Event 11</b></li>
+                <li><b>Event 12</b></li>
+            </ul>
+        </div>
         </div>
         <div class="rexburg_questions">
             <h2>Questions you may have:</h2>
@@ -131,34 +155,38 @@
         </div>
         <div class="versions-section">
             <h2>Become a member of the Chamber Of Rexburg</h2>
-            <div class="version-box">
-                <h3>Gold Edition</h3>
-                <p>Details about Gold version</p>
-            </div>
-            <div class="version-box">
-                <h3>Silver Edition</h3>
-                <p>Details about Silver version</p>
-            </div>
-            <div class="version-box">
-                <h3>Non-profit Edition</h3>
-                <p>Details about Non-profit version</p>
-            </div>
-        </div>        
-                <div class="join_us">
-                    <button>Join Us</button>
+            <div class="versions-container">
+                <div class="version-box">
+                    <h3>Gold Edition</h3>
+                    <p>Details about Gold version</p>
+                </div>
+                <div class="version-box">
+                    <h3>Silver Edition</h3>
+                    <p>Details about Silver version</p>
+                </div>
+                <div class="version-box">
+                    <h3>Non-profit Edition</h3>
+                    <p>Details about Non-profit version</p>
                 </div>
             </div>
+            <div class="join_us">
+                <button>Join Us</button>
+            </div>
+        </div>
         </div>
     </main>
     <footer>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Footer Link 2</a>
-            <a href="#">Footer Link 3</a>
-        </nav>
+        <div class="foot_box">
+            <nav foot_nav>
+                <a href="#">Home</a>
+                <a href="#">Footer Link 2</a>
+                <a href="#">Footer Link 3</a>
+            </nav>
+        </div>
         <div>
             <p>&copy; <i id='copyright-year'></i> Brendon Bainbridge. USA. All rights reserved.</p>
             <p>Project for WDD 230. last-modified: <i id="lastModified"></i></p>
+            <p>Weather: Snowing, always snowing.</p>
         </div>
     </footer>
     <script src="scripts/getdates.js"></script>

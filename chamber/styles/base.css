@@ -79,8 +79,6 @@ a:hover {
     /* Add a subtle shadow for depth */
 }
 
-.container {}
-
 .hero-container {
     display: flex;
     align-items: center;
@@ -117,7 +115,6 @@ a:hover {
     border-radius: 8px;
     /* Rounded corners for the image */
 }
-
 
 .facts_and_history {
     display: flex;
@@ -166,8 +163,6 @@ a:hover {
     /* Add padding for spacing */
 }
 
-
-
 .rexburg_images {
     text-align: center;
     /* Center the heading */
@@ -210,6 +205,52 @@ a:hover {
     /* Rounded corners for the images */
 }
 
+.rexburg_events {
+    display: flex;
+    flex-direction: column;
+    /* Arrange items in a column */
+    align-items: flex-start;
+    /* Align items to the start */
+    background-color: #0D1B2A;
+    /* Change this to your preferred color */
+    color: #E0E1DD;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* Center the text within the section */
+}
+
+.rexburg_events h2 {
+    width: 100%;
+    /* Ensure the heading takes up the full width */
+    margin-bottom: 1em;
+    /* Space between the heading and the list */
+    text-align: center;
+    /* Center-align the heading text */
+}
+
+.rexburg_events ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow the list items to wrap */
+    width: 100%;
+    /* Ensure the list takes up the full width */
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    /* Remove default list styling */
+}
+
+.rexburg_events li {
+    width: 50%;
+    /* Each list item takes up 50% of the container width */
+    box-sizing: border-box;
+    /* Include padding and border in the width calculation */
+    padding: 0.5em;
+    /* Add padding for spacing */
+}
 
 .rexburg_questions {
     display: flex;
@@ -264,7 +305,6 @@ a:hover {
     /* Space between answers */
 }
 
-
 .list_of_organizations {
     background-color: #0D1B2A;
     /* Main box background color */
@@ -311,24 +351,12 @@ a:hover {
     /* Align text to the left */
 }
 
-
-
-.versions-section {
-    background-color: #0D1B2A;
-    /* Change this to your preferred color */
-    color: #E0E1DD;
-    padding: 1em;
-    margin: 1em 0;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 .versions-section {
     background-color: #0D1B2A;
     /* Main box background color */
     color: #E0E1DD;
     padding: 1em;
-    margin: 1em 0;
+    margin: 1em 0 0.5em 0; /* Adjusted margin-bottom */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -342,12 +370,11 @@ a:hover {
     /* Space between the heading and the boxes */
 }
 
-.versions-section {
+.versions-container {
     display: flex;
     justify-content: space-between;
     /* Space between the boxes */
-    flex-wrap: wrap;
-    /* Allow the boxes to wrap if needed */
+    width: 100%;
 }
 
 .version-box {
@@ -368,10 +395,26 @@ a:hover {
     /* Padding inside the box */
 }
 
+.join_us {
+    margin-top: 1em;
+    /* Space between the boxes and the button */
+    font-size: large;
+}
 
-.join_us {}
+.join_us button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 8px;
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+    font-weight: bold;
+    cursor: pointer;
+}
 
-
+.join_us button:hover {
+    background-color: #E0E1DD;
+    color: #0D1B2A;
+}
 
 p {
     word-wrap: break-word;
@@ -380,14 +423,33 @@ p {
     text-decoration: none;
 }
 
-section {
-    padding: 1em;
-    margin: 1em 0;
+
+
+.foot_box {
+    background-color: #E0E1DD;
+    width: 100%;
+    padding: 1em 0;
+    text-align: center;
+    max-width: 825px;
+    margin: 0.25em auto;
+    /* Center horizontally */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #1B263B;
+}
+
+.foot_nav a {
+    color: #0D1B2A;
+    margin: 0 1em;
+    text-decoration: solid;
+    font-weight: bold;
+}
+
+.foot_nav a:hover {
+    text-decoration: none;
     color: #E0E1DD;
-    max-width: 750px;
+    background-color: #0D1B2A;
+    padding: 0.5em 1em;
+    border-radius: 8px;
 }
 
 footer {
@@ -398,4 +460,64 @@ footer {
     margin-top: auto;
     text-align: center;
     margin: 1em;
+}
+
+/* Default Styles (Mobile First) */
+body {
+    font-family: "Newsreader", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #0D1B2A;
+}
+
+.hero-container,
+.facts_and_history,
+.rexburg_images,
+.rexburg_events,
+.rexburg_questions,
+.list_of_organizations,
+.versions-section {
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Media Queries for Larger Screens */
+@media (min-width: 768px) {
+    .hero-container,
+    .image-container,
+    .versions-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .about_rexburg_text {
+        text-align: left;
+    }
+
+    .facts_and_history ul,
+    .rexburg_events ul,
+    .rexburg_questions ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .facts_and_history li,
+    .rexburg_events li,
+    .rexburg_questions li {
+        width: 50%;
+    }
+}
+
+/* Media Queries for Desktop Screens */
+@media (min-width: 1024px) {
+    .image-box,
+    .version-box {
+        max-width: 32%;
+    }
 }
