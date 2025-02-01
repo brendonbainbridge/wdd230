@@ -99,7 +99,7 @@ a:hover {
 .hero_container {
     display: flex;
     /* Align items vertically */
-    align-items: normal;
+    align-items:center;
     justify-content: space-between;
     /* Add space between the items */
     padding: 1em;
@@ -120,7 +120,7 @@ a:hover {
     /* Take up equal space */
     margin-right: 1em;
     /* Space between image and text */
-    max-width: 50%;
+    max-width: 100%;
     /* Restrict maximum width */
 }
 
@@ -129,6 +129,7 @@ a:hover {
     /* Take up equal space */
     max-width: 50%;
     /* Restrict maximum width */
+    padding-right: 5%;
 }
 
 .hero_image img {
@@ -589,4 +590,19 @@ footer {
         align-items: center;
         flex-direction: column;
     }
+    .rexburg_questions {
+            align-items: center;
+            flex-direction: column;
+    }
+
+    .image-container {
+        align-items: center;
+        flex-direction: column;
+    }
+    .versions-container {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    
 }
