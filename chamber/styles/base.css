@@ -97,6 +97,7 @@ a:hover {
     margin: 1em 0;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap; /* Ensure flex items wrap when the container width is reduced */
 }
 
 .hero_image {
@@ -104,11 +105,13 @@ a:hover {
     /* Take up equal space */
     margin-right: 1em;
     /* Space between image and text */
+    max-width: 50%; /* Restrict maximum width */
 }
 
 .about_rexburg_text {
     flex: 1;
     /* Take up equal space */
+    max-width: 50%; /* Restrict maximum width */
 }
 
 .hero_image img {
@@ -116,6 +119,7 @@ a:hover {
     height: auto;
     border-radius: 8px;
     /* Rounded corners for the image */
+    max-width: 50%; /* Restrict maximum width */
 }
 
 .facts_and_history {
