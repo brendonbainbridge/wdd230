@@ -25,7 +25,7 @@ header {
 
 ul {
     list-style-type: none;
-  }  
+}
 
 nav a {
     color: #0D1B2A;
@@ -42,12 +42,25 @@ nav a:hover {
     border-radius: 8px;
 }
 
+.navlist {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navlinks {
+    padding: 0 10px;
+}
+
 main {
     background-color: #E0E1DD;
     padding: 2em;
     margin: 1em;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 775px;
 }
 
 main h2 {
@@ -80,14 +93,13 @@ a:hover {
     /* Rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* Add a subtle shadow for depth */
-    max-width: 800px;
-    word-wrap: break-word;
+    max-width: 700px;
 }
 
-.hero-container {
+.hero_container {
     display: flex;
-    align-items: center;
     /* Align items vertically */
+    align-items: normal;
     justify-content: space-between;
     /* Add space between the items */
     padding: 1em;
@@ -99,7 +111,8 @@ a:hover {
     margin: 1em 0;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    flex-wrap: wrap; /* Ensure flex items wrap when the container width is reduced */
+    flex-wrap: wrap;
+    /* Ensure flex items wrap when the container width is reduced */
 }
 
 .hero_image {
@@ -107,13 +120,15 @@ a:hover {
     /* Take up equal space */
     margin-right: 1em;
     /* Space between image and text */
-    max-width: 50%; /* Restrict maximum width */
+    max-width: 50%;
+    /* Restrict maximum width */
 }
 
 .about_rexburg_text {
     flex: 1;
     /* Take up equal space */
-    max-width: 50%; /* Restrict maximum width */
+    max-width: 50%;
+    /* Restrict maximum width */
 }
 
 .hero_image img {
@@ -121,7 +136,8 @@ a:hover {
     height: auto;
     border-radius: 8px;
     /* Rounded corners for the image */
-    max-width: 50%; /* Restrict maximum width */
+    max-width: 50%;
+    /* Restrict maximum width */
 }
 
 .facts_and_history {
@@ -364,7 +380,8 @@ a:hover {
     /* Main box background color */
     color: #E0E1DD;
     padding: 1em;
-    margin: 1em 0 0.5em 0; /* Adjusted margin-bottom */
+    margin: 1em 0 0.5em 0;
+    /* Adjusted margin-bottom */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -380,9 +397,12 @@ a:hover {
 
 .versions-container {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     /* Space between the boxes */
     width: 100%;
+    /* white-space: pre-wrap; */
+    /* word-wrap: break-word; */
+    /* max-width:300px; */
 }
 
 .version-box {
@@ -402,6 +422,7 @@ a:hover {
     padding: 1em;
     /* Padding inside the box */
     word-wrap: break-word;
+    max-width: 300px;
 }
 
 .join_us {
@@ -470,7 +491,7 @@ footer {
 }
 
 .hero-container,
-.facts_and_history,
+.hero_image .about_rexburg_text .facts_and_history,
 .rexburg_images,
 .rexburg_events,
 .rexburg_questions,
@@ -482,45 +503,62 @@ footer {
 
 
 .hamburger-menu {
-    display: none; /* Hide by default */
+    display: none;
+    /* Hide by default */
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     nav {
         display: flex;
-        justify-content: center; /* Center the content horizontally */
-        align-items: center; /* Center the content vertically */
-        height: 60px; /* Adjust height as needed */
+        justify-content: center;
+        /* Center the content horizontally */
+        align-items: center;
+        /* Center the content vertically */
+        height: 60px;
+        /* Adjust height as needed */
     }
 
     nav ul {
-        display: none; /* Hide nav links on small screens */
+        display: none;
+        /* Hide nav links on small screens */
         flex-direction: column;
         align-items: flex-start;
     }
 
     nav ul.show {
-        display: flex; /* Show nav links when hamburger is clicked */
+        display: flex;
+        /* Show nav links when hamburger is clicked */
     }
 
     .hamburger-menu {
-        display: block; /* Show hamburger menu on small screens */
+        display: block;
+        /* Show hamburger menu on small screens */
         align-items: center;
         justify-content: center;
         display: flex;
-        background-color: #0D1B2A; /* Background color */
-        color: #E0E1DD; /* Text color */
-        border: none; /* Remove border */
-        padding: 15px 32px; /* Add padding */
-        text-align: center; /* Center the text */
-        text-decoration: none; /* Remove underline from text */
-        display: inline-block; /* Display as inline-block */
-        font-size: 16px; /* Font size */
-        margin: 4px 2px; /* Add margin */
-        cursor: pointer; /* Change cursor on hover */
+        background-color: #0D1B2A;
+        /* Background color */
+        color: #E0E1DD;
+        /* Text color */
+        border: none;
+        /* Remove border */
+        padding: 15px 32px;
+        /* Add padding */
+        text-align: center;
+        /* Center the text */
+        text-decoration: none;
+        /* Remove underline from text */
+        display: inline-block;
+        /* Display as inline-block */
+        font-size: 16px;
+        /* Font size */
+        margin: 4px 2px;
+        /* Add margin */
+        cursor: pointer;
+        /* Change cursor on hover */
         border-radius: 8px;
     }
-   
+
     .navlist a {
         padding: 1px 0;
         /* Adds more space between links */
@@ -533,37 +571,22 @@ footer {
         align-items: flex-start;
     }
 
-/* Adjust the link spacing */
-.navlinks {
-    display: block;
-    /* Ensure each link is on a new line */
-    padding: 3px 0;
-    /* Adjust as needed for vertical spacing */
-    text-align: center;
-    /* Centers the text */
-}
+    /* Adjust the link spacing */
+    .navlinks {
+        display: block;
+        /* Ensure each link is on a new line */
+        padding: 3px 0;
+        /* Adjust as needed for vertical spacing */
+        text-align: center;
+        /* Centers the text */
+    }
 
     .navlist.show {
         display: block;
     }
+
+    .hero_container {
+        align-items: center;
+        flex-direction: column;
+    }
 }
-
-
-
-
-
-.custom-button {
-    background-color: #4CAF50; /* Background color */
-    color: white; /* Text color */
-    border: none; /* Remove border */
-    padding: 15px 32px; /* Add padding */
-    text-align: center; /* Center the text */
-    text-decoration: none; /* Remove underline from text */
-    display: inline-block; /* Display as inline-block */
-    font-size: 16px; /* Font size */
-    margin: 4px 2px; /* Add margin */
-    cursor: pointer; /* Change cursor on hover */
-  }
-  
-  /* Optional: Add some hover effects */
- 
