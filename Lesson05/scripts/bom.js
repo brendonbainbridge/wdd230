@@ -1,29 +1,31 @@
-const input = document.querySelector('favchap');
+const input = document.querySelector('#favchap');
 const button = document.querySelector('button');
-const list = document.querySelector('favchap');
+const list = document.querySelector('#list');
 
-
-    
-    if (input.value != '') { 
-        li.textContent = input.value;
+button.addEventListener('click', function () {
+    const item = input.value;
+    if (input.value != '') {
         const li = document.createElement('li');
         const deleteButton = document.createElement('button');
+        li.textContent = input.value;
         deleteButton.textContent = '❌';
         li.append(deleteButton);
         list.append(li);
 
         deleteButton.addEventListener('click', function () {
             list.removeChild(li);
-            input.focus();
-            input.value = '';        
-          });
-
-        }
-    else(input.value = ''){
-        document.getElementById("favchap").innerHTML = "Please actually put in a scripture";
+        });
+        input.focus();
+    } else {
+        input.placeholder = 'please put in a actual scripture'
     }
+    input.value = '';
+});
 
 
 
 
-  
+
+
+
+
