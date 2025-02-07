@@ -12,6 +12,10 @@ body {
     background-color: #0D1B2A;
 }
 
+.body.dark {
+    background-color: black;
+}
+
 header {
     background-color: #E0E1DD;
     width: 100%;
@@ -508,6 +512,69 @@ footer {
     /* Hide by default */
 }
 
+
+
+
+/* base.css */
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+header.dark-mode, footer.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+
+nav a:hover {
+    text-decoration: none;
+    color: #E0E1DD;
+    background-color: #0D1B2A;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+}
+
+
+/* Apply dark mode styles to other elements */
+body.dark-mode .hero_container,
+body.dark-mode .facts_and_history,
+body.dark-mode .rexburg_images,
+body.dark-mode .rexburg_events,
+body.dark-mode .rexburg_questions,
+body.dark-mode .list_of_organizations,
+body.dark-mode .versions-section {
+    background-color: black;
+    color: white;
+}
+
+body.dark-mode .titlehead {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+body.dark-mode .navlinks {
+color: white;
+}
+
+body.dark-mode .nav a:hover {
+
+}
+
+body.dark-mode .version-box {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
 @media (max-width: 600px) {
     nav {
         display: flex;
@@ -589,10 +656,6 @@ footer {
     .hero_container {
         align-items: center;
         flex-direction: column;
-    }
-    .rexburg_questions {
-            align-items: center;
-            flex-direction: column;
     }
 
     .image-container {
