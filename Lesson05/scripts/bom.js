@@ -18,6 +18,7 @@ button.addEventListener('click', function () {
         input.focus();
     } else {
         input.placeholder = 'please put in a actual scripture'
+        alert('Please enter book and chapter')
     }
     input.value = '';
 });
