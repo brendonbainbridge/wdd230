@@ -28,7 +28,6 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.classList.toggle('dark-mode');
 
         // Toggle dark mode for header and footer
-        document.querySelector('header').classList.toggle('dark-mode');
         document.querySelector('footer').classList.toggle('dark-mode');
 
         // Toggle dark mode for other elements

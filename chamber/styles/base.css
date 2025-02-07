@@ -451,6 +451,15 @@ a:hover {
     color: #0D1B2A;
 }
 
+.darkmode {
+    border: none;
+    border-radius: 4px;
+    background-color: #E0E1DD;
+    color: #0D1B2A;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 p {
     word-wrap: break-word;
     /* Alternatively, you can use white-space: normal; */
@@ -512,31 +521,23 @@ footer {
     /* Hide by default */
 }
 
+
+
+
+
+
+
+/* Existing dark mode styles */
 .dark-mode {
-    color: #0D1B2A;
-    border: #E0E1DD;
+    color: black;
+    background-color: white;
 }
 
-
 body.dark-mode,
-header.dark-mode,
-a.dark-mode,
 footer.dark-mode {
     background-color: black;
     color: white;
 }
-
-
-a:hover.dark-mode {
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    padding: 0.5em 1em;
-    border-radius: 8px;
-}
-
-
-
 
 /* Apply dark mode styles to other elements */
 body.dark-mode .hero_container,
@@ -546,10 +547,7 @@ body.dark-mode .rexburg_events,
 body.dark-mode .rexburg_questions,
 body.dark-mode .list_of_organizations,
 body.dark-mode .versions-section,
-body.dark-mode .version-box,
-body.dark-mode .navlinks,
-body.dark-mode .foot_box {
-
+body.dark-mode .version-box{
     background-color: black;
     color: white;
 }
@@ -558,10 +556,28 @@ body.dark-mode .titlehead {
     background-color: black;
     color: white;
     border-radius: 8px;
-    padding
+    padding: 1em;
 }
 
+body.dark-mode .join_us button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 8px;
+    background-color: black; /* Black background */
+    color: white; /* White text */
+    font-weight: bold;
+    cursor: pointer;
+}
 
+body.dark-mode .join_us button:hover {
+    background-color: white; /* White background on hover */
+    color: black; /* Black text on hover */
+}
+
+body.dark-mode .foot_link:hover {
+    background-color: white; /* White background on hover */
+    color: black; /* Black text on hover */
+}
 
 
 
