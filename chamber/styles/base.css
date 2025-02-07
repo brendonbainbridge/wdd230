@@ -73,13 +73,13 @@ a {
     font-weight: bold;
 }
 
-a:hover {
+/* a:hover {
     text-decoration: none;
     color: #0D1B2A;
     background-color: #E0E1DD;
     padding: 0.5em 1em;
     border-radius: 8px;
-}
+} */
 
 /* General box styling */
 .box {
@@ -518,12 +518,7 @@ footer {
 }
 
 
-
-
-
-
-
-/* Existing dark mode styles */
+/*dark mode*/
 .dark-mode {
     color: black;
     background-color: white;
@@ -562,7 +557,6 @@ body.dark-mode nav a:hover {
     border-radius: 8px;
 }
 
-
 .body.dark-mode button{
     background-color: black;
     color: white;
@@ -590,12 +584,6 @@ body.dark-mode .join_us button:hover {
     padding: 0.5em 1em;
     border-radius: 8px;
 }
-
-
-
-
-
-
 
 
 @media (max-width: 600px) {
