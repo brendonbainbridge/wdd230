@@ -103,7 +103,7 @@ a:hover {
 .hero_container {
     display: flex;
     /* Align items vertically */
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
     /* Add space between the items */
     padding: 1em;
@@ -402,7 +402,7 @@ a:hover {
 
 .versions-container {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     /* Space between the boxes */
     width: 100%;
     /* white-space: pre-wrap; */
@@ -512,29 +512,30 @@ footer {
     /* Hide by default */
 }
 
+.dark-mode {
+    color: #0D1B2A;
+    border: #E0E1DD;
+}
 
 
-
-/* base.css */
-
-body.dark-mode {
+body.dark-mode,
+header.dark-mode,
+a.dark-mode,
+footer.dark-mode {
     background-color: black;
     color: white;
 }
 
-header.dark-mode, footer.dark-mode {
-    background-color: black;
-    color: white;
-}
 
-
-nav a:hover {
+a:hover.dark-mode {
     text-decoration: none;
-    color: #E0E1DD;
-    background-color: #0D1B2A;
+    color: white;
+    background-color: black;
     padding: 0.5em 1em;
     border-radius: 8px;
 }
+
+
 
 
 /* Apply dark mode styles to other elements */
@@ -544,7 +545,11 @@ body.dark-mode .rexburg_images,
 body.dark-mode .rexburg_events,
 body.dark-mode .rexburg_questions,
 body.dark-mode .list_of_organizations,
-body.dark-mode .versions-section {
+body.dark-mode .versions-section,
+body.dark-mode .version-box,
+body.dark-mode .navlinks,
+body.dark-mode .foot_box {
+
     background-color: black;
     color: white;
 }
@@ -553,22 +558,10 @@ body.dark-mode .titlehead {
     background-color: black;
     color: white;
     border-radius: 8px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding
 }
 
-body.dark-mode .navlinks {
-color: white;
-}
 
-body.dark-mode .nav a:hover {
-
-}
-
-body.dark-mode .version-box {
-    background-color: black;
-    color: white;
-}
 
 
 
@@ -662,10 +655,11 @@ body.dark-mode .version-box {
         align-items: center;
         flex-direction: column;
     }
+
     .versions-container {
         align-items: center;
         flex-direction: column;
     }
 
-    
+
 }
