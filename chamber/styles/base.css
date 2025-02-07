@@ -12,10 +12,6 @@ body {
     background-color: #0D1B2A;
 }
 
-.body.dark {
-    background-color: black;
-}
-
 header {
     background-color: #E0E1DD;
     width: 100%;
@@ -539,7 +535,6 @@ footer.dark-mode {
     color: white;
 }
 
-/* Apply dark mode styles to other elements */
 body.dark-mode .hero_container,
 body.dark-mode .facts_and_history,
 body.dark-mode .rexburg_images,
@@ -559,6 +554,20 @@ body.dark-mode .titlehead {
     padding: 1em;
 }
 
+body.dark-mode nav a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+}
+
+
+.body.dark-mode button{
+    background-color: black;
+    color: white;
+}
+
 body.dark-mode .join_us button {
     padding: 0.5em 1em;
     border: none;
@@ -574,10 +583,15 @@ body.dark-mode .join_us button:hover {
     color: black; /* Black text on hover */
 }
 
-body.dark-mode .foot_link:hover {
-    background-color: white; /* White background on hover */
-    color: black; /* Black text on hover */
+.body.dark-mode .foot_nav a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 0.5em 1em;
+    border-radius: 8px;
 }
+
+
 
 
 
@@ -635,6 +649,36 @@ body.dark-mode .foot_link:hover {
         /* Change cursor on hover */
         border-radius: 8px;
     }
+
+    body.dark-mode .hamburger-menu {
+        display: block;
+        /* Show hamburger menu on small screens */
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background-color: black;
+        /* Background color */
+        color: white;
+        /* Text color */
+        border: none;
+        /* Remove border */
+        padding: 15px 32px;
+        /* Add padding */
+        text-align: center;
+        /* Center the text */
+        text-decoration: none;
+        /* Remove underline from text */
+        display: inline-block;
+        /* Display as inline-block */
+        font-size: 16px;
+        /* Font size */
+        margin: 4px 2px;
+        /* Add margin */
+        cursor: pointer;
+        /* Change cursor on hover */
+        border-radius: 8px;
+    }
+
 
     .navlist a {
         padding: 1px 0;
