@@ -137,7 +137,7 @@ a {
     height: auto;
     border-radius: 8px;
     /* Rounded corners for the image */
-    max-width: 90%;
+    max-width: 80%;
     /* Restrict maximum width */
 }
 
