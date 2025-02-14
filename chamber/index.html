@@ -18,7 +18,7 @@
     <meta property="og:title" content="Brendon's Wed Dev class website">
     <meta property="og:type" content="Introduction and about/resources page" />
     <meta property="og:image"
-      content="https://brightspotcdn.byui.edu/dims4/default/009d013/2147483647/strip/true/crop/3281x2187+0+0/resize/1600x1066!/format/webp/quality/90/?url=https%3A%2F%2Fbyu-idaho-brightspot-production-us-east-2.s3.us-east-2.amazonaws.com%2F64%2Fc1%2Fcce7f41140588b38c2e60ac494b3%2Fmanwaring-center-with-students.jpg">
+        content="https://brightspotcdn.byui.edu/dims4/default/009d013/2147483647/strip/true/crop/3281x2187+0+0/resize/1600x1066!/format/webp/quality/90/?url=https%3A%2F%2Fbyu-idaho-brightspot-production-us-east-2.s3.us-east-2.amazonaws.com%2F64%2Fc1%2Fcce7f41140588b38c2e60ac494b3%2Fmanwaring-center-with-students.jpg">
     <meta property="og:url" content="https://brendonbainbridge.github.io/wdd230/chamber/index.html">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,11 +36,12 @@
                 &#9776;
             </button>
             <ul class="navlist" id="navlist">
-                <li><a href="https://brendonbainbridge.github.io/wdd230/chamber/index.html" class="navlinks">Home</a></li>
+                <li><a href="https://brendonbainbridge.github.io/wdd230/chamber/index.html" class="navlinks">Home</a>
+                </li>
                 <li><a href="#" class="navlinks">Join Us</a></li>
                 <li><button class="darkmode">
-                   🌚 Dark mode
-                </button></li>    
+                        🌚 Dark mode
+                    </button></li>
             </ul>
         </nav>
     </header>
@@ -50,20 +51,39 @@
         </div>
         <div class="hero_container">
             <div class="hero_image">
-                <img src="images/heroimage.jpg"
-                    alt="Picture of Rexburg next to BYUI and the Temple for the Church of Jesus Christ of Latter-day Saints">
+                <!-- <img src="images/heroimage.jpg"
+                    alt="Picture of Rexburg next to BYUI and the Temple for the Church of Jesus Christ of Latter-day Saints"> -->
+                <div class="hero">
+                    <picture>
+                        <source media="(min-width: 500px)" srcset="images/weekimagesmall.webp">
+                        <source media="(min-width: 1000px)" srcset="images/weekimagemedium.webp">
+                        <img src="images/weekimagelarge.webp"
+                            alt="random people at a table" width="1500"
+                            height="750">
+                    </picture>
+                </div>
             </div>
             <div class="about_rexburg_text">
                 <h2>Rexburg City, Idaho</h2>
-                <p>Rexburg is an amazing and safe community. This city is growing quickly and with the help of having the University called BYUI in its city limits, it greatly helps the businesses all around by bringing in all new students every semester. It also allows the city to keep growing as well as having the Church of Jesus Christ of Latter-day saints Ideals and teaching be a strong factor in its culture. What this means is that Rexburg is one of the safest cities in America, and a great place to move here regardless if you are a student looking to come to school, or wanting to move you or your family. There are many local businesses as well as many activities that can help you join in on the fun, and fit right in.</p>
+                <p>Rexburg is an amazing and safe community. This city is growing quickly and with the help of having
+                    the University called BYUI in its city limits, it greatly helps the businesses all around by
+                    bringing in all new students every semester. It also allows the city to keep growing as well as
+                    having the Church of Jesus Christ of Latter-day saints Ideals and teaching be a strong factor in its
+                    culture. What this means is that Rexburg is one of the safest cities in America, and a great place
+                    to move here regardless if you are a student looking to come to school, or wanting to move you or
+                    your family. There are many local businesses as well as many activities that can help you join in on
+                    the fun, and fit right in.</p>
             </div>
         </div>
         <div class="facts_and_history">
             <h2>Facts about Rexburg and its history</h2>
             <ul>
-                <li><b>Rexburg was born from Pioneers that were members of the Church of Jesus Christ of Latter-day Saints.</b></li>
-                <li><b>BYUI is a University that is in the city of Rexburg, and is owned by the Church of Jesus Christ of Latter-day Saints.</b></li>
-                <li><b>Rexburg has a great schooling system in place, and has made efforts to expand and improve what they already have.</b></li>
+                <li><b>Rexburg was born from Pioneers that were members of the Church of Jesus Christ of Latter-day
+                        Saints.</b></li>
+                <li><b>BYUI is a University that is in the city of Rexburg, and is owned by the Church of Jesus Christ
+                        of Latter-day Saints.</b></li>
+                <li><b>Rexburg has a great schooling system in place, and has made efforts to expand and improve what
+                        they already have.</b></li>
                 <li><b>Rexburg is ranked as one of the safest places in the America to live in.</b></li>
                 <li><b>Every Semester at BYUI thousands of students come in for the semester.</b></li>
                 <li><b>Its illegal to throw a snowball in the City of Rexburg</b></li>
@@ -75,13 +95,13 @@
             <h2>What Rexburg Looks Like</h2>
             <div class="image-container">
                 <div class="image-box">
-                    <img src="images/rexburg1.jpg" alt="Image of Rexburg 1">
+                    <img src="images/rexburgimage1.webp" alt="Image of Rexburg 1">
                 </div>
                 <div class="image-box">
-                    <img src="images/rexburg2.jpg" alt="Image of Rexburg 2">
+                    <img src="images/rexburgimage2.webp" alt="Image of Rexburg 2">
                 </div>
                 <div class="image-box">
-                    <img src="images/rexburg3.jpg" alt="Image of Rexburg 3">
+                    <img src="images/rexburgimage3.webp" alt="Image of Rexburg 3">
                 </div>
             </div>
         </div>
@@ -103,35 +123,49 @@
             <ul>
                 <li>
                     <h3>What are local businesses that are a must to go check out?</h3>
-                    <p>Some great businesses that could be a great activity to go and check out could be the righteous slice and crumble cookie! These two places are across the street from each other, so you could eat pizza and then get dessert afterwards.</p>
+                    <p>Some great businesses that could be a great activity to go and check out could be the righteous
+                        slice and crumble cookie! These two places are across the street from each other, so you could
+                        eat pizza and then get dessert afterwards.</p>
                 </li>
                 <li>
                     <h3>How does the school BYUI create and affect the community as well as its businesses?</h3>
-                    <p>Due to the fact that every semester, there is a huge amount of students that come to the school, which means there is a constant flow of opportunities to sell or provide your products to.</p>
+                    <p>Due to the fact that every semester, there is a huge amount of students that come to the school,
+                        which means there is a constant flow of opportunities to sell or provide your products to.</p>
                 </li>
                 <li>
                     <h3>What is the contact information for the Rexburg Chamber of Commerce?</h3>
-                    <p>888-888-8888 | email@email.com | feel free to reach out with any questions you or your company may have!</p>
+                    <p>888-888-8888 | email@email.com | feel free to reach out with any questions you or your company
+                        may have!</p>
                 </li>
                 <li>
                     <h3>What is the benefit of becoming a part of the Chamber of Commerce as a business?</h3>
-                    <p>You can have access to the resources that we provide as a board, and it will be treated as a relationship where we can help each other approach.</p>
+                    <p>You can have access to the resources that we provide as a board, and it will be treated as a
+                        relationship where we can help each other approach.</p>
                 </li>
                 <li>
                     <h3>How can my business become a part of the Chamber of Commerce?</h3>
-                    <p>If you see later in this website, you can see the different “Editions” of membership that you can sign up for. You could also reach out to us by email if you have any questions getting started. email.email.com</p>
+                    <p>If you see later in this website, you can see the different “Editions” of membership that you can
+                        sign up for. You could also reach out to us by email if you have any questions getting started.
+                        email.email.com</p>
                 </li>
                 <li>
                     <h3>Where and what are good times to network and grow with the community?</h3>
-                    <p>Going to events that are happening around Rexburg. Some of the events are meetings where you can meet people and network as well. Also just growing with the community can also help create a name and trust with your company if you are a company worker or owner.</p>
+                    <p>Going to events that are happening around Rexburg. Some of the events are meetings where you can
+                        meet people and network as well. Also just growing with the community can also help create a
+                        name and trust with your company if you are a company worker or owner.</p>
                 </li>
                 <li>
                     <h3>What are community events I should go to?</h3>
-                    <p>If you are a student, then going to any BYUI events would be a great idea. And if you are not a student, anything involving the Madison Library would also be a great place to start as well.</p>
+                    <p>If you are a student, then going to any BYUI events would be a great idea. And if you are not a
+                        student, anything involving the Madison Library would also be a great place to start as well.
+                    </p>
                 </li>
                 <li>
                     <h3>What can I look forward to here as a college student?</h3>
-                    <p>You can look forward to a safe and welcoming community, as well as a great place to start your life on your own if you haven’t done so already. There is always things to do if you look for them, and a large part of the population in Rexburg is also college students as well, so you wont be alone, and you will have a strong support system.</p>
+                    <p>You can look forward to a safe and welcoming community, as well as a great place to start your
+                        life on your own if you haven’t done so already. There is always things to do if you look for
+                        them, and a large part of the population in Rexburg is also college students as well, so you
+                        wont be alone, and you will have a strong support system.</p>
                 </li>
             </ul>
         </div>
@@ -143,7 +177,8 @@
                 <li>Organization: <a href="https://www.walmart.com/store/1878-rexburg-id">Walmart</a></li>
                 <li>Organization: <a href="https://www.broulims.com/">broulims</a></li>
                 <li>Organization: <a href="https://righteousslice.com/">Righteous slice</a></li>
-                <li>Organization: <a href="https://www.facebook.com/profile.php?id=61554838991324">The Wanderful Workshop</a></li>
+                <li>Organization: <a href="https://www.facebook.com/profile.php?id=61554838991324">The Wanderful
+                        Workshop</a></li>
             </ul>
         </div>
         <div class="versions-section">
@@ -151,15 +186,23 @@
             <div class="versions-container">
                 <div class="version-box">
                     <h3>Gold Edition</h3>
-                    <p>This is the highest membership and support that you can sign up for you and your company. This will get you support at all our events when we make announcements and do shout outs. It will also allow opportunities to have city-wide events that involve your business as well. All the basics of having Silver Edition would also apply here as well, having your company listed on the this website that helps new people coming to the City of Rexburg.</p>
+                    <p>This is the highest membership and support that you can sign up for you and your company. This
+                        will get you support at all our events when we make announcements and do shout outs. It will
+                        also allow opportunities to have city-wide events that involve your business as well. All the
+                        basics of having Silver Edition would also apply here as well, having your company listed on the
+                        this website that helps new people coming to the City of Rexburg.</p>
                 </div>
                 <div class="version-box">
                     <h3>Silver Edition</h3>
-                    <p>Silver Edition will get your company name listed on the website, and will help those coming to the City of Rexburg know that your company exists and that it’s a fun option to get involved in the community, or to know that you have recourses they can use.</p>
+                    <p>Silver Edition will get your company name listed on the website, and will help those coming to
+                        the City of Rexburg know that your company exists and that it’s a fun option to get involved in
+                        the community, or to know that you have recourses they can use.</p>
                 </div>
                 <div class="version-box">
                     <h3>Non-profit Edition</h3>
-                    <p>Non-profit Edition will give you the same benefits as Gold Edition due to how you and your company are non-profit. This means that the company is providing can really benefit the community, and this is our way of helping you back as well.</p>
+                    <p>Non-profit Edition will give you the same benefits as Gold Edition due to how you and your
+                        company are non-profit. This means that the company is providing can really benefit the
+                        community, and this is our way of helping you back as well.</p>
                 </div>
             </div>
             <div class="join_us">
