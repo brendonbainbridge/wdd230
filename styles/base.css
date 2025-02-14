@@ -262,3 +262,8 @@ footer {
     padding: 10px 0;
     /* Extra padding when the menu is expanded */
 }
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
