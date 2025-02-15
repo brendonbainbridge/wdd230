@@ -10,3 +10,6 @@ document.addEventListener('DOMContentLoaded', function () {
             .forEach(element => element.classList.toggle('dark-mode'));
     });
 });
+
+
+
