@@ -1,13 +1,13 @@
 body {
 
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-family: 'Space Grotesk';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Space Grotesk';
 
     max-width: 500px;
-    margin: auto;
+    margin: 0 auto;
     background: black;
     color: white;
     padding: 10px;
@@ -15,6 +15,20 @@ body {
 
 .lazyimg {
     width: 400px;
+}
+
+img {
+    animation: fade 10s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .foot {
