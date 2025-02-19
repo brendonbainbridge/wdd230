@@ -97,15 +97,15 @@
             <h3 class="textcolor">Information</h3>
           </div>
           <p class="weather"><b>Weather:</b><br>Temperature: <span id="temp">30</span> F<br>Wind Speed: <span id="wind">30</span> MPH<br>Windchill: <span id="findwinchill">30</span> F<br></p>
-          <p class="visits"><b>Number of page visits</b></p>
+          <p class="visits"><b>Number of page visits: </b></p>
+          <p class="visitnum"></p>
         </section>
       </div>
     </div>
-    <!-- Google Map -->
     <div class="map-container">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.9226817405635!2d-111.78958752497537!3d43.823110089031535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5354741bceedab53%3A0xe8e2a7805154de80!2sRexburg%2C%20ID%2083403%2C%20USA!5e0!3m2!1sen!2sus!4v1697556146908!5m2!1sen!2sus"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        width="600" height="450" style="border:0;" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
@@ -116,6 +116,7 @@
       <p>last-modified: <i id="lastModified"></i></p>
     </div>
   </footer>
+  <script src="scripts/visits.js"></script>
   <script src="scripts/getdates.js"></script>
   <script src="scripts/windchill.js"></script>
 </body>

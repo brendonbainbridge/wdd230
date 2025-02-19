@@ -159,6 +159,11 @@ body {
     text-align: center;
 }
 
+.visitnum {
+    color: white;
+    text-align: center;
+}
+
 /* Add this to your styles */
 .map-container {
     display: flex;

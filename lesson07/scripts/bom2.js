@@ -2,6 +2,8 @@ const input = document.querySelector('#favchap');
 const button = document.querySelector('button');
 const list = document.querySelector('#list');
 
+let chaptersArray = getChapterList() || [];
+
 button.addEventListener('click', function () {
     const item = input.value;
     if (input.value != '') {
@@ -14,6 +16,11 @@ button.addEventListener('click', function () {
 
         deleteButton.addEventListener('click', function () {
             list.removeChild(li);
+
+        chaptersArray.forEach(chapter => {
+            displayList(chapter);
+        });
+
         });
         input.focus();
     } else {
