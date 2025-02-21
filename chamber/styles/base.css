@@ -101,7 +101,6 @@ main {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    padding: auto;
 }
 
 .sidebarimage:hover {box-shadow: 0 0 50px #0D1B2A;}
@@ -278,7 +277,6 @@ a {
     height: auto;
     border-radius: 8px;
     /* Rounded corners for the images */
-    padding: auto;
 }
 
 .rexburg_events {
