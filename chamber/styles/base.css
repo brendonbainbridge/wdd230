@@ -63,6 +63,33 @@ main {
     max-width: 775px;
 }
 
+.sideproject {
+    
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #E0E1DD;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sideimages {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    /* Rounded corners for the image */
+    max-width: 80%;
+    /* Restrict maximum width */
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+  }
+
 main h2 {
     color: #E0E1DD;
 }
@@ -157,6 +184,8 @@ a {
     text-align: center;
     /* Center the text within the section */
 }
+
+
 
 .facts_and_history h2 {
     width: 100%;
@@ -712,5 +741,27 @@ body.dark-mode .join_us button:hover {
         flex-direction: column;
     }
 
+       .sidenav {
+        width: 130px;
+        height: 20em;
+        position: fixed;
+        z-index: 10;
+        top: 20px;
+        left: 10px;
+        background: black;
+        overflow-x: hidden;
+        padding: 20px 0;
+      }
+    
+      .sideimages {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        /* Rounded corners for the image */
+        max-width: 80%;
+        /* Restrict maximum width */
+        display: grid;
+        grid-template-columns: 3fr;
+      }
 
 }
