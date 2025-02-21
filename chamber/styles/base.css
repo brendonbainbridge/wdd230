@@ -104,15 +104,12 @@ main {
     padding: auto;
 }
 
-/* .sideimages {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    max-width: 80%;
-    display: grid;
-    grid-template-columns: 3fr 3fr;
-    justify-content: space-between;
-} */
+.sidebarimage:hover {box-shadow: 0 0 50px #0D1B2A;}
+
+.visitnum {
+    color: white;
+    text-align: center;
+}
 
 main h2 {
     color: #E0E1DD;
@@ -793,5 +790,7 @@ body.dark-mode .join_us button:hover {
         grid-template-columns: 3fr;
         align-items: center;
     }
+
+    .sidebarimage:hover {box-shadow:none}
 
 }
