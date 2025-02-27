@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brendon Bainbridge - WDD 230 - Web Frontend Development</title>
+    <meta name="author" content="Brendon Bainbridge" />
+    <meta name="description" content="Brendon Bainbridge's WDD 230 - Web Frontend Development Project. (course assignment portal)
+    Brendon is committed to building a website that will in doing so, reflect understanding on HTML, CSS, 
+    and JavaScript. This platform will evolve as I follow the format and directions of my WDD320 class. 
+    Thanks for checking out my website! :D" />
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+
+    <meta property="og:title" content="Brendon's Wed Dev class website">
+    <meta property="og:type" content="Introduction and about page" />
+    <meta property="og:image"
+        content="https://brightspotcdn.byui.edu/dims4/default/009d013/2147483647/strip/true/crop/3281x2187+0+0/resize/1600x1066!/format/webp/quality/90/?url=https%3A%2F%2Fbyu-idaho-brightspot-production-us-east-2.s3.us-east-2.amazonaws.com%2F64%2Fc1%2Fcce7f41140588b38c2e60ac494b3%2Fmanwaring-center-with-students.jpg">
+    <meta property="og:url" content="https://brendonbainbridge.github.io/wdd230/">
+</head>
+
+<body>
+    <header class="theheader">
+        <img src="images/BYUIPhoto.webp" alt="Brendon Bainbridge's Profile Picture" class="brendonspic">
+        <h1 class="myname">Brendon Bainbridge</h1>
+    </header>
+    <nav>
+        <!-- Add this inside your <nav> tag -->
+        <button class="hamburger-menu" id="hamburger-menu">
+            &#9776;
+        </button>
+
+        <div>
+            <ul class="navlist">
+                <li><a href="#" class="navlinks">Home</a></li>
+                <li><a href="lesson03/chamber-site-plan.html" class="navlinks">Site Plan</a></li>
+                <li><a href="https://brendonbainbridge.github.io/wdd230/chamber/index.html" class="navlinks">Chamber</a>
+                </li>
+                <li><a href="https://www.byui.edu/" class="navlinks">BYU-Idaho</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/morm/7?lang=eng&id=p10#p10"
+                        target="_blank" class="navlinks">Scripture</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+    <h1>Form Build</h1>
+    <form method="get" action="thanks.html">
+        <fieldset class="form">
+            <legend>Application Information</legend>
+            <label>Username* <input type="text" name="Username" id="formtext" required></label>
+            <label>Password* <input type="password" name="Password" id="formtext" required></label>
+            <label>Re-Password* <input type="password" name="Repassword" id="formtext" required></label>
+            <label>Email* <input type="email" name="email" placeholder="Your byui email address"
+                    pattern="[a-zA-Z0-9_.\-]+@byui.edu" id="formtext" required></label>
+                    <div id="rangenumbers">0</div>
+            <label>Rate our website: <input type="range" id="formtext" name="rate" min="0" max="10" value="0" step="1"
+                    list="rangenumbers">
+                <datalist id="rangenumbers">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+                <input type="submit" value="Sign up for newsletter!">
+        </fieldset>
+    </form>
+
+
+    <footer>
+        <div>
+            <p>&copy; <i id='copyright-year'></i> Brendon Bainbridge. USA. All rights reserved.</p>
+            <p>last-modified: <i id="lastModified"></i></p>
+        </div>
+    </footer>
+    <script src="scripts/visits.js"></script>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+
+</html>
