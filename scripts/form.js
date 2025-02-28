@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	// Function to handle form submission
 	function handleSubmit(event) {
 		// Prevent default form submission
-		event.preventDefault();
+		// event.preventDefault();
 
 		// Access form elements
 		let formt = event.target;
