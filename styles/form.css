@@ -7,7 +7,6 @@
 .formstuff {
     color: white;
     display: grid;
-    place-items: left;
     padding: 20px;
 }
 
