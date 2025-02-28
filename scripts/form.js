@@ -17,17 +17,3 @@ document.addEventListener("DOMContentLoaded", function () {
 	const form = document.querySelector("form");
 	form.addEventListener("submit", handleSubmit);
 });
-
-
-
-
-const rangevalue = document.getElementById("rangenumber");
-const range = document.getElementById("rate");
-
-// RANGE event listener
-range.addEventListener('change', displayRatingValue);
-range.addEventListener('input', displayRatingValue);
-
-function displayRatingValue() {
-  rangevalue.innerHTML = range.value;
-}
