@@ -1,3 +1,297 @@
+:root {
+    --background-color: black;
+    --font-color: white;
+    --font-size: 16px;
+}
+
 .form {
     color: white;
+    display: grid;
+    place-items: left;
+    padding: 20px;
 }
+
+h2 {
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.pform { 
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+label {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.submit {
+    max-width: fit-content;
+    align-items: center;
+    place-self: center;
+    background-color: white;
+    color: black;
+}
+
+.submit:hover {
+    background-color: black;
+    color: white;
+    border: 2px white;
+}
+
+.theheader {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    /* Adjusts the layout: auto for image, remaining space for header */
+    align-items: center;
+    /* Aligns items vertically in the center */
+    justify-content: center;
+}
+
+.brendonspic {
+    width: 50px;
+    /* Set the desired width for the image */
+    height: auto;
+    /* Maintains aspect ratio */
+    margin-right: 20px;
+    /* Adjusts the space between the image and the header */
+}
+
+.myname {
+    font-size: 30px;
+    /* Adjusts the size of the header text */
+    margin: 0;
+    /* Removes default margins */
+    color: white;
+}
+
+nav {
+    background-color: dimgray;
+    /* Replace this with your chosen color */
+    padding: 10px;
+    /* Adds padding around the content inside the box */
+    text-align: center;
+    /* Centers the text within the box */
+    grid-column: auto;
+    display: block;
+}
+
+.navlist {
+    list-style: none;
+    /* Removes bullet points */
+    padding: 0;
+    /* Removes default padding */
+    margin: 0;
+    /* Removes default margin */
+    color: white;
+    /* Sets the text color to white */
+    margin: 0;
+    /* Removes default margins */
+    font-size: 20px;
+    /* Adjusts the size of the heading text */
+}
+
+.navlinks {
+    color: white;
+    /* Sets the text color to white */
+    padding: 0px;
+    /* Adds padding inside the box */
+    text-decoration: none;
+    /* Removes the underline */
+    text-align: center;
+    /* Centers the text within the box */
+    flex: 1 1 100%;
+}
+
+.navlinks:hover {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+/* Add this to your base.css file */
+.navlinks::before {
+    content: '✨';
+    /* Unicode character for a right arrow */
+    padding-right: 10px;
+    /* Space between the arrow and the link text */
+
+}
+
+/* Change arrow color on hover */
+.navlinks:hover::before {
+    color: white;
+    /* Changes arrow color on hover */
+}
+
+.listlinks {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a {
+    color: white;
+    /* Change to your desired color */
+    text-decoration: none;
+    /* Remove underlining */
+    font-weight: normal;
+}
+
+a:hover {
+    color: dimgray;
+    /* Change to your desired hover color */
+}
+
+.boxcolor {
+    background-color: dimgray;
+    /* Replace this with your chosen color */
+    padding: 15px;
+    /* Adds padding around the content inside the box */
+    text-align: center;
+    /* Centers the text within the box */
+    margin-top: 20px;
+}
+
+.textcolor {
+    color: white;
+    /* Sets the text color to white */
+    margin: 0;
+    /* Removes default margins */
+    font-size: 20px;
+    /* Adjusts the size of the heading text */
+}
+
+body {
+    display: grid;
+    place-items: center;
+    /* Centers the container horizontally and vertically */
+    height: 80vh;
+    /* Full viewport height for centering */
+    margin: 0;
+    /* Removes default margins */
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-size: var(--font-size);
+
+    display: grid;
+    grid-template-areas:
+        'header'
+        'nav'
+        'main'
+        'footer';
+    grid-template-columns: 1fr;
+    /* Full width for each column */
+    gap: 10px;
+    /* Optional: space between grid items */
+    width: 100%;
+    /* Container width */
+    font-family: "Space Grotesk", serif;
+
+}
+
+footer {
+    grid-area: footer;
+    padding: 10px;
+    /* Adds padding to the footer */
+    text-align: center;
+    /* Centers the text horizontally */
+    color: white;
+    background-color: dimgray;
+}
+
+/* Default: hide the hamburger menu */
+.hamburger-menu {
+    display: none;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Show the hamburger menu on small screens */
+@media (max-width: 500px) {
+    .hamburger-menu {
+        display: block;
+    }
+
+    .navlist {
+        display: none;
+        /* hide menu by default */
+    }
+
+    .navlist.show {
+        display: block;
+    }
+
+    .navlist {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navlist a {
+        padding: 10px 0;
+    }
+
+    /* Adjust the link spacing */
+    .navlinks {
+        display: block;
+        /* Ensure each link is on a new line */
+        padding: 10px 0;
+        /* Adjust as needed for vertical spacing */
+        text-align: center;
+        /* Centers the text */
+    }
+
+    /* Center the text on smaller screens (mobile view) */
+    main {
+        /* Parent element of the text */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* Center align text within the container */
+    }
+
+    .textcolor {
+        font-size: 24px;
+        /* Adjust font size if needed */
+        margin-bottom: 20px;
+        /* Add space below the heading */
+    }
+
+    .quote {
+        position: absolute;
+        top: 9.75rem;
+        left: 0.25rem;
+        color: white;
+        border: 2px solid white;
+        padding: 0.5rem;
+        opacity: 0.75;
+    }
+    
+    .quote p {
+        margin: 0;
+        padding: .25rem;
+        font-weight: 700;
+        font-size: .50rem;
+    }
+}
+
+/* Extra class specific for the hamburger menu */
+.navlist.show a {
+    padding: 10px 0;
+    /* Extra padding when the menu is expanded */
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
