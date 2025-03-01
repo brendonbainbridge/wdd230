@@ -51,10 +51,11 @@
         </div>
 
         <main>
-            <h2>Form Build</h2>
+            <div class="forminfobox">
+            <h2 class="formh2">Sign up Form</h2>
             <form method="get" id="signup" action="record.html">
-                <fieldset class="formstuff">
-                    <legend>Application Information</legend>
+                <fieldset class="forminfo">
+                    <h2 class="formh2info">Application Information</h2>
                     <label>First name* <input type="text" name="fname" id="fname" required></label>
                     <label>Last name* <input type="text" name="lname" id="lname" required></label>
                     <label>Title or Position* <input type="text" name="torp" id="torp" required
@@ -64,18 +65,36 @@
                     <label>Phone Number <input type="tel" name="phone" placeholder="1111111111" id="phone"></label>
                     <label>Business / Organization's name* <input type="text" name="boname" id="torp" required></label>
                 </fieldset>
-                <fieldset>
-                    <div>
+                <fieldset class="formedition">
+                    <div class="left">
+                        <p>Gold Edition</p>
+                        <p>This is the highest membership and support that you can sign up for you and your company. This
+                            will get you support at all our events when we make announcements and do shout outs. It will
+                            also allow opportunities to have city-wide events that involve your business as well. All the
+                            basics of having Silver Edition would also apply here as well, having your company listed on the
+                            this website that helps new people coming to the City of Rexburg.</p>
+                        <p>Silver Edition</p>
+                        <p>Silver Edition will get your company name listed on the website, and will help those coming to
+                            the City of Rexburg know that your company exists and that it’s a fun option to get involved in
+                            the community, or to know that you have recourses they can use.</p>
+                        <p>Non-Prophet Edition</p>
+                        <p>Non-profit Edition will give you the same benefits as Gold Edition due to how you and your
+                            company are non-profit. This means that the company is providing can really benefit the
+                            community, and this is our way of helping you back as well.</p>
+                    </div>
+                    <div class="right">
+                    <div class="radio-box">
                         <div>Membership Version</div>
                         <label><input type="radio" name="memver" value="Gold"> Beginner</label>
                         <label><input type="radio" name="memver" value="Silver"> Intermediate</label>
                         <label><input type="radio" name="memver" value="Non-Prophet"> Advance</label>
-                    </div>
-                    <div>
 
+                        <label>About your company: </label>
+                            <input type="text" id="textbox" name="textbox" placeholder="Type here">
+                    </div>                        
                     </div>
-
                 </fieldset>
+            </div>
                 <input type="submit" class="submit" value="Join Us">
             </form>
         </main>

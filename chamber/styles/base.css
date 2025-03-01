@@ -97,13 +97,16 @@ main {
     padding: 0.5em;
     /* Padding inside the box */
 }
+
 .boxforimages img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
-.sidebarimage:hover {box-shadow: 0 0 50px #0D1B2A;}
+.sidebarimage:hover {
+    box-shadow: 0 0 50px #0D1B2A;
+}
 
 .visitnum {
     color: white;
@@ -639,6 +642,145 @@ body.dark-mode .join_us button:hover {
 }
 
 
+
+main.feildset {
+    background-color: #0D1B2A;
+}
+
+.forminfo {
+    background-color: #E0E1DD;
+    color: #0D1B2A;
+    border-radius: 8px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forminfobox {
+    background-color: #0D1B2A;
+    border-radius: 8px;
+}
+
+.formh2 {
+    background-color: #0D1B2A;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.formh2info {
+    color: #0D1B2A;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.forminfo {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* Optional: Add padding for spacing */
+}
+
+.forminfo label {
+    display: block;
+    /* Make labels block-level */
+    margin-bottom: 5px;
+    /* Add space between labels and inputs */
+}
+
+.forminfo input {
+    display: block;
+    /* Make inputs block-level */
+    width: 100%;
+    /* Make inputs take full width */
+    box-sizing: border-box;
+    /* Include padding and border in width */
+    margin-bottom: 10px;
+    /* Add space between input elements */
+}
+
+label {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+input {
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px
+    text-align: center;
+}
+
+input::placeholder {
+    color: #E0E1DD;
+}
+
+.formedition {
+    background-color: #E0E1DD;
+    color: #0D1B2A;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fieldset.formedition {
+    display: flex;
+    /* Enables Flexbox layout */
+    justify-content: space-between;
+    /* Pushes the .left and .right divs to the edges */
+    align-items: flex-start;
+    /* Aligns the top of the two divs */
+    gap: 20px;
+    /* Optional: Adds space between columns */
+    padding: 20px;
+    /* Optional: Adds spacing inside the fieldset */
+}
+
+.left {
+    flex: 1;
+    /* Adjusts to take equal space with .right */
+}
+
+.right {
+    flex: 1;
+    /* Matches width of .left */
+}
+
+.formedition p {
+    background-color: #0D1B2A;
+    /* Light background for the box */
+    color: #E0E1DD;
+    padding: 10px;
+    /* Space inside the box */
+    margin-bottom: 10px;
+    /* Space between the boxes */
+    border-radius: 8px;
+    /* Rounded corners for a cleaner look */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    /* Optional: Adds a shadow for depth */
+    max-width: min-content;
+}
+
+.radio-box {
+    display: flex;
+    /* Enable Flexbox layout */
+    flex-direction: column;
+    /* Stack items vertically */
+    align-items: flex-start;
+    /* Align items to the left */
+    gap: 10px;
+    /* Add space between radio buttons */
+}
+
+
+
+#textbox {
+    padding-top: 40px;
+}
+
+
 @media (max-width: 600px) {
     nav {
         display: flex;
@@ -789,6 +931,8 @@ body.dark-mode .join_us button:hover {
         align-items: center;
     }
 
-    .sidebarimage:hover {box-shadow:none}
+    .sidebarimage:hover {
+        box-shadow: none
+    }
 
 }
