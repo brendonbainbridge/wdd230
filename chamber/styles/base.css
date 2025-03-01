@@ -589,9 +589,15 @@ body.dark-mode .rexburg_events,
 body.dark-mode .rexburg_questions,
 body.dark-mode .list_of_organizations,
 body.dark-mode .versions-section,
-body.dark-mode .version-box {
+body.dark-mode .version-box,
+body.dark-mode .thankyou{
     background-color: black;
     color: white;
+}
+
+body.dark-mode .thankyou {
+    border-radius: 8px;
+    padding: 1px;
 }
 
 body.dark-mode .titlehead {
