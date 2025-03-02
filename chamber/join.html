@@ -49,9 +49,7 @@
         <div class="titlehead">
             <h1>Rexburg chamber of Commerce</h1>
         </div>
-
-        <main>
-            <div class="forminfobox">
+        <div class="forminfobox">
             <h2 class="formh2">Sign up Form</h2>
             <form method="get" id="signup" action="record.html">
                 <fieldset class="forminfo">
@@ -63,19 +61,25 @@
                     <label>Email* <input type="email" name="email" placeholder="email@email.com" id="email"
                             required></label>
                     <label>Phone Number <input type="tel" name="phone" placeholder="1111111111" id="phone"></label>
-                    <label>Business / Organization's name* <input type="text" name="boname" id="torp" required></label>
+                    <label>Business / Organization's name* <input type="text" name="boname" id="boname"
+                            required></label>
                 </fieldset>
                 <fieldset class="formedition">
                     <div class="left">
                         <p>Gold Edition:<br><br>
-                            This is the highest membership and support that you can sign up for you and your company. This
+                            This is the highest membership and support that you can sign up for you and your company.
+                            This
                             will get you support at all our events when we make announcements and do shout outs. It will
-                            also allow opportunities to have city-wide events that involve your business as well. All the
-                            basics of having Silver Edition would also apply here as well, having your company listed on the
+                            also allow opportunities to have city-wide events that involve your business as well. All
+                            the
+                            basics of having Silver Edition would also apply here as well, having your company listed on
+                            the
                             this website that helps new people coming to the City of Rexburg.</p>
                         <p>Silver Edition:<br><br>
-                            Silver Edition will get your company name listed on the website, and will help those coming to
-                            the City of Rexburg know that your company exists and that it’s a fun option to get involved in
+                            Silver Edition will get your company name listed on the website, and will help those coming
+                            to
+                            the City of Rexburg know that your company exists and that it’s a fun option to get involved
+                            in
                             the community, or to know that you have recourses they can use.</p>
                         <p>Non-Prophet Edition:<br><br>
                             Non-profit Edition will give you the same benefits as Gold Edition due to how you and your
@@ -83,46 +87,46 @@
                             community, and this is our way of helping you back as well.</p>
                     </div>
                     <div class="right">
-                    <div class="radio-box">
-                        <h2 class="memver">Membership Version</h2>
-                        <label><input type="radio" name="memver" value="Gold"> Beginner</label>
-                        <label><input type="radio" name="memver" value="Silver"> Intermediate</label>
-                        <label><input type="radio" name="memver" value="Non-Prophet"> Advance</label>
-                        <br>
-                        <label>About your company: </label>
-                        <input type="text" id="textbox" name="textbox" placeholder="Type here">
-                    </div>                        
+                        <div class="radio-box">
+                            <h2 class="memver">Membership Version</h2>
+                            <label><input type="radio" name="memver" value="Gold"> Beginner</label>
+                            <label><input type="radio" name="memver" value="Silver"> Intermediate</label>
+                            <label><input type="radio" name="memver" value="Non-Prophet"> Advance</label>
+                            <br>
+                            <label>About your company: </label>
+                            <input type="text" id="textbox" name="textbox" placeholder="Type here">
+                        </div>
                     </div>
                     <div>
-                          <input type="hidden" name="timevisitform" id="timevisitform">
+                        <input type="hidden" name="timevisitform" id="timevisitform">
                     </div>
                 </fieldset>
-            </div>
-            <br>
+                <br>
                 <input type="submit" class="submit" value="Join Us" class="joinus">
                 <br>
                 <p class="pform">For any questions, please feel free to reach out the the owner of the form! :3</p>
             </form>
-        </main>
-        <footer>
-            <div class="foot_box">
-                <nav>
-                    <a href="#" class="foot_links">Home</a>
-                    <a href="#" class="foot_links">Join Us</a>
-                    <a href="#" class="foot_links">Contact us</a>
-                </nav>
-            </div>
-            <div>
-                <p>&copy; <i id='copyright-year'></i> Brendon Bainbridge. USA. All rights reserved.</p>
-                <p>Project for WDD 230. last-modified: <i id="lastModified"></i></p>
-                <p class="weather"><b>Weather:</b><br>Temperature: <span id="temp">30</span> F<br>Wind Speed: <span
-                        id="wind">30</span> MPH<br>Windchill: <span id="findwinchill">30</span> F<br></p>
-            </div>
-        </footer>
-        <script src="scripts/getdates.js"></script>
-        <script src="scripts/darkmode.js"></script>
-        <script src="scripts/windchill.js"></script>
-        <script src="scripts/visits.js"></script>
+        </div>
+    </main>
+    <footer>
+        <div class="foot_box">
+            <nav>
+                <a href="#" class="foot_links">Home</a>
+                <a href="#" class="foot_links">Join Us</a>
+                <a href="#" class="foot_links">Contact us</a>
+            </nav>
+        </div>
+        <div>
+            <p>&copy; <i id='copyright-year'></i> Brendon Bainbridge. USA. All rights reserved.</p>
+            <p>Project for WDD 230. last-modified: <i id="lastModified"></i></p>
+            <p class="weather"><b>Weather:</b><br>Temperature: <span id="temp">30</span> F<br>Wind Speed: <span
+                    id="wind">30</span> MPH<br>Windchill: <span id="findwinchill">30</span> F<br></p>
+        </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/visits.js"></script>
 
 
 
