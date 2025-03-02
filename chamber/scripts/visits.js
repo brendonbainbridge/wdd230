@@ -12,3 +12,6 @@ if (numVisits !== 0 && numdays > 0) {
 numVisits++;
 localStorage.setItem("numOfvisits-ls", numVisits);
 localStorage.setItem("lastvisit", Date.now());
+
+const timerightnow = Date.now();
+document.getElementById('timevisitform').value = timerightnow;

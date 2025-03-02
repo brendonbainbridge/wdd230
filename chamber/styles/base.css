@@ -550,6 +550,7 @@ footer {
     margin-top: auto;
     text-align: center;
     margin: 1em;
+    border-radius: 8px;
 }
 
 .hero-container,
@@ -703,6 +704,13 @@ main.feildset {
     /* Include padding and border in width */
     margin-bottom: 10px;
     /* Add space between input elements */
+    padding: 2%;
+}
+
+.memver {
+    background-color: #0D1B2A;
+    padding: 2%;
+    border-radius: 8px;
 }
 
 label {
@@ -716,7 +724,6 @@ input {
     border-radius: 8px;
     padding-top: 10px;
     padding-bottom: 10px
-    text-align: center;
 }
 
 input::placeholder {
@@ -727,31 +734,19 @@ input::placeholder {
     background-color: #E0E1DD;
     color: #0D1B2A;
     border-radius: 8px;
-    align-items: center;
     justify-content: space-between;
-}
-
-.fieldset.formedition {
-    display: flex;
-    /* Enables Flexbox layout */
-    justify-content: space-between;
-    /* Pushes the .left and .right divs to the edges */
-    align-items: flex-start;
-    /* Aligns the top of the two divs */
-    gap: 20px;
-    /* Optional: Adds space between columns */
-    padding: 20px;
-    /* Optional: Adds spacing inside the fieldset */
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Optional: Adds spacing between the columns */
 }
 
 .left {
-    flex: 1;
+    
     /* Adjusts to take equal space with .right */
 }
 
 .right {
-    flex: 1;
-    /* Matches width of .left */
+    align-items: start;
 }
 
 .formedition p {
@@ -766,7 +761,7 @@ input::placeholder {
     /* Rounded corners for a cleaner look */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     /* Optional: Adds a shadow for depth */
-    max-width: min-content;
+    max-width: 200px;
 }
 
 .radio-box {
@@ -779,8 +774,6 @@ input::placeholder {
     gap: 10px;
     /* Add space between radio buttons */
 }
-
-
 
 #textbox {
     padding-top: 40px;
@@ -939,6 +932,11 @@ input::placeholder {
 
     .sidebarimage:hover {
         box-shadow: none
+    }
+
+    .formedition {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
 }
