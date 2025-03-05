@@ -1,0 +1,35 @@
+{
+    "wardInformation": {
+    "familyName": "Lobby",
+    "moveInDate": "2025-01-01",
+    "numberOfPeople": 5,
+    "visitedByBishopric": true,
+    "familyMembers": [
+      {
+        "name": "Bobby Lobby",
+        "gender": "Male",
+        "birthdate": "2000-06-01"
+      },
+      {
+        "name": "Sobby Lobby",
+        "gender": "Male",
+        "birthdate": "2018-06-01"
+      },
+      {
+        "name": "Dobby Lobby",
+        "gender": "Female",
+        "birthdate": "2000-01-01"
+      },
+      {
+        "name": "Cobby Lobby",
+        "gender": "Female",
+        "birthdate": "2018-06-01"
+      },
+      {
+        "name": "Nobby Lobby",
+        "gender": "Male",
+        "birthdate": "2020-01-06"
+      }
+    ]
+    }
+  }
