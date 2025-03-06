@@ -1,0 +1,154 @@
+{
+    "lessons": [
+        {
+            "lesson": "01",
+            "links": [
+                {
+                    "url": "https://brendonbainbridge.github.io/wdd230/lesson02/design.html",
+                    "title": "design.html"
+                },
+                {
+                    "url": "https://brendonbainbridge.github.io/wdd230/lesson02/media-query.html",
+                    "title": "CSS Media Queries"
+                },
+                {
+                    "url": "https://brendonbainbridge.github.io/wdd230/lesson02/design-principles",
+                    "title": "Design Principles"
+                }
+            ]
+        },
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url": "https://raw.githubusercontent.com/brendonbainbridge/wdd230/refs/heads/main/lesson03/Images/Screenshot%202025-01-24%20005254.png",
+                    "title": "CSS Combinators"
+                },
+                {
+                    "url": "https://codepen.io/Brendon-Bainbridge/pen/YPKJXxV",
+                    "title": "CSS Pseudo-elements"
+                },
+                {
+                    "url": "https://codepen.io/Brendon-Bainbridge/pen/zxOmZOR",
+                    "title": "Responsive 'Hamburger' Menu"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url": "https://codepen.io/Brendon-Bainbridge/pen/PwYVmKN",
+                    "title": "CSS Pseudo-Classes"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url": "https://brendonbainbridge.github.io/wdd230/lesson06/images/landscape.webp",
+                    "title": "Webp"
+                },
+                {
+                    "url": "https://brendonbainbridge.github.io/wdd230/lesson06/responsive-images.html",
+                    "title": "Responsive Images: srcset"
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url": "https://brendonbainbridge.github.io/wdd230/lesson07/lazyload.html",
+                    "title": "Lazy Loading"
+                },
+                {
+                    "url": "https://brendonbainbridge.github.io/wdd230/lesson07/bom2.html",
+                    "title": "bom2.html"
+                }
+            ]
+        },
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url": "https://brendonbainbridge.github.io/wdd230/lesson08/tablebuild.html",
+                    "title": "HTML Tables for Data Presentation"
+                },
+                {
+                    "url": "https://brendonbainbridge.github.io/wdd230/lesson08/Form-start/index.html",
+                    "title": "HTML Forms"
+                },
+                {
+                    "url": "https://brendonbainbridge.github.io/wdd230/form.html",
+                    "title": "Form Build"
+                }
+            ]
+        },
+        {
+            "lesson": "07",
+            "links": [
+                {
+                    "url": "https://brendonbainbridge.github.io/wdd230/lesson09/new-ward-members.json",
+                    "title": "JSON"
+                },
+                {
+                    "url": "https://brendonbainbridge.github.io/wdd230/lesson09/prophets.html",
+                    "title": "The Fetch API"
+                }
+            ]
+        },
+        {
+            "lesson": "08",
+            "links": [
+                {
+                    "url": "",
+                    "title": ""
+                },
+                {
+                    "url": "",
+                    "title": ""
+                },
+                {
+                    "url": "",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "lesson": "09",
+            "links": [
+                {
+                    "url": "",
+                    "title": ""
+                },
+                {
+                    "url": "",
+                    "title": ""
+                },
+                {
+                    "url": "",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "lesson": "10",
+            "links": [
+                {
+                    "url": "",
+                    "title": ""
+                },
+                {
+                    "url": "",
+                    "title": ""
+                },
+                {
+                    "url": "",
+                    "title": ""
+                }
+            ]
+        }
+    ]
+}
