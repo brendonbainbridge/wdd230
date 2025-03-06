@@ -16,15 +16,10 @@ main {
     box-shadow: 0 0 30px #777;
 }
 
-.card {
-    
-}
-
-.grid {
+#cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 20px; /* Adjust the gap between sections as needed */
-  }
+}
 
 section {
     margin: 0.25rem;
