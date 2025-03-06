@@ -96,6 +96,10 @@
                 {
                     "url": "https://brendonbainbridge.github.io/wdd230/lesson09/prophets.html",
                     "title": "The Fetch API"
+                },
+                {
+                    "url": "https://brendonbainbridge.github.io/wdd230/data/links.json",
+                    "title": "JSON Menu"
                 }
             ]
         },
