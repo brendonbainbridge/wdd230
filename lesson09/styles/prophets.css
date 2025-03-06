@@ -4,7 +4,6 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-
     font-family: 'Space Grotesk', sans-serif;
 }
 
@@ -13,22 +12,47 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 2px solid #000; /* Adds a black border around the main element */
     padding: 20px;          /* Adds some padding inside the border */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 0 30px #777;
 }
 
 .card {
     
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px; /* Adjust the gap between sections as needed */
+  }
+
 section {
-    background-color: lightblue;
-     display: flex;
-    flex-direction: column;  /* Arrange cards in a single column */
-    align-items: center;     /* Center align cards horizontally */
-    justify-content: center; /* Center align cards vertically */
-    border: 2px solid #000; /* Adds a black border around the main element */
-    padding: 20px;          /* Adds some padding inside the border */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    margin: 0.25rem;
+    padding: 0.75rem;
+    background-color: lavender;
+    border: 1px solid darkslateblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
 }
+
+img {
+    width: 75%;
+    height: auto;
+    box-shadow: 0 0 25px #777;
+}
+
+h1, h2 {
+    color: darkslateblue;
+    margin-top: 5px; /* Adjust to your preference */
+    margin-bottom: 5px; /* Adjust to your preference */
+}
+
+p {
+    margin-top: 5px; /* Adjust to your preference */
+    margin-bottom: 5px; /* Adjust to your preference */
+}
+
+
+
