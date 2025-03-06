@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000; /* Adds a black border around the main element */
+    padding: 20px;          /* Adds some padding inside the border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.card {
+    
+}
+
+section {
+    background-color: lightblue;
+     display: flex;
+    flex-direction: column;  /* Arrange cards in a single column */
+    align-items: center;     /* Center align cards horizontally */
+    justify-content: center; /* Center align cards vertically */
+    border: 2px solid #000; /* Adds a black border around the main element */
+    padding: 20px;          /* Adds some padding inside the border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
