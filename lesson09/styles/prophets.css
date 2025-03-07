@@ -1,8 +1,4 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     min-height: 100vh;
     font-family: 'Space Grotesk', sans-serif;
 }
@@ -38,12 +34,12 @@ h1, h2 {
     color: darkslateblue;
     margin-top: 5px; /* Adjust to your preference */
     margin-bottom: 5px; /* Adjust to your preference */
+    align-items: center;
 }
 
 p {
     margin-top: 5px; /* Adjust to your preference */
     margin-bottom: 5px; /* Adjust to your preference */
 }
-
 
 
