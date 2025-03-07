@@ -42,4 +42,10 @@ p {
     margin-bottom: 5px; /* Adjust to your preference */
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
 
