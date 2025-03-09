@@ -1,0 +1,60 @@
+{
+    "companies": [
+        {
+            "name": "Crumble",
+            "address": "160 W 2nd S, Ste 102, Rexburg, Idaho 83440",
+            "phone": "208-254-5556",
+            "website": "https://crumblcookies.com/rexburg",
+            "image": "https://loremflickr.com/320/240",
+            "membership_level": "Gold"
+        },
+        {
+            "name": "broulims",
+            "address": "124 West Main Rexburg, ID 83440",
+            "phone": "208-356-4651",
+            "website": "https://www.broulims.com/",
+            "image": "https://loremflickr.com/320/240",
+            "membership_level": "Gold"
+        },
+        {
+            "name": "Five Guys",
+            "address": "179 West 2nd South Rexburg, ID 83440",
+            "phone": "208-346-7205",
+            "website": "https://restaurants.fiveguys.com/179-west-2nd-south",
+            "image": "https://loremflickr.com/320/240",
+            "membership_level": "Silver"
+        },
+        {
+            "name": "Righteous slice",
+            "address": "175 W. 2nd South Ste 100, Rexburg, ID 83440",
+            "phone": "(208) 820-4597",
+            "website": "https://righteousslice.com/",
+            "image": "https://loremflickr.com/320/240",
+            "membership_level": "Gold"
+        },
+        {
+            "name": "Walmart",
+            "address": "1450 North 2nd East, Rexburg, ID 83440",
+            "phone": "208-359-2809",
+            "website": "https://www.walmart.com/store/1878-rexburg-id",
+            "image": "https://loremflickr.com/320/240",
+            "membership_level": "Silver"
+        },
+        {
+            "name": "The Wanderful Workshop",
+            "address": "18 East Main Street, Rexburg, ID, United States, Idaho",
+            "phone": "208-656-4757",
+            "website": "https://www.facebook.com/profile.php?id=61554838991324",
+            "image": "https://loremflickr.com/320/240",
+            "membership_level": "Silver"
+        },
+        {
+            "name": "BYUI",
+            "address": "525 S Center St Rexburg, ID 83460",
+            "phone": "208-496-1411",
+            "website": "https://www.byui.edu/",
+            "image": "https://loremflickr.com/320/240",
+            "membership_level": "Non-Prophet"
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 {
     "lessons": [
         {
-            "lesson": "01",
+            "lesson": "02",
             "links": [
                 {
                     "url": "https://brendonbainbridge.github.io/wdd230/lesson02/design.html",
@@ -18,7 +18,7 @@
             ]
         },
         {
-            "lesson": "02",
+            "lesson": "03",
             "links": [
                 {
                     "url": "https://raw.githubusercontent.com/brendonbainbridge/wdd230/refs/heads/main/lesson03/Images/Screenshot%202025-01-24%20005254.png",
@@ -35,7 +35,7 @@
             ]
         },
         {
-            "lesson": "03",
+            "lesson": "04",
             "links": [
                 {
                     "url": "https://codepen.io/Brendon-Bainbridge/pen/PwYVmKN",
@@ -44,7 +44,7 @@
             ]
         },
         {
-            "lesson": "04",
+            "lesson": "05",
             "links": [
                 {
                     "url": "https://brendonbainbridge.github.io/wdd230/lesson06/images/landscape.webp",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "lesson": "05",
+            "lesson": "06",
             "links": [
                 {
                     "url": "https://brendonbainbridge.github.io/wdd230/lesson07/lazyload.html",
@@ -70,7 +70,7 @@
             ]
         },
         {
-            "lesson": "06",
+            "lesson": "07",
             "links": [
                 {
                     "url": "https://brendonbainbridge.github.io/wdd230/lesson08/tablebuild.html",
@@ -87,7 +87,7 @@
             ]
         },
         {
-            "lesson": "07",
+            "lesson": "08",
             "links": [
                 {
                     "url": "https://brendonbainbridge.github.io/wdd230/lesson09/new-ward-members.json",
@@ -100,23 +100,6 @@
                 {
                     "url": "https://brendonbainbridge.github.io/wdd230/data/links.json",
                     "title": "JSON Menu"
-                }
-            ]
-        },
-        {
-            "lesson": "08",
-            "links": [
-                {
-                    "url": "",
-                    "title": ""
-                },
-                {
-                    "url": "",
-                    "title": ""
-                },
-                {
-                    "url": "",
-                    "title": ""
                 }
             ]
         },
