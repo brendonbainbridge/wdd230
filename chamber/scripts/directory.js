@@ -1,5 +1,7 @@
-const url = 'https://brendonbainbridge.github.io/wdd230/data/links.json';
+const url = 'https://brendonbainbridge.github.io/wdd230/chamber/data/directory.json';
 const cards = document.querySelector('#cards');
+const gridButton = document.querySelector('#grid');
+const listButton = document.querySelector('#list');
 
 async function getCompanyData() {
     const response = await fetch(url);
@@ -22,20 +24,33 @@ const displayCompanies = (companies) => {
         name.textContent = `${company.name}`;
         address.textContent = `${company.address}`;
         phone.textContent = `${company.phone}`;
-        website.textContent = `${company.website}`;
-        membership_level.textContent = `${company.membership_level}`;
+        website.textContent = `${company.name} Website`;
+        website.setAttribute('href', company.website);
+        website.setAttribute('target', '_blank');
 
-        portrait.setAttribute('src', company.image); // Updated this line
+        membership_level.textContent = `Membership Level: ${company.membership_level}`;
+
+        portrait.setAttribute('src', company.image);
         portrait.setAttribute('alt', `Portrait of ${company.name}`);
         portrait.setAttribute('loading', 'lazy');
 
+        card.classList.add('company-card');
         card.appendChild(name);
         card.appendChild(address);
         card.appendChild(phone);
         card.appendChild(website);
-        card.appendChild(portrait); // Corrected this line previously
+        card.appendChild(portrait);
         card.appendChild(membership_level);
 
         cards.appendChild(card);
     });
-}
+};
+
+// Event listeners for view toggle buttons
+gridButton.addEventListener('click', () => {
+    cards.classList.remove('list-view');
+});
+
+listButton.addEventListener('click', () => {
+    cards.classList.add('list-view');
+});
