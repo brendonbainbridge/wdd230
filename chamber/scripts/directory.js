@@ -47,13 +47,13 @@ const displayCompanies = (companies) => {
 };
 
 gridButton.addEventListener("click", () => {
-    cards.classList.add("grid");
-    cards.classList.remove("list");
+    cards.classList.add("grid-view");
+    cards.classList.remove("list-view");
 });
 
 listButton.addEventListener("click", showList); // example using defined function
 
 function showList() {
-    cards.classList.add("list");
-    cards.classList.remove("grid");
+    cards.classList.add("list-view");
+    cards.classList.remove("grid-view");
 }
