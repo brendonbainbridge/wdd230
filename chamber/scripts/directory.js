@@ -1,18 +1,41 @@
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector("article");
+const url = 'https://brendonbainbridge.github.io/wdd230/data/links.json';
+const cards = document.querySelector('#cards');
 
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+async function getCompanyData() {
+    const response = await fetch(url);
+    const data = await response.json();
+    displayCompanies(data.companies);
+}
 
-gridbutton.addEventListener("click", () => {
-	// example using arrow function
-	display.classList.add("grid");
-	display.classList.remove("list");
-});
+getCompanyData();
 
-listbutton.addEventListener("click", showList); // example using defined function
+const displayCompanies = (companies) => {
+    companies.forEach((company) => {
+        let card = document.createElement('section');
+        let name = document.createElement('h2');
+        let address = document.createElement('p');
+        let phone = document.createElement('p');
+        let website = document.createElement('a');
+        let membership_level = document.createElement('p');
+        let portrait = document.createElement('img');
 
-function showList() {
-	display.classList.add("list");
-	display.classList.remove("grid");
+        name.textContent = `${company.name}`;
+        address.textContent = `${company.address}`;
+        phone.textContent = `${company.phone}`;
+        website.textContent = `${company.website}`;
+        membership_level.textContent = `${company.membership_level}`;
+
+        portrait.setAttribute('src', company.image); // Updated this line
+        portrait.setAttribute('alt', `Portrait of ${company.name}`);
+        portrait.setAttribute('loading', 'lazy');
+
+        card.appendChild(name);
+        card.appendChild(address);
+        card.appendChild(phone);
+        card.appendChild(website);
+        card.appendChild(portrait); // Corrected this line previously
+        card.appendChild(membership_level);
+
+        cards.appendChild(card);
+    });
 }
