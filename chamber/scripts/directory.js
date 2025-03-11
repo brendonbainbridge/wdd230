@@ -46,11 +46,14 @@ const displayCompanies = (companies) => {
     });
 };
 
-// Event listeners for view toggle buttons
-gridButton.addEventListener('click', () => {
-    cards.classList.remove('list-view');
+gridButton.addEventListener("click", () => {
+    cards.classList.add("grid");
+    cards.classList.remove("list");
 });
 
-listButton.addEventListener('click', () => {
-    cards.classList.add('list-view');
-});
+listButton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+    cards.classList.add("list");
+    cards.classList.remove("grid");
+}

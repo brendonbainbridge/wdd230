@@ -845,6 +845,24 @@ input::placeholder {
 	display: none;
 }
 
+.dirmenu button {
+    text-decoration: none;
+    color: #0D1B2A;
+    background-color: #E0E1DD;
+    padding: 0.5em 1em;
+    border: #0D1B2A;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+
+.dirmenu button:hover {
+    text-decoration: none;
+    color: #E0E1DD;
+    background-color: #0D1B2A;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+}
+
 @media (max-width: 500px) {
 	#cards {
 		flex-direction: column;
