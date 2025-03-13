@@ -156,6 +156,7 @@ body {
 .weather {
     color: white;
     text-align: center;
+    min-width: 600px;
 }
 
 #current-temp {
