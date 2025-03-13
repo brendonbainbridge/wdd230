@@ -63,8 +63,6 @@ main {
     max-width: 775px;
 }
 
-.sideproject {}
-
 .sidebarthing {
     height: 100%;
     width: 240px;
@@ -649,7 +647,20 @@ body.dark-mode .join_us button:hover {
     border-radius: 8px;
 }
 
+.submit {
+    background-color: #E0E1DD;
+    color: #0D1B2A;
 
+}
+
+.submit:hover {
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+}
+
+.pform {
+    color: #E0E1DD;
+}
 
 main.feildset {
     background-color: #0D1B2A;
@@ -741,11 +752,6 @@ input::placeholder {
     /* Two equal columns */
     gap: 20px;
     /* Optional: Adds spacing between the columns */
-}
-
-.left {
-
-    /* Adjusts to take equal space with .right */
 }
 
 .right {
