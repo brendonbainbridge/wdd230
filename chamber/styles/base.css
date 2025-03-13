@@ -591,6 +591,7 @@ body.dark-mode .rexburg_questions,
 body.dark-mode .list_of_organizations,
 body.dark-mode .versions-section,
 body.dark-mode .version-box,
+body.dark-mode .foot_box,
 body.dark-mode .thankyou {
     background-color: black;
     color: white;
@@ -1022,7 +1023,7 @@ input::placeholder {
             z-index: 10;
             top: 130px;
             left: 10px;
-            background: #E0E1DD;
+            background: black;
             overflow-x: hidden;
             padding: 20px 0;
             border-radius: 8px;
