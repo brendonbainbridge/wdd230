@@ -68,7 +68,7 @@ main {
 .sidebarthing {
     height: 100%;
     width: 240px;
-    position:static;
+    position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
@@ -1016,7 +1016,7 @@ input::placeholder {
         }
 
         .sidebarthing {
-            max-width: 30px;
+            max-width: 130px;
             height: 32em;
             position: absolute;
             z-index: 10;
