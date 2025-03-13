@@ -261,7 +261,7 @@ a {
 .image-box {
     /* flex: 1; */
     /* Allow the boxes to take up equal space */
-    max-width: 32%;
+    max-width: 100%;
     /* Limit the max width to create space between boxes */
     margin: 0.5em;
     /* Space around each box */
@@ -994,6 +994,20 @@ input::placeholder {
         max-width: fit-content;
     }
 
+    .image-box {
+        max-width: 100%;
+        /* Limit the max width to create space between boxes */
+        margin: 0.5em;
+        /* Space around each box */
+        background-color: #E0E1DD;
+        /* Background color for each box */
+        border-radius: 8px;
+        /* Rounded corners for the boxes */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        /* Subtle shadow for depth */
+        padding: 0.5em;
+        /* Padding inside the box */
+    
     .versions-container {
         align-items: center;
         flex-direction: column;
@@ -1032,5 +1046,5 @@ input::placeholder {
         display: grid;
         grid-template-columns: 1fr;
     }
-
+    
 }

@@ -38,7 +38,8 @@
             <ul class="navlist" id="navlist">
                 <li><a href="https://brendonbainbridge.github.io/wdd230/chamber/index.html" class="navlinks">Home</a>
                 </li>
-                <li><a href="https://brendonbainbridge.github.io/wdd230/chamber/join.html" class="navlinks">Join Us</a></li>
+                <li><a href="https://brendonbainbridge.github.io/wdd230/chamber/join.html" class="navlinks">Join Us</a>
+                </li>
                 <li><button class="darkmode">
                         🌚 Dark mode
                     </button></li>
@@ -55,11 +56,9 @@
                     alt="Picture of Rexburg next to BYUI and the Temple for the Church of Jesus Christ of Latter-day Saints"> -->
                 <div class="hero">
                     <picture>
-                        <source media="(min-width: 500px)" srcset="images/weekimagesmall.webp">
-                        <source media="(min-width: 1000px)" srcset="images/weekimagemedium.webp">
-                        <img src="images/weekimagelarge.webp"
-                            alt="random people at a table" width="1500"
-                            height="750">
+                        <source media="(min-width: 500px)" srcset="images/heroimage_small.webp">
+                        <source media="(min-width: 1000px)" srcset="images/heroimage_med.webp">
+                        <img src="images/heroimage_large.webp" alt="random people at a table" width="1500" height="750">
                     </picture>
                 </div>
             </div>
@@ -208,22 +207,26 @@
             <div class="join_us">
                 <a href="https://brendonbainbridge.github.io/wdd230/chamber/join.html">
                     <button>Join Us</button>
-                  </a>                  
+                </a>
             </div>
         </div>
     </main>
     <footer>
         <div class="foot_box">
             <nav>
-                <a href="#" class="foot_links">Home</a>
+                <a href="https://brendonbainbridge.github.io/wdd230/chamber/index.html" class="foot_links">Home</a>
                 <a href="https://brendonbainbridge.github.io/wdd230/chamber/join.html" class="foot_links">Join Us</a>
-                <a href="#" class="foot_links">Contact us</a>
+                <a href="https://brendonbainbridge.github.io/wdd230/chamber/directory.html"
+                    class="foot_links">Directory</a>
+                <a href="https://brendonbainbridge.github.io/wdd230/chamber/index.html" class="foot_links">Contact
+                    us</a>
             </nav>
         </div>
         <div>
             <p>&copy; <i id='copyright-year'></i> Brendon Bainbridge. USA. All rights reserved.</p>
             <p>Project for WDD 230. last-modified: <i id="lastModified"></i></p>
-            <p class="weather"><b>Weather:</b><br>Temperature: <span id="temp">30</span> F<br>Wind Speed: <span id="wind">30</span> MPH<br>Windchill: <span id="findwinchill">30</span> F<br></p>
+            <p class="weather"><b>Weather:</b><br>Temperature: <span id="temp">30</span> F<br>Wind Speed: <span
+                    id="wind">30</span> MPH<br>Windchill: <span id="findwinchill">30</span> F<br></p>
         </div>
     </footer>
     <script src="scripts/getdates.js"></script>
