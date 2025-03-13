@@ -1010,23 +1010,24 @@ input::placeholder {
         /* Subtle shadow for depth */
         padding: 0.5em;
         /* Padding inside the box */
+    }
 
-        .versions-container {
-            align-items: center;
-            flex-direction: column;
-        }
+    .versions-container {
+        align-items: center;
+        flex-direction: column;
+    }
 
-        .sidebarthing {
-            max-width: 130px;
-            height: 32em;
-            position: absolute;
-            z-index: 10;
-            top: 130px;
-            left: 10px;
-            background: black;
-            overflow-x: hidden;
-            padding: 20px 0;
-            border-radius: 8px;
+    .sidebarthing {
+        max-width: 130px;
+        height: 26em;
+        position: fixed;
+        z-index: 10;
+        top: 250px;
+        left: 10px;
+        background: #E0E1DD;
+        overflow-x: hidden;
+        padding: 20px 0;
+        border-radius: 8px;
         }
 
         .sideimages {
