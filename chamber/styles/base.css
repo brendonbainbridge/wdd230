@@ -591,7 +591,7 @@ body.dark-mode .rexburg_questions,
 body.dark-mode .list_of_organizations,
 body.dark-mode .versions-section,
 body.dark-mode .version-box,
-body.dark-mode .thankyou{
+body.dark-mode .thankyou {
     background-color: black;
     color: white;
 }
@@ -736,12 +736,14 @@ input::placeholder {
     border-radius: 8px;
     justify-content: space-between;
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two equal columns */
-    gap: 20px; /* Optional: Adds spacing between the columns */
+    grid-template-columns: 1fr 1fr;
+    /* Two equal columns */
+    gap: 20px;
+    /* Optional: Adds spacing between the columns */
 }
 
 .left {
-    
+
     /* Adjusts to take equal space with .right */
 }
 
@@ -782,67 +784,67 @@ input::placeholder {
 
 
 #cards {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 20px;
-	background-color: #0D1B2A;
-	color: #E0E1DD;
-	border-radius: 8px;
-	justify-content: center;
-	align-items: center;
-	padding-top: 40px;
-	padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .company-card {
-	background-color: #E0E1DD;
-	color: #0D1B2A;
-	border-radius: 8px;
-	padding: 16px;
-	width: 300px;
-	height: 550px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    background-color: #E0E1DD;
+    color: #0D1B2A;
+    border-radius: 8px;
+    padding: 16px;
+    width: 300px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .company-card img {
-	width: 90%;
-	height: auto;
-	padding: 10px;
+    width: 90%;
+    height: auto;
+    padding: 10px;
 }
 
 .company-card h2,
 .company-card p,
 .company-card a {
-	color: #0D1B2A;
-	margin: 3px 0;
+    color: #0D1B2A;
+    margin: 3px 0;
 }
 
 .list-view .company-card {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-color: #E0E1DD;
-	padding: 8px 16px;
-	margin-bottom: 10px;
-	width: 85%;
-	height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E0E1DD;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    width: 85%;
+    height: 150px;
 }
 
 .list-view .company-card.short {
-	width: 100%;
+    width: 100%;
 }
 
 .list-view .company-card h2,
 .list-view .company-card p,
 .list-view .company-card a {
-	margin: 5px 0;
+    margin: 5px 0;
 }
 
 .list-view .company-card img {
-	display: none;
+    display: none;
 }
 
 .dirmenu button {
@@ -864,12 +866,12 @@ input::placeholder {
 }
 
 @media (max-width: 500px) {
-	#cards {
-		flex-direction: column;
-		gap: 10px;
-		padding-left: 10px;
-		padding-right: 10px;
-	}
+    #cards {
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 
@@ -1007,44 +1009,44 @@ input::placeholder {
         /* Subtle shadow for depth */
         padding: 0.5em;
         /* Padding inside the box */
-    
-    .versions-container {
-        align-items: center;
-        flex-direction: column;
-    }
 
-    .sidebarthing {
-        width: 130px;
-        height: 32em;
-        position: absolute;
-        z-index: 10;
-        top: 130px;
-        left: 10px;
-        background: #E0E1DD;
-        overflow-x: hidden;
-        padding: 20px 0;
-        border-radius: 8px;
-    }
+        .versions-container {
+            align-items: center;
+            flex-direction: column;
+        }
 
-    .sideimages {
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-        /* Rounded corners for the image */
-        max-width: 80%;
-        /* Restrict maximum width */
-        display: grid;
-        grid-template-columns: 3fr;
-        align-items: center;
-    }
+        .sidebarthing {
+            width: 130px;
+            height: 32em;
+            position: absolute;
+            z-index: 10;
+            top: 130px;
+            left: 10px;
+            background: #E0E1DD;
+            overflow-x: hidden;
+            padding: 20px 0;
+            border-radius: 8px;
+        }
 
-    .sidebarimage:hover {
-        box-shadow: none
-    }
+        .sideimages {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            /* Rounded corners for the image */
+            max-width: 80%;
+            /* Restrict maximum width */
+            display: grid;
+            grid-template-columns: 3fr;
+            align-items: center;
+        }
 
-    .formedition {
-        display: grid;
-        grid-template-columns: 1fr;
+        .sidebarimage:hover {
+            box-shadow: none
+        }
+
+        .formedition {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
     }
-    
 }
