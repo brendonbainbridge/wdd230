@@ -1015,7 +1015,18 @@ input::placeholder {
             flex-direction: column;
         }
 
-      
+        .sidebarthing {
+            max-width: 130px;
+            height: 32em;
+            position: absolute;
+            z-index: 10;
+            top: 130px;
+            left: 10px;
+            background: #E0E1DD;
+            overflow-x: hidden;
+            padding: 20px 0;
+            border-radius: 8px;
+        }
 
         .sideimages {
             max-width: 100%;
