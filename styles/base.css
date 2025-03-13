@@ -158,6 +158,10 @@ body {
     text-align: center;
 }
 
+#current-temp {
+    color: white;
+}
+
 .visits {
     color: white;
     text-align: center;
