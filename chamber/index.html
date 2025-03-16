@@ -212,7 +212,7 @@
             </div>
             <div class="join_us">
                 <a href="https://brendonbainbridge.github.io/wdd230/chamber/join.html">
-                    <button>Join Us</button>
+                    Join Us
                 </a>
             </div>
         </div>
@@ -233,14 +233,20 @@
         <div>
             <p>&copy; <i id='copyright-year'></i> Brendon Bainbridge. USA. All rights reserved.</p>
             <p>Project for WDD 230. last-modified: <i id="lastModified"></i></p>
-            <p class="weather"><b>Weather:</b><br>Temperature: <span id="temp">30</span> F<br>Wind Speed: <span
-                    id="wind">30</span> MPH<br>Windchill: <span id="findwinchill">30</span> F<br></p>
+            <!-- <p class="weather"><b>Weather:</b><br>Temperature: <span id="temp">30</span> F<br>Wind Speed: <span
+                    id="wind">30</span> MPH<br>Windchill: <span id="findwinchill">30</span> F<br></p> -->
+                    <p class="weather">The current temperature in Rexburg, Idaho is: <br><br><span id="current-temp"></span></p>
+          <figure>
+            <img id="weather-icon" src="" alt="">
+            <figcaption></figcaption>
+          </figure>
         </div>
     </footer>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/windchill.js"></script>
     <script src="scripts/banner.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 
 </html>

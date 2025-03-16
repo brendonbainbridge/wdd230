@@ -482,7 +482,7 @@ a {
     font-size: large;
 }
 
-.join_us button {
+.join_us a {
     padding: 0.5em 1em;
     border: none;
     border-radius: 8px;
@@ -492,7 +492,7 @@ a {
     cursor: pointer;
 }
 
-.join_us button:hover {
+.join_us a:hover {
     background-color: #E0E1DD;
     color: #0D1B2A;
 }
