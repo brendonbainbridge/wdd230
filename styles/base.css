@@ -217,6 +217,15 @@ footer {
     color: white;
     cursor: pointer;
 }
+  
+  figure {
+    text-align: center; /* Centers the entire figure */
+  }
+  
+  figcaption {
+    color: white;
+  }
+  
 
 /* Show the hamburger menu on small screens */
 @media (max-width: 500px) {
