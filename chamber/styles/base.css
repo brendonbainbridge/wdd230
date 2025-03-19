@@ -894,6 +894,39 @@ input::placeholder {
   }
   
 
+  #banner {
+    display: none;
+  }
+
+  #banner.active {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E0E1DD;
+    color: #0D1B2A;
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 10px;
+  }
+
+  #close {
+    border: none;
+    background: none;
+    color: #0D1B2A;
+    font-size: 20px;
+    font:bolder;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+  
+  #close:hover {
+    color: #E0E1DD;
+    background-color: #0D1B2A;
+    border-radius: 8px;
+  }
+  
 
 
 @media (max-width: 500px) {
