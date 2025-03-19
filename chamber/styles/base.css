@@ -872,6 +872,30 @@ input::placeholder {
     border-radius: 8px;
 }
 
+
+
+  #forecast-container {
+    display: flex; /* Enables Flexbox for horizontal alignment */
+    gap: 1rem; /* Adds spacing between the forecast cards */
+    justify-content: center; /* Centers the items horizontally */
+  }
+  
+  .forecast-day {
+    background-color: #E0E1DD; /* Light background for better visibility */
+    color: #0D1B2A;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    min-width: 100px;/* Fixes the width of each day's forecast card */
+  }
+  
+  .forecast-day img {
+    max-width: 100%; /* Ensures the weather icon scales properly */
+  }
+  
+
+
+
 @media (max-width: 500px) {
     #cards {
         flex-direction: column;
