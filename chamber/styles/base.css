@@ -928,7 +928,7 @@ input::placeholder {
     nav ul.show {
         display: flex;
         /* Show nav links when hamburger is clicked */
-        padding-top: 25px;
+        padding-top: 30px;
     }
 
     .hamburger-menu {
