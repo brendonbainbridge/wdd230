@@ -143,6 +143,35 @@
         display: grid;
         grid-template-columns: 1fr;
     }
+
+    #forecast-container {
+        display: flex;
+        /* Enables Flexbox for horizontal alignment */
+        gap: 0.5rem;
+        /* Adds spacing between the forecast cards */
+        justify-content: center;
+        /* Centers the items horizontally */
+    }
+    
+    .forecast-day {
+        background-color: #E0E1DD;
+        /* Light background for better visibility */
+        color: #0D1B2A;
+        padding: 0.5rem;
+        border-radius: 8px;
+        text-align: center;
+        min-width: 90px;
+        /* Fixes the width of each day's forecast card */
+    }
+    
+    .forecast-day img {
+        max-width: 90%;
+        /* Ensures the weather icon scales properly */
+    }
+
+
+
+
 }
 
 @media (max-width: 500px) {
