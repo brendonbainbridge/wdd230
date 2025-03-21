@@ -52,10 +52,11 @@ nav a:hover {
 
 .navlinks {
     padding: 0 10px;
+    border-bottom: 2px solid transparent; /* Default state with no line */
 }
 
-nav a.currentwebsite {
-    border-bottom: 2px solid black;
+nav a#currentwebsite {
+    border-bottom: 5px solid #0D1B2A;
   }
 
 main {
