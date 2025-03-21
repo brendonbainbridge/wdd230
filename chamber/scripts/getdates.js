@@ -18,7 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
             hamburgerMenu.textContent = navList.classList.contains("show") ? "✕" : "≡";
         });
     } else {
-        console.error("Hamburger menu or navigation list not found in the DOM.");
     }
 });
 

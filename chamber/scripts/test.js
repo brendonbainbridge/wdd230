@@ -12,7 +12,6 @@ async function getDirectory() {
     // Shuffle and display the companies
     displayRandomCompanies(data.companies);
   } catch (error) {
-    console.error("Error fetching directory data:", error);
   }
 }
 
