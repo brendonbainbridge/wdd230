@@ -1,5 +1,5 @@
 body {
-    font-family: "Agdasima", sans-serif;
+    font-family: "Space Mono", monospace;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,7 +63,6 @@ main {
     padding: 2em;
     margin: 1em;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 775px;
 }
 
@@ -72,28 +71,6 @@ main {
     color: #F2E8C6;
     border-radius: 8px;
     padding: 0.25em;
-}
-
-.boxforimages {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
-    max-width: 100%;
-    margin: 0.5em;
-    background-color: #800000;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 0.5em;
-}
-
-.boxforimages img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.sidebarimage:hover {
-    box-shadow: 0 0 50px #800000;
 }
 
 .visitnum {
@@ -116,7 +93,6 @@ a {
     padding: 1em;
     margin: 1em 0;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 700px;
 }
 
@@ -130,7 +106,6 @@ a {
     padding: 1em;
     margin: 1em 0;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     flex-wrap: wrap;
 }
 
@@ -160,7 +135,6 @@ a {
     padding: 1em;
     margin: 1em 0;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .image_container {
