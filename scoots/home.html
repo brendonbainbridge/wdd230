@@ -23,27 +23,6 @@
     <link rel="icon" href="images/favicon.ico">
 </head>
 
-
-
-
-
-
-
-A call to action to make a rental reservation.
-Readily available navigation and contact information.
-Summary information about all the types of rentals.
-Social media links (a general link is OK)
-Weather information from the free version of openweathermap.org. Here is the minimum information to include on the page:
-✔️ The current temperature
-✔️ The current humidity
-✔️ The next day's forecasted temperature at 15:00 (3:00pm).
-✔️ All the weather data points provided including the main (which is the title, e.g., "Clouds"), the description, and
-the associated weather icon.
-
-
-
-
-
 <body>
     <div id="banner">
         <p>The Temperature at this location is currently $Something</p>
@@ -52,7 +31,7 @@ the associated weather icon.
 
     <header>
         <nav>
-            <button class="hamburger-menu" id="hamburger-menu">
+            <button class="hamburger_menu" id="hamburger_menu">
                 &#9776;
             </button>
             <ul class="nav_list" id="nav_list">
@@ -105,26 +84,26 @@ the associated weather icon.
             </ul>
             <div class="rental_page_a">
                 <a href="https://brendonbainbridge.github.io/wdd230/chamber/join.html">
-                    Rental Page
+                    Learn More
                 </a>
             </div>
-            <div class="rexburg_images">
+            <div class="scoot_images">
                 <h2>Scoots Rentals</h2>
-                <div class="image-container">
-                    <div class="image-box">
-                        <img src="images/rexburgimage1.webp" alt="Image of Rexburg 1">
+                <div class="image_container">
+                    <div class="image_box">
+                        <img src="images/rexburgimage1.webp" alt="Image for Scoot 1">
                     </div>
-                    <div class="image-box">
-                        <img src="images/rexburgimage2.webp" alt="Image of Rexburg 2">
+                    <div class="image_box">
+                        <img src="images/rexburgimage2.webp" alt="Image for Scoot 2">
                     </div>
-                    <div class="image-box">
-                        <img src="images/rexburgimage3.webp" alt="Image of Rexburg 3">
+                    <div class="image_box">
+                        <img src="images/rexburgimage3.webp" alt="Image for Scoot 3">
                     </div>
                 </div>
             </div>
             <div class="reservations_page_a">
                 <a href="https://brendonbainbridge.github.io/wdd230/chamber/join.html">
-                    Reservations Page
+                    Rent your car now!
                 </a>
             </div>
         </div>
@@ -142,6 +121,8 @@ the associated weather icon.
                         LinkedIn</a></li>
             </ul>
         </div>
+<div class="weather"></div>
+
     </main>
     <footer>
         <div class="foot_box">
@@ -157,11 +138,9 @@ the associated weather icon.
         </div>
         <div>
             <p>&copy; <i id='copyright-year'></i> Brendon Bainbridge. USA. All rights reserved.</p>
-            <p>Project for WDD 230. last-modified: <i id="lastModified"></i></p>
             <p>Contact us: email@email.org</p>
-            <p class="weather">The temperature for the next couple of days in Rexburg, Idaho is: <br><br>
+            <p class="weather">The temperature for today and tomarrow in Cozumel is: <br><br>
             <div id="forecast-container">
-                <h2>3-Day Forecast</h2>
             </div>
         </div>
     </footer>
