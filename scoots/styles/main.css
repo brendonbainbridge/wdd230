@@ -234,6 +234,14 @@ a {
     text-align: left;
 }
 
+.Social_media a:hover {
+    text-decoration: none;
+    color: #800000;
+    background-color: #F2E8C6;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+}
+
 .reservations_page_a {
     margin-top: 1em;
     font-size: large;
