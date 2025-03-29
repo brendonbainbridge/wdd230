@@ -1,5 +1,5 @@
 body {
-    font-family: "Newsreader", serif;
+    font-family: "Agdasima", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -173,7 +173,6 @@ a {
     margin: 0.5em;
     background-color: #F2E8C6;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 0.5em;
 }
 
@@ -192,7 +191,6 @@ a {
     padding: 1em;
     margin: 1em 0;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .rental_summery_details h2 {
@@ -206,7 +204,6 @@ a {
     width: 100%;
     padding: 0;
     margin: 0;
-    list-style-type: none;
 }
 
 .rental_summery_details li {
