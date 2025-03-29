@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-color: #800000;
+    background-color: #4b0600;
 }
 
 header {
@@ -27,7 +27,7 @@ ul {
 }
 
 nav a {
-    color: #800000;
+    color: #4b0600;
     margin: 0 1em;
     text-decoration: solid;
     font-weight: bold;
@@ -36,7 +36,7 @@ nav a {
 nav a:hover {
     text-decoration: none;
     color: #F2E8C6;
-    background-color: #800000;
+    background-color: #4b0600;
     padding: 0.5em 1em;
     border-radius: 8px;
 }
@@ -55,7 +55,7 @@ nav a:hover {
 }
 
 nav a#currentwebsite {
-    border-bottom: 5px solid #800000;
+    border-bottom: 5px solid #4b0600;
   }
 
 main {
@@ -67,7 +67,7 @@ main {
 }
 
 .titlehead {
-    background-color: #800000;
+    background-color: #4b0600;
     color: #F2E8C6;
     border-radius: 8px;
     padding: 0.25em;
@@ -101,7 +101,7 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 1em;
-    background-color: #800000;
+    background-color: #4b0600;
     color: #F2E8C6;
     padding: 1em;
     margin: 1em 0;
@@ -130,8 +130,8 @@ a {
 
 .scoot_images {
     text-align: center;
-    background-color: #800000;
-    color: #800000;
+    background-color: #4b0600;
+    color: #4b0600;
     padding: 1em;
     margin: 1em 0;
     border-radius: 8px;
@@ -161,7 +161,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #800000;
+    background-color: #4b0600;
     color: #F2E8C6;
     padding: 1em;
     margin: 1em 0;
@@ -200,7 +200,7 @@ a {
 }
 
 .Social_media {
-    background-color: #800000;
+    background-color: #4b0600;
     color: #F2E8C6;
     padding: 1em;
     margin: 1em 0;
@@ -236,7 +236,7 @@ a {
 
 .Social_media a:hover {
     text-decoration: none;
-    color: #800000;
+    color: #4b0600;
     background-color: #F2E8C6;
     padding: 0.5em 1em;
     border-radius: 8px;
@@ -251,7 +251,7 @@ a {
     padding: 0.5em 1em;
     border: none;
     border-radius: 8px;
-    background-color: #800000;
+    background-color: #4b0600;
     color: #F2E8C6;
     font-weight: bold;
     cursor: pointer;
@@ -261,7 +261,7 @@ a {
 
 .reservations_page_a a:hover {
     background-color: #F2E8C6;
-    color: #800000;
+    color: #4b0600;
 }
 
 .rental_page_a {
@@ -273,7 +273,7 @@ a {
     padding: 0.5em 1em;
     border: none;
     border-radius: 8px;
-    background-color: #800000;
+    background-color: #4b0600;
     color: #F2E8C6;
     font-weight: bold;
     cursor: pointer;
@@ -281,7 +281,7 @@ a {
 
 .rental_page_a a:hover {
     background-color: #F2E8C6;
-    color: #800000;
+    color: #4b0600;
 }
 
 p {
@@ -301,7 +301,7 @@ p {
 }
 
 .foot_nav a {
-    color: #800000;
+    color: #4b0600;
     margin: 0 1em;
     text-decoration: solid;
     font-weight: bold;
@@ -310,13 +310,13 @@ p {
 .foot_nav a:hover {
     text-decoration: none;
     color: #F2E8C6;
-    background-color: #800000;
+    background-color: #4b0600;
     padding: 0.5em 1em;
     border-radius: 8px;
 }
 
 footer {
-    background-color: #800000;
+    background-color: #4b0600;
     color: #F2E8C6;
     width: 100%;
     padding: 1em 0;
@@ -351,7 +351,7 @@ footer {
 
 .forecast-day {
     background-color: #F2E8C6;
-    color: #800000;
+    color: #4b0600;
     padding: 1rem;
     border-radius: 8px;
     text-align: center;
@@ -372,7 +372,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: #F2E8C6;
-    color: #800000;
+    color: #4b0600;
     border-radius: 8px;
     padding: 5px;
     padding-left: 15px;
@@ -384,7 +384,7 @@ footer {
 #close {
     border: none;
     background: none;
-    color: #800000;
+    color: #4b0600;
     font-size: 15px;
     font: bolder;
     padding: 5px;
@@ -394,6 +394,6 @@ footer {
 
 #close:hover {
     color: #F2E8C6;
-    background-color: #800000;
+    background-color: #4b0600;
     border-radius: 8px;
 }
