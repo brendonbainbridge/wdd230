@@ -155,7 +155,7 @@ a {
     /* Restrict maximum width */
 }
 
-.about_rexburg_text {
+.about_scoots_text {
     flex: 1;
     /* Take up equal space */
     max-width: 50%;
@@ -214,7 +214,7 @@ a {
     /* Rounded corners for the images */
 }
 
-.rexburg_questions {
+.rental_summery_details {
     display: flex;
     flex-direction: column;
     /* Arrange items in a column */
@@ -229,14 +229,14 @@ a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.rexburg_questions h2 {
+.rental_summery_details h2 {
     width: 100%;
     /* Ensure the heading takes up the full width */
     margin-bottom: 1em;
     /* Space between the heading and the list */
 }
 
-.rexburg_questions ul {
+.rental_summery_details ul {
     display: flex;
     flex-wrap: wrap;
     /* Allow the list items to wrap */
@@ -248,7 +248,7 @@ a {
     /* Remove default list styling */
 }
 
-.rexburg_questions li {
+.rental_summery_details li {
     width: 50%;
     /* Each list item takes up 50% of the container width */
     box-sizing: border-box;
@@ -257,12 +257,12 @@ a {
     /* Add padding for spacing */
 }
 
-.rexburg_questions h3 {
+.rental_summery_details h3 {
     margin: 0 0 0.5em 0;
     /* Space between question and answer */
 }
 
-.rexburg_questions p {
+.rental_summery_details p {
     margin: 0 0 1em 0;
     /* Space between answers */
 }
@@ -363,13 +363,36 @@ a {
     max-width: 300px;
 }
 
-.join_us {
+.reservations_page_a {
     margin-top: 1em;
     /* Space between the boxes and the button */
     font-size: large;
 }
 
-.join_us a {
+.reservations_page_a a {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 8px;
+    background-color: #800000;
+    color: #F2E8C6;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservations_page_a a:hover {
+    background-color: #F2E8C6;
+    color: #800000;
+}
+
+.rental_page_a {
+    margin-top: 1em;
+    /* Space between the boxes and the button */
+    font-size: large;
+}
+
+.rental_page_a a {
     padding: 0.5em 1em;
     border: none;
     border-radius: 8px;
@@ -379,18 +402,9 @@ a {
     cursor: pointer;
 }
 
-.join_us a:hover {
+.rental_page_a a:hover {
     background-color: #F2E8C6;
     color: #800000;
-}
-
-.darkmode {
-    border: none;
-    border-radius: 4px;
-    background-color: #F2E8C6;
-    color: #800000;
-    font-weight: bold;
-    cursor: pointer;
 }
 
 p {
@@ -454,313 +468,6 @@ footer {
     display: none;
     /* Hide by default */
 }
-
-
-/*dark mode*/
-.dark-mode {
-    color: black;
-    background-color: white;
-}
-
-body.dark-mode,
-footer.dark-mode {
-    background-color: black;
-    color: white;
-}
-
-body.dark-mode .hero_container,
-body.dark-mode .facts_and_history,
-body.dark-mode .rexburg_images,
-body.dark-mode .rexburg_events,
-body.dark-mode .rexburg_questions,
-body.dark-mode .list_of_organizations,
-body.dark-mode .versions-section,
-body.dark-mode .version-box,
-body.dark-mode .foot_box,
-body.dark-mode .foot_links,
-body.dark-mode .join_us
-body.dark-mode .thankyou {
-    background-color: black;
-    color: white;
-}
-
-body.dark-mode .thankyou {
-    border-radius: 8px;
-    padding: 1px;
-}
-
-body.dark-mode .titlehead {
-    background-color: black;
-    color: white;
-    border-radius: 8px;
-    padding: 1em;
-}
-
-body.dark-mode nav a:hover {
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    padding: 0.5em 1em;
-    border-radius: 8px;
-}
-
-.body.dark-mode button {
-    background-color: black;
-    color: white;
-}
-
-body.dark-mode .join_us a {
-    padding: 0.5em 1em;
-    border: none;
-    border-radius: 8px;
-    background-color: black;
-    /* Black background */
-    color: white;
-    /* White text */
-    font-weight: bold;
-    cursor: pointer;
-}
-
-body.dark-mode .join_us a:hover {
-    background-color: white;
-    /* White background on hover */
-    color: black;
-    /* Black text on hover */
-}
-
-.body.dark-mode .foot_nav a:hover {
-    text-decoration: none;
-    color: black;
-    background-color: white;
-    padding: 0.5em 1em;
-    border-radius: 8px;
-}
-
-.submit {
-    background-color: #F2E8C6;
-    color: #800000;
-
-}
-
-.submit:hover {
-    background-color: #800000;
-    color: #F2E8C6;
-}
-
-.pform {
-    color: #F2E8C6;
-}
-
-main.feildset {
-    background-color: #800000;
-}
-
-.forminfo {
-    background-color: #F2E8C6;
-    color: #800000;
-    border-radius: 8px;
-    flex-direction: column;
-    align-items: center;
-}
-
-.forminfobox {
-    background-color: #800000;
-    border-radius: 8px;
-}
-
-.formh2 {
-    background-color: #800000;
-    border-radius: 8px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.formh2info {
-    color: #800000;
-    border-radius: 8px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.forminfo {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    /* Optional: Add padding for spacing */
-}
-
-.forminfo label {
-    display: block;
-    /* Make labels block-level */
-    margin-bottom: 5px;
-    /* Add space between labels and inputs */
-}
-
-.forminfo input {
-    display: block;
-    /* Make inputs block-level */
-    width: 100%;
-    /* Make inputs take full width */
-    box-sizing: border-box;
-    /* Include padding and border in width */
-    margin-bottom: 10px;
-    /* Add space between input elements */
-    padding: 2%;
-}
-
-.memver {
-    background-color: #800000;
-    padding: 2%;
-    border-radius: 8px;
-}
-
-label {
-    font-size: 18px;
-    font-weight: bolder;
-}
-
-input {
-    background-color: #800000;
-    color: #F2E8C6;
-    border-radius: 8px;
-    padding-top: 10px;
-    padding-bottom: 10px
-}
-
-input::placeholder {
-    color: #F2E8C6;
-}
-
-.formedition {
-    background-color: #F2E8C6;
-    color: #800000;
-    border-radius: 8px;
-    justify-content: space-between;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* Two equal columns */
-    gap: 20px;
-    /* Optional: Adds spacing between the columns */
-}
-
-.right {
-    align-items: start;
-}
-
-.formedition p {
-    background-color: #800000;
-    /* Light background for the box */
-    color: #F2E8C6;
-    padding: 10px;
-    /* Space inside the box */
-    margin-bottom: 10px;
-    /* Space between the boxes */
-    border-radius: 8px;
-    /* Rounded corners for a cleaner look */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    /* Optional: Adds a shadow for depth */
-    max-width: 200px;
-}
-
-.radio-box {
-    display: flex;
-    /* Enable Flexbox layout */
-    flex-direction: column;
-    /* Stack items vertically */
-    align-items: flex-start;
-    /* Align items to the left */
-    gap: 10px;
-    /* Add space between radio buttons */
-}
-
-#textbox {
-    padding-top: 40px;
-}
-
-
-
-#cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    background-color: #800000;
-    color: #F2E8C6;
-    border-radius: 8px;
-    justify-content: center;
-    align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.company-card {
-    background-color: #F2E8C6;
-    color: #800000;
-    border-radius: 8px;
-    padding: 16px;
-    width: 300px;
-    height: 550px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.company-card img {
-    width: 90%;
-    height: auto;
-    padding: 10px;
-}
-
-.company-card h2,
-.company-card p,
-.company-card a {
-    color: #800000;
-    margin: 3px 0;
-}
-
-.list-view .company-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #F2E8C6;
-    padding: 8px 16px;
-    margin-bottom: 10px;
-    width: 85%;
-    height: 150px;
-}
-
-.list-view .company-card.short {
-    width: 100%;
-}
-
-.list-view .company-card h2,
-.list-view .company-card p,
-.list-view .company-card a {
-    margin: 5px 0;
-}
-
-.list-view .company-card img {
-    display: none;
-}
-
-.dirmenu button {
-    text-decoration: none;
-    color: #800000;
-    background-color: #F2E8C6;
-    padding: 0.5em 1em;
-    border: #800000;
-    border-radius: 8px;
-    font-weight: bolder;
-}
-
-.dirmenu button:hover {
-    text-decoration: none;
-    color: #F2E8C6;
-    background-color: #800000;
-    padding: 0.5em 1em;
-    border-radius: 8px;
-}
-
 
 
 #forecast-container {
