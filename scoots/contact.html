@@ -59,47 +59,43 @@
             </div>
         </div>
         <div class="about_scoots_text">
-            <h2>Get Your Rental Today!</h2>
-            <p>Scoots goes out of their way to make sure that the products you rent here are of excellent quality,
-                while at an affordable price. This is all done while providing a variety of options, so that
-                whatever you end up choosing, will be best suited for you!</p>
+            <h2>Get In Touch With Us!</h2>
+            <p>For any you need to contact us instead of using the form, feel free to email us at "email.email.com"! Our
+                number is "000-000-0000", and you can find our address for both our locations on the built in map below.
+            </p>
         </div>
     </div>
-    <div class="rental_summery_details">
-        <h2 class="rental_details_h2">Rental Details</h2>
-        <ul>
-            <li>We provide a range from 1 to 5 seated vehicles</li>
-            <li>Types of vehicles that we rent out are scooters, ATV’s, and Jeeps</li>
-            <li>Compatible with many forms or methods of payment</li>
-            <li>Unlimited miles and included insurance!</li>
+    <div class="form_box">
+        <h2 class="form_h2">Sign up Form</h2>
+        <form method="get" id="signup" action="thankyou.html">
+            <fieldset class="form_info">
+                <h2 class="formh2info">Application Information</h2>
+                <label>First name* <input type="text" name="fname" id="fname" required></label>
+                <label>Last name* <input type="text" name="lname" id="lname" required></label>
+                <label>Email* <input type="email" name="email" placeholder="email@email.com" id="email"
+                        required></label>
+            </fieldset>
+            <fieldset class="contact_form">
+                <div>
+                    <div class="radio-box">
+                        <h2 class="type_question">Questions about:</h2>
+                        <label><input type="radio" name="memver" value="Gold"> Scooters</label>
+                        <label><input type="radio" name="memver" value="Silver"> Jeeps</label>
+                        <label><input type="radio" name="memver" value="Non-Prophet"> ATV's</label>
+                        <label><input type="radio" name="memver" value="Non-Prophet"> Other</label>
+                        <br>
+                        <label>Describe Your Problem: </label>
+                        <textarea id="textbox" name="textbox"
+                            placeholder="I cant wait to ride a scooter, but im worried ill fall... :P"></textarea>
+                        <br>
+                    </div>
+                </div>
+            </fieldset>
             <br>
-            <p>Feel free to contact us with any questions you may have! Or check out our Rentals page for more
-                in-depth details and information.</p>
-        </ul>
-        <div class="rental_page_a">
-            <a href="https://brendonbainbridge.github.io/wdd230/chamber/join.html">
-                Learn More
-            </a>
-        </div>
-    </div>
-    <div class="scoot_images">
-        <h2>Scoots Rentals</h2>
-        <div class="image_container">
-            <div class="image_box">
-                <img src="https://loremflickr.com/320/240" />
-            </div>
-            <div class="image_box">
-                <img src="https://loremflickr.com/320/240" />
-            </div>
-            <div class="image_box">
-                <img src="https://loremflickr.com/320/240" />
-            </div>
-        </div>
-    </div>
-    <div class="reservations_page_a">
-        <a href="https://brendonbainbridge.github.io/wdd230/chamber/join.html">
-            Rent your car now!
-        </a>
+            <input type="submit" class="submit" value="Send Question">
+            <br>
+            <br>
+        </form>
     </div>
     <div class="Social_media">
         <p><b>Offical Social Media Links:</b></p>
@@ -111,7 +107,10 @@
             <li><a href="https://www.linkedin.com/" class="Social_links">LinkedIn</a></li>
         </ul>
     </div>
-    <div class="weather"></div>
+    <div class="google_maps">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1GRmjBSNNWsucy20tYZKzw4c_T1JVlvU&ehbc=2E312F&noprof=1"
+            width="90%" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 
 </main>
 <footer>
@@ -134,7 +133,12 @@
         </div>
     </div>
 </footer>
-<script></script>
+<script src="scripts/getdates.js"></script>
+<script src="scripts/darkmode.js"></script>
+<script src="scripts/windchill.js"></script>
+<script src="scripts/banner.js"></script>
+<script src="scripts/weather.js"></script>
+<script src="scripts/test.js"></script>
 </body>
 
 </html>

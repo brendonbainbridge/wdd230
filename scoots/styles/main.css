@@ -397,3 +397,128 @@ footer {
     background-color: #4b0600;
     border-radius: 8px;
 }
+
+.form_box {
+    background-color: #4b0600;
+    border-radius: 8px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex; /* Ensure flexbox is used */
+}
+
+
+
+
+
+
+.form_h2 {
+    background-color: #4b0600;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.formh2info {
+    color: white;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.form_info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* Optional: Add padding for spacing */
+    justify-content: center;
+    align-items: center;
+}
+
+.form_info label {
+    display: block;
+    /* Make labels block-level */
+    margin-bottom: 5px;
+    /* Add space between labels and inputs */
+}
+
+.form_info input {
+    display: block;
+    /* Make inputs block-level */
+    width: 100%;
+    /* Make inputs take full width */
+    box-sizing: border-box;
+    /* Include padding and border in width */
+    margin-bottom: 10px;
+    /* Add space between input elements */
+    padding: 2%;
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact_form {
+    align-items: center;
+    justify-content: center;
+}
+
+.memver {
+    background-color: #4b0600;
+    padding: 2%;
+    border-radius: 8px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+input {
+    background-color: white;
+    color: #4b0600;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+input::placeholder {
+    color: #4b0600;
+}
+
+.formedition p {
+    background-color: #0D1B2A;
+    /* Light background for the box */
+    color: #E0E1DD;
+    padding: 10px;
+    /* Space inside the box */
+    margin-bottom: 10px;
+    /* Space between the boxes */
+    border-radius: 8px;
+    /* Rounded corners for a cleaner look */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    /* Optional: Adds a shadow for depth */
+    max-width: 200px;
+}
+
+.radio-box {
+    display: flex;
+    /* Enable Flexbox layout */
+    flex-direction: column;
+    /* Stack items vertically */
+    align-items: center;
+    justify-content: center;
+    /* Align items to the left */
+    gap: 10px;
+    /* Add space between radio buttons */
+}
+
+#textbox {
+    padding-top: 50px;
+}
+
+#textbox :placeholder-shown {
+    padding-bottom: 20px;
+}
