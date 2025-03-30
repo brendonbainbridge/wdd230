@@ -23,26 +23,118 @@
     <link rel="icon" href="images/favicon.ico">
 </head>
 
-<body>
-    <header>
+<header>
+    <nav>
+        <button class="hamburger_menu" id="hamburger_menu">
+            &#9776;
+        </button>
+        <ul class="nav_list" id="nav_list">
+            <li><a href="https://brendonbainbridge.github.io/wdd230/scoots/home.html" class="nav_links">Home</a>
+            </li>
+            <li><a href="https://brendonbainbridge.github.io/wdd230/scoots/rentals.html" class="nav_links">Rentals</a>
+            </li>
+            <li><a href="https://brendonbainbridge.github.io/wdd230/scoots/reservations.html"
+                    class="nav_links">Reservations</a>
+            </li>
+            <li><a href="https://brendonbainbridge.github.io/wdd230/scoots/contact.html" class="nav_links"
+                    id="currentwebsite">Contact
+                    Us</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="container">
+    <div class="titlehead">
+        <h1>Scoots Rentals</h1>
+    </div>
+    <div class="hero_container">
+        <div class="hero_image">
+            <div class="hero">
+                <picture>
+                    <!-- <source media="(min-width: 500px)" srcset="images/heroimage_small.webp">
+                    <source media="(min-width: 1000px)" srcset="images/heroimage_med.webp"> -->
+                    <!-- <img src="images/heroimage_large.webp" alt="random people at a table" width="1500" height="750"> -->
+                    <img src="https://loremflickr.com/1500/750" />
+                </picture>
+            </div>
+        </div>
+        <div class="about_scoots_text">
+            <h2>Get Your Rental Today!</h2>
+            <p>Scoots goes out of their way to make sure that the products you rent here are of excellent quality,
+                while at an affordable price. This is all done while providing a variety of options, so that
+                whatever you end up choosing, will be best suited for you!</p>
+        </div>
+    </div>
+    <div class="rental_summery_details">
+        <h2 class="rental_details_h2">Rental Details</h2>
+        <ul>
+            <li>We provide a range from 1 to 5 seated vehicles</li>
+            <li>Types of vehicles that we rent out are scooters, ATV’s, and Jeeps</li>
+            <li>Compatible with many forms or methods of payment</li>
+            <li>Unlimited miles and included insurance!</li>
+            <br>
+            <p>Feel free to contact us with any questions you may have! Or check out our Rentals page for more
+                in-depth details and information.</p>
+        </ul>
+        <div class="rental_page_a">
+            <a href="https://brendonbainbridge.github.io/wdd230/chamber/join.html">
+                Learn More
+            </a>
+        </div>
+    </div>
+    <div class="scoot_images">
+        <h2>Scoots Rentals</h2>
+        <div class="image_container">
+            <div class="image_box">
+                <img src="https://loremflickr.com/320/240" />
+            </div>
+            <div class="image_box">
+                <img src="https://loremflickr.com/320/240" />
+            </div>
+            <div class="image_box">
+                <img src="https://loremflickr.com/320/240" />
+            </div>
+        </div>
+    </div>
+    <div class="reservations_page_a">
+        <a href="https://brendonbainbridge.github.io/wdd230/chamber/join.html">
+            Rent your car now!
+        </a>
+    </div>
+    <div class="Social_media">
+        <p><b>Offical Social Media Links:</b></p>
+        <ul>
+            <li><a href="https://www.instagram.com/" class="Social_links">Instagram</a></li>
+            <li><a href="https://x.com/?lang=en" class="Social_links">X(Twitter)</a></li>
+            <li><a href="https://www.facebook.com/" class="Social_links">Facebook</a></li>
+            <li><a href="https://www.youtube.com/" class="Social_links">Youtube</a></li>
+            <li><a href="https://www.linkedin.com/" class="Social_links">LinkedIn</a></li>
+        </ul>
+    </div>
+    <div class="weather"></div>
+
+</main>
+<footer>
+    <div class="foot_box">
         <nav>
-            <button class="hamburger-menu" id="hamburger-menu">
-                &#9776;
-            </button>
-            <ul class="navlist" id="navlist">
-                <li><a href="https://brendonbainbridge.github.io/wdd230/scoots/home.html" class="navlinks"
-                        id="currentwebsite">Home</a>
-                </li>
-                <li><a href="https://brendonbainbridge.github.io/wdd230/scoots/rentals.html"
-                        class="navlinks">Rentals</a>
-                </li>
-                <li><a href="https://brendonbainbridge.github.io/wdd230/scoots/reservations.html"
-                        class="navlinks">Reservations</a>
-                </li>
-                <li><a href="https://brendonbainbridge.github.io/wdd230/scoots/contact.html" class="navlinks">Contact
-                        Us</a>
-                </li>
-            </ul>
+            <a href="https://brendonbainbridge.github.io/wdd230/scoots/home.html" class="foot_links"
+                id="currentwebsite">Home</a>
+            <a href="https://brendonbainbridge.github.io/wdd230/scoots/rentals.html" class="foot_links">Rentals</a>
+            <a href="https://brendonbainbridge.github.io/wdd230/scoots/reservations.html"
+                class="foot_links">Reservations</a>
+            <a href="https://brendonbainbridge.github.io/wdd230/scoots/contact.html" class="foot_links">Contact
+                Us</a>
         </nav>
-    </header>
+    </div>
+    <div>
+        <p>&copy; <i id='copyright-year'></i> Brendon Bainbridge. USA. All rights reserved.</p>
+        <p>Contact us: email@email.org</p>
+        <p class="weather">The temperature for today and tomarrow in Cozumel is: <br><br>
+        <div id="forecast-container">
+        </div>
+    </div>
+</footer>
+<script></script>
 </body>
+
+</html>

@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #F2E8C6;
+    background-color: white;
     width: 100%;
     padding: 1em 0;
     text-align: center;
@@ -35,7 +35,7 @@ nav a {
 
 nav a:hover {
     text-decoration: none;
-    color: #F2E8C6;
+    color: white;
     background-color: #4b0600;
     padding: 0.5em 1em;
     border-radius: 8px;
@@ -59,7 +59,7 @@ nav a#currentwebsite {
   }
 
 main {
-    background-color: #F2E8C6;
+    background-color: white;
     padding: 2em;
     margin: 1em;
     border-radius: 8px;
@@ -68,7 +68,7 @@ main {
 
 .titlehead {
     background-color: #4b0600;
-    color: #F2E8C6;
+    color: white;
     border-radius: 8px;
     padding: 0.25em;
 }
@@ -79,17 +79,17 @@ main {
 }
 
 main h2 {
-    color: #F2E8C6;
+    color: white;
 }
 
 a {
     text-decoration: none;
-    color: #F2E8C6;
+    color: white;
     font-weight: bold;
 }
 
 .box {
-    background-color: #F2E8C6;
+    background-color: white;
     padding: 1em;
     margin: 1em 0;
     border-radius: 8px;
@@ -102,7 +102,7 @@ a {
     justify-content: space-between;
     padding: 1em;
     background-color: #4b0600;
-    color: #F2E8C6;
+    color: white;
     padding: 1em;
     margin: 1em 0;
     border-radius: 8px;
@@ -145,7 +145,7 @@ a {
 .image_box {
     max-width: 100%;
     margin: 0.5em;
-    background-color: #F2E8C6;
+    background-color: white;
     border-radius: 8px;
     padding: 0.5em;
 }
@@ -162,7 +162,7 @@ a {
     align-items: center;
     justify-content: center;
     background-color: #4b0600;
-    color: #F2E8C6;
+    color: white;
     padding: 1em;
     margin: 1em 0;
     border-radius: 8px;
@@ -201,7 +201,7 @@ a {
 
 .Social_media {
     background-color: #4b0600;
-    color: #F2E8C6;
+    color: white;
     padding: 1em;
     margin: 1em 0;
     border-radius: 8px;
@@ -237,7 +237,7 @@ a {
 .Social_media a:hover {
     text-decoration: none;
     color: #4b0600;
-    background-color: #F2E8C6;
+    background-color: white;
     padding: 0.5em 1em;
     border-radius: 8px;
 }
@@ -252,7 +252,7 @@ a {
     border: none;
     border-radius: 8px;
     background-color: #4b0600;
-    color: #F2E8C6;
+    color: white;
     font-weight: bold;
     cursor: pointer;
     justify-content: center;
@@ -260,7 +260,7 @@ a {
 }
 
 .reservations_page_a a:hover {
-    background-color: #F2E8C6;
+    background-color: white;
     color: #4b0600;
 }
 
@@ -274,13 +274,13 @@ a {
     border: none;
     border-radius: 8px;
     background-color: #4b0600;
-    color: #F2E8C6;
+    color: white;
     font-weight: bold;
     cursor: pointer;
 }
 
 .rental_page_a a:hover {
-    background-color: #F2E8C6;
+    background-color: white;
     color: #4b0600;
 }
 
@@ -290,7 +290,7 @@ p {
 }
 
 .foot_box {
-    background-color: #F2E8C6;
+    background-color: white;
     width: 100%;
     padding: 1em 0;
     text-align: center;
@@ -309,7 +309,7 @@ p {
 
 .foot_nav a:hover {
     text-decoration: none;
-    color: #F2E8C6;
+    color: white;
     background-color: #4b0600;
     padding: 0.5em 1em;
     border-radius: 8px;
@@ -317,7 +317,7 @@ p {
 
 footer {
     background-color: #4b0600;
-    color: #F2E8C6;
+    color: white;
     width: 100%;
     padding: 1em 0;
     margin-top: auto;
@@ -350,7 +350,7 @@ footer {
 }
 
 .forecast-day {
-    background-color: #F2E8C6;
+    background-color: white;
     color: #4b0600;
     padding: 1rem;
     border-radius: 8px;
@@ -371,7 +371,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #F2E8C6;
+    background-color: white;
     color: #4b0600;
     border-radius: 8px;
     padding: 5px;
@@ -393,7 +393,7 @@ footer {
 }
 
 #close:hover {
-    color: #F2E8C6;
+    color: white;
     background-color: #4b0600;
     border-radius: 8px;
 }
