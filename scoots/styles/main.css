@@ -413,11 +413,6 @@ footer {
     display: flex; /* Ensure flexbox is used */
 }
 
-
-
-
-
-
 .form_h2 {
     background-color: #d4c4ba;
     border-radius: 8px;
@@ -490,7 +485,7 @@ input {
 }
 
 input::placeholder {
-    color: #d4c4ba;
+    color: #ce5661;
 }
 
 .formedition p {
