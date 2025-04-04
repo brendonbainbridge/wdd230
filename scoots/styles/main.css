@@ -61,7 +61,8 @@ nav a:hover {
 
 nav a#currentwebsite {
     border-bottom: 5px solid #ce5661;
-  }
+    border-radius: 8px;
+}
 
 main {
     background-color: black;
@@ -77,6 +78,13 @@ main {
     border-radius: 8px;
     padding: 0.25em;
 }
+
+h1 {
+    border-bottom: 4px solid #ce5661;
+    border-radius: 8px;
+    display: inline-block;
+}
+
 
 .visitnum {
     color: black;
@@ -410,7 +418,8 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    display: flex; /* Ensure flexbox is used */
+    display: flex;
+    /* Ensure flexbox is used */
 }
 
 .form_h2 {
@@ -465,7 +474,7 @@ footer {
 }
 
 .memver {
-    background-color: #d4c4ba;
+    background-color: black;
     padding: 2%;
     border-radius: 8px;
 }
@@ -477,15 +486,15 @@ label {
 }
 
 input {
-    background-color: black;
-    color: #d4c4ba;
+    background-color: #ce5661;
+    color: black;
     border-radius: 8px;
     padding-top: 10px;
     padding-bottom: 10px
 }
 
 input::placeholder {
-    color: #ce5661;
+    color: #267386;
 }
 
 .formedition p {
@@ -521,4 +530,9 @@ input::placeholder {
 
 #textbox :placeholder-shown {
     padding-bottom: 20px;
+}
+
+.currentwebsite:hover {
+    color: #ce5661;
+    background-color: black;
 }
