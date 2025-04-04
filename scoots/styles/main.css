@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-color: #d4c4ba;
+    background-color: #267386;
     color: black;
 }
 
@@ -41,7 +41,7 @@ nav a {
 nav a:hover {
     text-decoration: none;
     color: black;
-    background-color: #d4c4ba;
+    background-color: #ce5661;
     padding: 0.5em 1em;
     border-radius: 8px;
 }
@@ -60,7 +60,7 @@ nav a:hover {
 }
 
 nav a#currentwebsite {
-    border-bottom: 5px solid #d4c4ba;
+    border-bottom: 5px solid #ce5661;
   }
 
 main {
@@ -241,7 +241,7 @@ a {
 
 .Social_media a:hover {
     text-decoration: none;
-    color: #d4c4ba;
+    color: #ce5661;
     background-color: black;
     padding: 0.5em 1em;
     border-radius: 8px;
@@ -256,7 +256,7 @@ a {
     padding: 0.5em 1em;
     border: none;
     border-radius: 8px;
-    background-color: #d4c4ba;
+    background-color: #ce5661;
     color: black;
     font-weight: bold;
     cursor: pointer;
@@ -266,7 +266,7 @@ a {
 
 .reservations_page_a a:hover {
     background-color: black;
-    color: #d4c4ba;
+    color: #ce5661;
 }
 
 .rental_page_a {
@@ -278,7 +278,7 @@ a {
     padding: 0.5em 1em;
     border: none;
     border-radius: 8px;
-    background-color: #d4c4ba;
+    background-color: #ce5661;
     color: black;
     font-weight: bold;
     cursor: pointer;
@@ -286,7 +286,7 @@ a {
 
 .rental_page_a a:hover {
     background-color: black;
-    color: #d4c4ba;
+    color: #ce5661;
 }
 
 p {
@@ -321,7 +321,7 @@ p {
 }
 
 footer {
-    background-color: #d4c4ba;
+    background-color: #267386;
     color: black;
     width: 100%;
     padding: 1em 0;
