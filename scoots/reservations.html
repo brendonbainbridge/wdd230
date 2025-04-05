@@ -17,32 +17,153 @@
     <meta property="og:url" content="https://brendonbainbridge.github.io/wdd230/scoots/home.html">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=DM+Serif+Text:ital@0;1&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
     <link rel="icon" href="images/favicon.ico">
 </head>
 
 <body>
+    <div id="banner">
+        <p>The Temperature at this location is currently $Something</p>
+        <button id="close">X</button>
+    </div>
+
     <header>
         <nav>
-            <button class="hamburger-menu" id="hamburger-menu">
+            <button class="hamburger_menu" id="hamburger_menu">
                 &#9776;
             </button>
-            <ul class="navlist" id="navlist">
-                <li><a href="https://brendonbainbridge.github.io/wdd230/scoots/home.html" class="navlinks"
-                        id="currentwebsite">Home</a>
+            <ul class="nav_list" id="nav_list">
+                <li><a href="https://brendonbainbridge.github.io/wdd230/scoots/home.html" class="nav_links">Home</a>
                 </li>
                 <li><a href="https://brendonbainbridge.github.io/wdd230/scoots/rentals.html"
-                        class="navlinks">Rentals</a>
+                        class="nav_links">Rentals</a>
                 </li>
-                <li><a href="https://brendonbainbridge.github.io/wdd230/scoots/reservations.html"
-                        class="navlinks">Reservations</a>
+                <li><a href="https://brendonbainbridge.github.io/wdd230/scoots/reservations.html" class="nav_links"
+                        id="currentwebsite">Reservations</a>
                 </li>
-                <li><a href="https://brendonbainbridge.github.io/wdd230/scoots/contact.html" class="navlinks">Contact
+                <li><a href="https://brendonbainbridge.github.io/wdd230/scoots/contact.html" class="nav_links">Contact
                         Us</a>
                 </li>
             </ul>
         </nav>
     </header>
+    <main class="container">
+        <div class="titlehead">
+            <h1>Scoots Local Rentals</h1>
+        </div>
+        <div class="hero_container">
+            <div class="hero_image">
+                <div class="hero">
+                    <picture>
+                        <source media="(min-width: 500px)" srcset="images/hero-image-small.webp">
+                        <source media="(min-width: 1000px)" srcset="images/hero-image-medium.webp">
+                        <img src="images/hero-image.webp" alt="hero-image" width="1500" height="750">
+                    </picture>
+                </div>
+            </div>
+            <div class="about_scoots_text">
+                <h2>Get Your Rental Today!</h2>
+                <p>Scoots goes out of their way to make sure that the products you rent here are of excellent quality,
+                    while at an affordable price. This is all done while providing a variety of options, so that
+                    whatever you end up choosing, will be best suited for you!</p>
+            </div>
+        </div>
+        <div class="rental_agreement">
+            <h2 class="rental_agreement_h2">Rental Agreement:</h2>
+            <ul>
+                <li>A $50 security deposit is required to confirm reservations.</li>
+                <li>A valid drivers license is required in hand at the time of rental.</li>
+                <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+                <li>Fuel charge is not included.</li>
+                <li>Unlimited mileage.</li>
+                <li>Liability insurance is included.</li>
+                <li>Damage insurance is available for purchase.</li>
+                <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+                <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or Venmo.</li>
+                <li>Rentals may be returned to either physical location.</li>
+                <br>
+            </ul>
+        </div>
+        <div class="scoot_images">
+            <h2>Scoots Rentals</h2>
+            <div class="image_container">
+                <div class="image_box">
+                    <img src="images/scooter.webp" />
+                </div>
+                <div class="image_box">
+                    <img src="images/jeep.webp" />
+                </div>
+                <div class="image_box">
+                    <img src="images/atv.webp" />
+                </div>
+            </div>
+        </div>
+        <div class="form_box">
+            <h2 class="form_h2">Sign up Form</h2>
+            <form method="get" id="signup" action="thankyou.html">
+                <fieldset class="form_info">
+                    <h2 class="formh2info">Application Information</h2>
+                    <label>First name* <input type="text" name="fname" id="fname" required></label>
+                    <label>Last name* <input type="text" name="lname" id="lname" required></label>
+                    <label>Email* <input type="email" name="email" placeholder="email@email.com" id="email"
+                            required></label>
+                    <label>Date* <input type="text" name="fname" id="fname" required></label>
+                    <label>Period* <input type="text" name="lname" id="lname" required></label>
+                    <label>Rental Type* <input type="email" name="email" placeholder="email@email.com" id="email"
+                            required></label>
+                    <label>Number* <input type="text" name="fname" id="fname" required></label>
+                    <label>Phone Number* <input type="text" name="lname" id="lname" required></label>
+                    <label>Home State* <input type="email" name="email" placeholder="email@email.com" id="email"
+                            required></label>
+                    <label>Country* <input type="text" name="fname" id="fname" required></label>
+                    <label>Cruise Line* <input type="text" name="lname" id="lname" required></label>
+                </fieldset>
+                <fieldset class="contact_form">
+                    <div>
+                        <div class="radio-box">
+                            <h2 class="type_question">Rental Type:</h2>
+                            <label><input type="radio" name="memver" value="Gold"> Scooters</label>
+                            <label><input type="radio" name="memver" value="Silver"> Jeeps</label>
+                            <label><input type="radio" name="memver" value="Non-Prophet"> ATV's</label>
+                            <label><input type="radio" name="memver" value="Non-Prophet"> Other</label>
+                            <br>
+                            <label>Special Accommodations<br> / Comments: </label>
+                            <textarea id="textbox" name="textbox"></textarea>
+                            <br>
+                        </div>
+                    </div>
+                </fieldset>
+                <br>
+                <input type="submit" class="submit" value="Send Question">
+                <br>
+                <br>
+            </form>
+        </div>
+        <div class="weather"></div>
+
+    </main>
+    <footer>
+        <div class="foot_box">
+            <nav>
+                <a href="https://brendonbainbridge.github.io/wdd230/scoots/home.html" class="foot_links"
+                    id="currentwebsite">Home</a>
+                <a href="https://brendonbainbridge.github.io/wdd230/scoots/rentals.html" class="foot_links">Rentals</a>
+                <a href="https://brendonbainbridge.github.io/wdd230/scoots/reservations.html"
+                    class="foot_links">Reservations</a>
+                <a href="https://brendonbainbridge.github.io/wdd230/scoots/contact.html" class="foot_links">Contact
+                    Us</a>
+            </nav>
+        </div>
+        <div>
+            <p>&copy; <i id='copyright-year'></i> Brendon Bainbridge. USA. All rights reserved.</p>
+            <p>Contact us: email@email.org</p>
+            <p class="weather">The temperature for today and tomarrow in Cozumel is: <br><br>
+            <div id="forecast-container">
+            </div>
+        </div>
+    </footer>
+    <script></script>
 </body>
+
+</html>

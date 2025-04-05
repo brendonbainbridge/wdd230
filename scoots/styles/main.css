@@ -80,7 +80,7 @@ main {
 }
 
 h1 {
-    border-bottom: 4px solid #ce5661;
+    border-bottom: 5px solid #ce5661;
     border-radius: 8px;
     display: inline-block;
 }
@@ -535,4 +535,47 @@ input::placeholder {
 .currentwebsite:hover {
     color: #ce5661;
     background-color: black;
+}
+
+.rental_agreement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d4c4ba;
+    color: black;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 8px;
+}
+
+.rental_agreement h2 {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.rental_agreement ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    list-style-type: disc;
+}
+
+.rental_agreement li {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0.5em;
+}
+
+.rental_agreement h3 {
+    margin: 0 0 0.5em 0;
+}
+
+.rental_agreement p {
+    margin: 0 0 1em 0;
 }
