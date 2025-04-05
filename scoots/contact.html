@@ -50,9 +50,9 @@
         <div class="hero_image">
             <div class="hero">
                 <picture>
-                    <source media="(min-width: 500px)" srcset="images/hero-image-small.webp">
-                    <source media="(min-width: 1000px)" srcset="images/hero-image-medium.webp">
-                    <img src="images/hero-image.webp" alt="hero-image" width="1500" height="750">
+                    <source media="(min-width: 500px)" srcset="images/hero-image-contact-small.webp">
+                    <source media="(min-width: 1000px)" srcset="images/hero-image-contact-medium.webp">
+                    <img src="images/hero-image-contact.webp" alt="hero-image" width="1500" height="750">
                 </picture>
             </div>
         </div>
@@ -77,14 +77,14 @@
                 <div>
                     <div class="radio-box">
                         <h2 class="type_question">Questions about:</h2>
-                        <label><input type="radio" name="memver" value="Gold"> Scooters</label>
-                        <label><input type="radio" name="memver" value="Silver"> Jeeps</label>
-                        <label><input type="radio" name="memver" value="Non-Prophet"> ATV's</label>
-                        <label><input type="radio" name="memver" value="Non-Prophet"> Other</label>
+                        <label><input type="radio" name="memver" value="scooters" required> Scooters</label>
+                        <label><input type="radio" name="memver" value="jeeps"> Jeeps</label>
+                        <label><input type="radio" name="memver" value="ATV"> ATV's</label>
+                        <label><input type="radio" name="memver" value="other"> Other</label>
                         <br>
                         <label>Describe Your Problem: </label>
                         <textarea id="textbox" name="textbox"
-                            placeholder="I cant wait to ride a scooter, but im worried ill fall... :P"></textarea>
+                            placeholder="I cant wait to ride a scooter, but im worried ill fall... :P" required></textarea>
                         <br>
                     </div>
                 </div>

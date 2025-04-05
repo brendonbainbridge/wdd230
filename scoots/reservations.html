@@ -64,9 +64,9 @@
             </div>
             <div class="about_scoots_text">
                 <h2>Get Your Rental Today!</h2>
-                <p>Scoots goes out of their way to make sure that the products you rent here are of excellent quality,
-                    while at an affordable price. This is all done while providing a variety of options, so that
-                    whatever you end up choosing, will be best suited for you!</p>
+                <p>Fill out the information below, and we can get you set up with your rental! Please read the rental
+                    agreement before you decide to agree to purchase a rental. Let’s get you started today, so you can
+                    ride with style!</p>
             </div>
         </div>
         <div class="rental_agreement">
@@ -108,25 +108,22 @@
                     <label>Last name* <input type="text" name="lname" id="lname" required></label>
                     <label>Email* <input type="email" name="email" placeholder="email@email.com" id="email"
                             required></label>
-                    <label>Date* <input type="text" name="fname" id="fname" required></label>
-                    <label>Period* <input type="text" name="lname" id="lname" required></label>
-                    <label>Rental Type* <input type="email" name="email" placeholder="email@email.com" id="email"
-                            required></label>
-                    <label>Number* <input type="text" name="fname" id="fname" required></label>
-                    <label>Phone Number* <input type="text" name="lname" id="lname" required></label>
-                    <label>Home State* <input type="email" name="email" placeholder="email@email.com" id="email"
-                            required></label>
-                    <label>Country* <input type="text" name="fname" id="fname" required></label>
-                    <label>Cruise Line* <input type="text" name="lname" id="lname" required></label>
+                    <label>Date* <input type="date" name="date" id="date" required></label>
+                    <label>Period* <input type="text" name="period" id="period" required></label>
+                    <label>Number* <input type="tel" name="phone" id="phone" required></label>
+                    <label>Phone Number* <input type="tel" name="phone" id="phone" required></label>
+                    <label>Home State* <input type="text" name="state" id="state" required></label>
+                    <label>Country* <input type="text" name="country" id="country" required></label>
+                    <label>Cruise Line <input type="text" name="cruise_line" id="cruise_line"></label>
                 </fieldset>
                 <fieldset class="contact_form">
                     <div>
                         <div class="radio-box">
                             <h2 class="type_question">Rental Type:</h2>
-                            <label><input type="radio" name="memver" value="Gold"> Scooters</label>
-                            <label><input type="radio" name="memver" value="Silver"> Jeeps</label>
-                            <label><input type="radio" name="memver" value="Non-Prophet"> ATV's</label>
-                            <label><input type="radio" name="memver" value="Non-Prophet"> Other</label>
+                            <label><input type="radio" name="memver" value="Scooters" required> Scooters</label>
+                            <label><input type="radio" name="memver" value="Jeeps"> Jeeps</label>
+                            <label><input type="radio" name="memver" value="ATV's"> ATV's</label>
+                            <label><input type="radio" name="memver" value="Other"> Other</label>
                             <br>
                             <label>Special Accommodations<br> / Comments: </label>
                             <textarea id="textbox" name="textbox"></textarea>
@@ -135,7 +132,7 @@
                     </div>
                 </fieldset>
                 <br>
-                <input type="submit" class="submit" value="Send Question">
+                <input type="submit" class="submit" value="Rent Today!">
                 <br>
                 <br>
             </form>

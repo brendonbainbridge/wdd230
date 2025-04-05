@@ -419,7 +419,6 @@ footer {
     align-items: center;
     flex-direction: column;
     display: flex;
-    /* Ensure flexbox is used */
 }
 
 .form_h2 {
@@ -440,27 +439,20 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    /* Optional: Add padding for spacing */
     justify-content: center;
     align-items: center;
 }
 
 .form_info label {
     display: block;
-    /* Make labels block-level */
     margin-bottom: 5px;
-    /* Add space between labels and inputs */
 }
 
 .form_info input {
     display: block;
-    /* Make inputs block-level */
     width: 100%;
-    /* Make inputs take full width */
     box-sizing: border-box;
-    /* Include padding and border in width */
     margin-bottom: 10px;
-    /* Add space between input elements */
     padding: 2%;
     max-width: 300px;
     justify-content: center;
@@ -495,21 +487,6 @@ input {
 
 input::placeholder {
     color: #267386;
-}
-
-.formedition p {
-    background-color: #0D1B2A;
-    /* Light background for the box */
-    color: #E0E1DD;
-    padding: 10px;
-    /* Space inside the box */
-    margin-bottom: 10px;
-    /* Space between the boxes */
-    border-radius: 8px;
-    /* Rounded corners for a cleaner look */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    /* Optional: Adds a shadow for depth */
-    max-width: 200px;
 }
 
 .radio-box {
@@ -578,4 +555,11 @@ input::placeholder {
 
 .rental_agreement p {
     margin: 0 0 1em 0;
+}
+
+.thank-you {
+    word-wrap: break-word;
+    text-decoration: none;
+    color: black;
+    background-color: #d4c4ba;
 }
