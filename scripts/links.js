@@ -1,32 +1,76 @@
-const baseURL = "https://brendonbainbridge.github.io/wdd230/";
-const linksURL = "https://brendonbainbridge.github.io/wdd230/data/links.json";
+// The JSON file link
+const linksURL = "https://brendonbainbridge.github.io/wdd230/data/rentals.json";
 
-async function getLinks() {
-  const response = await fetch(linksURL);
-  const data = await response.json();
-  displayLinks(data.lessons);
+// Fetching the rentals data
+async function getRentals() {
+    try {
+        const response = await fetch(linksURL);
+        const data = await response.json();
+        displayTable(data.rentals);
+    } catch (error) {
+        console.error("Error fetching data:", error);
+    }
 }
 
-getLinks();
+// Function to display the table dynamically
+function displayTable(rentals) {
+    // Get the container div
+    const container = document.querySelector(".listlinks");
+    container.innerHTML = '';
 
-function displayLinks(lessons) {
-  const container = document.querySelector(".listlinks");
-  container.innerHTML = ''; // Clear existing content
+    // Create the table elements
+    const table = document.createElement('table');
+    const thead = document.createElement('thead');
+    const tbody = document.createElement('tbody');
 
-  lessons.forEach(lesson => {
-    const listItem = document.createElement('li');
+    // Create the header row
+    const headerRow = document.createElement('tr');
+    const headers = [
+        'Vehicle',
+        'Max Persons',
+        'Reservation (Half/Full Day)',
+        'Walk-in (Half/Full Day)'
+    ];
+    headers.forEach(headerText => {
+        const th = document.createElement('th');
+        th.textContent = headerText;
+        headerRow.appendChild(th);
+    });
+    thead.appendChild(headerRow);
+    table.appendChild(thead);
 
-    lesson.links.forEach((link, index) => {
-      const anchor = document.createElement('a');
-      anchor.href = link.url; // Use the URL directly from the JSON data
-      anchor.textContent = link.title;
-      listItem.appendChild(anchor);
+    // Create rows for rentals data
+    rentals.forEach(rental => {
+        const row = document.createElement('tr');
 
-      if (index < lesson.links.length - 1) {
-        listItem.appendChild(document.createTextNode(" | "));
-      }
+        // Vehicle name
+        const vehicleCell = document.createElement('td');
+        vehicleCell.textContent = rental.vehicle;
+        row.appendChild(vehicleCell);
+
+        // Max persons
+        const maxPersonsCell = document.createElement('td');
+        maxPersonsCell.textContent = rental.maxPersons;
+        row.appendChild(maxPersonsCell);
+
+        // Reservation prices
+        const reservationCell = document.createElement('td');
+        reservationCell.textContent = `$${rental.reservation.halfDay} / $${rental.reservation.fullDay}`;
+        row.appendChild(reservationCell);
+
+        // Walk-in prices
+        const walkInCell = document.createElement('td');
+        walkInCell.textContent = `$${rental.walkIn.halfDay} / $${rental.walkIn.fullDay}`;
+        row.appendChild(walkInCell);
+
+        // Append the row to tbody
+        tbody.appendChild(row);
     });
 
-    container.appendChild(listItem);
-  });
+    // Add tbody and append to container
+    table.appendChild(tbody);
+    container.appendChild(table);
 }
+
+// Fetch the data and display the table
+getRentals();
