@@ -644,3 +644,7 @@ td {
 tbody tr:nth-child(odd) {
 	background-color: var(--zebra);
 }
+
+.banner {
+    color: #d4c4ba;
+}

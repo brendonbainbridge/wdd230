@@ -77,15 +77,6 @@
         /* Centers the text */
     }
 
-    nav a:hover {
-        text-decoration: unset;
-        color: unset;
-        background-color: unset;
-        padding: unset;
-        border-radius: unset;
-        pointer-events: none; /* Prevent hover interaction */
-    }
-
     .nav_list.show {
         display: block;
     }
