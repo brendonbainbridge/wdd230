@@ -612,6 +612,7 @@ font-size: medium;
     color: black;
     background-color: #d4c4ba;
     border-radius: 8px;
+    border-spacing: 10px;
 }
 
 caption {

@@ -96,4 +96,25 @@
         flex-direction: column;
         max-width: fit-content;
     }
+
+    iframe {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .rental-table {
+        margin: 0.1px auto;
+        border: thin solid var(--border);
+        box-shadow: 0 0 10px var(--shadow);
+        border-collapse: collapse;
+        color: black;
+        background-color: #d4c4ba;
+        border-radius: 8px;
+        max-width: 600px;
+    }
+
+    .table {
+        border-spacing:50px;
+    }
+
 }
