@@ -77,8 +77,13 @@
         /* Centers the text */
     }
 
-    .nav_links:hover {
-        
+    nav a:hover {
+        text-decoration: unset;
+        color: unset;
+        background-color: unset;
+        padding: unset;
+        border-radius: unset;
+        pointer-events: none; /* Prevent hover interaction */
     }
 
     .nav_list.show {
@@ -115,6 +120,38 @@
 
     .table {
         border-spacing:50px;
+    }
+
+    .social_media {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .social_links {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Social_media ul {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+    
+    .Social_media li {
+        width: 25%;
+        box-sizing: border-box;
+        margin: 0.5em;
+    }
+    
+    .Social_media a:hover {
+        text-decoration: none;
+
     }
 
 }
