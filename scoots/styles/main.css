@@ -59,7 +59,12 @@ nav a:hover {
     border-bottom: 2px solid transparent;
 }
 
-nav a#currentwebsite {
+nav a#current_website_nav {
+    border-bottom: 5px solid #ce5661;
+    border-radius: 8px;
+}
+
+nav a#current_website_foot {
     border-bottom: 5px solid #ce5661;
     border-radius: 8px;
 }
@@ -509,7 +514,12 @@ input::placeholder {
     padding-bottom: 20px;
 }
 
-.currentwebsite:hover {
+.current_website_nav:hover {
+    color: #ce5661;
+    background-color: black;
+}
+
+.current_website_foot:hover {
     color: #ce5661;
     background-color: black;
 }
