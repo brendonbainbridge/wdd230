@@ -420,6 +420,10 @@ footer {
     font-weight: bold;
 }
 
+.banner p {
+    color: #d4c4ba;
+}
+
 #close {
     border: none;
     background: none;
@@ -647,4 +651,5 @@ tbody tr:nth-child(odd) {
 
 .banner {
     color: #d4c4ba;
+    background-color: #ce5661;
 }
