@@ -282,6 +282,27 @@ a {
     color: #ce5661;
 }
 
+.reservations_page_a_rental {
+    font-size: large;
+}
+
+.reservations_page_a_rental a {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 8px;
+    background-color: #ce5661;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservations_page_a_rental a:hover {
+    background-color: black;
+    color: #ce5661;
+}
+
 .rental_page_a {
     margin-top: 1em;
     font-size: large;
