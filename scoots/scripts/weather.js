@@ -23,12 +23,13 @@ function displayResults(data) {
     forecastContainer.innerHTML = '';
 
     // OpenWeatherMap forecast API returns data in 3-hour intervals, so we pick one forecast per day
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < 2; i++) {
         const dayData = data.list[i * 8]; // Select data approximately 24 hours apart (8 intervals of 3 hours)
 
         const temp = `${dayData.main.temp}&deg;F`;
         const iconsrc = `https://openweathermap.org/img/w/${dayData.weather[0].icon}.png`;
         const desc = dayData.weather[0].description;
+        const humidity = `${dayData.main.humidity}%`;
 
         // Create and append elements for each day
         const dayElement = document.createElement('div');
@@ -39,6 +40,7 @@ function displayResults(data) {
             <img src="${iconsrc}" alt="${desc}">
             <p>${temp}</p>
             <p>${desc}</p>
+            <p>Humidity: ${humidity}</p>
         `;
 
         forecastContainer.appendChild(dayElement);

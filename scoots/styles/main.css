@@ -427,7 +427,7 @@ footer {
 #close {
     border: none;
     background: none;
-    color: #d4c4ba;
+    color: black;
     font-size: 15px;
     font: bolder;
     padding: 5px;
@@ -436,8 +436,8 @@ footer {
 }
 
 #close:hover {
-    color: black;
-    background-color: #d4c4ba;
+    color: #ce5661;
+    background-color: black;
     border-radius: 8px;
 }
 
@@ -652,4 +652,30 @@ tbody tr:nth-child(odd) {
 .banner {
     color: #d4c4ba;
     background-color: #ce5661;
+}
+
+#forecast-container {
+    display: flex;
+    /* Enables Flexbox for horizontal alignment */
+    gap: 1rem;
+    /* Adds spacing between the forecast cards */
+    justify-content: center;
+    /* Centers the items horizontally */
+}
+
+.forecast-day {
+    background-color: #d4c4ba;
+    /* Light background for better visibility */
+    color: #0D1B2A;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    min-width: 100px;
+    /* Fixes the width of each day's forecast card */
+}
+
+.forecast-day img {
+    max-width: 100%;
+    min-width: 20px;
+    /* Ensures the weather icon scales properly */
 }
